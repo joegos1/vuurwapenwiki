@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historische Wapens Wiki</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Historische Wapens Wiki</div>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Zoek op periode of type...">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#periodes">Tijdsperiodes</a></li>
+                <li><a href="#about">Over Ons</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="filters">
+            <h3>Filters</h3>
+            <div class="filter-group">
+                <h4>Tijdsperiode</h4>
+                <select id="periodFilter">
+                    <option value="">Alle periodes</option>
+                    <option value="middeleeuwen">Middeleeuwen</option>
+                    <option value="renaissance">Renaissance</option>
+                    <option value="industrieel">Industriële Revolutie</option>
+                    <option value="modern">Modern Tijdperk</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <h4>Type</h4>
+                <select id="typeFilter">
+                    <option value="">Alle types</option>
+                    <option value="zwaard">Zwaarden</option>
+                    <option value="boog">Bogen</option>
+                    <option value="vuurwapen">Vroege Vuurwapens</option>
+                </select>
+            </div>
+        </section>
+
+        <section id="content">
+            <div id="weapons-grid"></div>
+        </section>
+
+        <section id="weapon-detail" class="hidden">
+            <button id="backButton">← Terug naar overzicht</button>
+            <div id="weapon-content"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Historische Wapens Wiki - Een educatieve bron voor historische wapenkunde</p>
+    </footer>
+
+    <script src="data/weapons.js"></script>
+    <script src="js/database.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

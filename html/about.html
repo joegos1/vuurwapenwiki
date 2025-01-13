@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Over Ons - Historische Wapens Wiki</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .about-section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .about-section h1 {
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+        }
+
+        .about-section h2 {
+            color: #34495e;
+            margin: 2rem 0 1rem 0;
+        }
+
+        .mission-box {
+            background: #f8f9fa;
+            border-left: 4px solid #2c3e50;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .team-member {
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            object-fit: cover;
+        }
+
+        .contact-info {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+        }
+
+        .timeline {
+            position: relative;
+            margin: 2rem 0;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 2px;
+            background: #2c3e50;
+        }
+
+        .timeline-item {
+            margin-bottom: 2rem;
+            position: relative;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -2.4rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Historische Wapens Wiki</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#periodes">Tijdsperiodes</a></li>
+                <li><a href="about.html">Over Ons</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-section">
+            <h1>Over Ons</h1>
+            
+            <div class="mission-box">
+                <h2>Onze Missie</h2>
+                <p>De Historische Wapens Wiki streeft ernaar om betrouwbare, educatieve informatie te bieden over historische wapens en hun rol in de geschiedenis van de mensheid. Ons doel is om deze kennis te bewaren en te delen met studenten, historici en geïnteresseerden.</p>
+            </div>
+
+            <h2>Onze Geschiedenis</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>2020</h3>
+                    <p>Start van het project als digitaal archief voor historische artefacten</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>2022</h3>
+                    <p>Uitbreiding naar een volwaardige educatieve database</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>2024</h3>
+                    <p>Lancering van het nieuwe wiki-platform met uitgebreide zoekfuncties</p>
+                </div>
+            </div>
+
+            <h2>Ons Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="/api/placeholder/150/150" alt="Dr. Anna Jansen">
+                    <h3>Dr. Anna Jansen</h3>
+                    <p>Historicus</p>
+                </div>
+                <div class="team-member">
+                    <img src="/api/placeholder/150/150" alt="Prof. Mark de Vries">
+                    <h3>Prof. Mark de Vries</h3>
+                    <p>Archeoloog</p>
+                </div>
+                <div class="team-member">
+                    <img src="/api/placeholder/150/150" alt="Emma Bakker">
+                    <h3>Emma Bakker</h3>
+                    <p>Onderzoeker</p>
+                </div>
+            </div>
+
+            <h2>Onze Aanpak</h2>
+            <p>Wij werken samen met musea, universiteiten en historische instituten om accurate informatie te verzamelen en te verifiëren. Alle informatie op onze wiki wordt zorgvuldig gecontroleerd door experts in het veld.</p>
+            
+            <div class="contact-info">
+                <h2>Contact</h2>
+                <p>Heeft u vragen of wilt u bijdragen aan ons project?</p>
+                <p>Email: info@historischewapens.nl</p>
+                <p>Telefoon: 020-1234567</p>
+                <p>Adres: Museumplein 1, 1071 DJ Amsterdam</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Historische Wapens Wiki - Een educatieve bron voor historische wapenkunde</p>
+    </footer>
+</body>
+</html>

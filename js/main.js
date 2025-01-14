@@ -52,8 +52,8 @@ async function showWeaponDetail(id) {
         <div class="weapon-info">
             <p><strong>Periode:</strong> ${weapon.periode}</p>
             <p><strong>Jaar:</strong> ${weapon.jaar}</p>
-            <p><strong>Type:</strong> ${weapon.type}</p>
-            <p>${weapon.beschrijving}</p>
+            <p><strong>Type:</strong> ${weapon.type}</p> <br>
+            <p><strong>Beschrijving:</strong>${weapon.beschrijving}</p> <br>
             <h3>Specificaties:</h3>
             <ul>
                 ${Object.entries(weapon.details).map(([key, value]) => `

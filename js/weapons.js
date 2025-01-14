@@ -1,7 +1,7 @@
 const weaponsData = [
     {
         id: 1,
-        naam: "Beretta",
+        naam: "Beretta M1934",
         type: "Pistool",
         periode: "Tweede Wereldoorlog",
         jaar: "1934-1991",
@@ -24,9 +24,10 @@ const weaponsData = [
             caliber: ".380 ACP",
             gewicht: "1.1-1.8kg",
             materiaal: "Staal",
+            land: "Italie",
             gebruik: "Militair en civiel"
         },
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Beretta_34_%286825664724%29.jpg/450px-Beretta_34_%286825664724%29.jpg"
+         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Beretta_34_%286825664724%29.jpg/450px-Beretta_34_%286825664724%29.jpg"
 
 
 
@@ -36,7 +37,7 @@ const weaponsData = [
         id: 2,
         naam: "Beretta M38A",
         type: "automatisch vuurwapen",
-        periode: "moderne tijd",
+        periode: "Tweede Wereldoorlog",
         jaar: "1938-1950",
         beschrijving: "De Beretta M38A was een Italiaans automatisch vuurwapen dat breed werd ingezet tijdens en na de Tweede Wereldoorlog.\n\nGebruikers tijdens WWII:\n- Koninklijk Italiaans Leger\n- Duitse Wehrmacht\n- Italiaanse RSI strijdkrachten\n- Geallieerde troepen (buitgemaakte exemplaren)\n\nGebruikers na WWII:\n- Italiaanse Nationale Politie\n- Roemeense strijdkrachten\n- Costa Ricaanse leger\n- Diverse Europese politie-eenheden\n\nBijzonderheden:\n- Zeer effectief in woestijnomstandigheden tijdens Noord-Afrika campagne\n- Gewaardeerd om betrouwbaarheid en precisie\n- Lang in gebruik gebleven bij ordediensten",
         details: {
@@ -44,23 +45,42 @@ const weaponsData = [
             gewicht: "4.2kg",
             kaliber: "9x19mm Parabellum",
             materiaal: "Staal en hout",
+            land: "Italie",
             gebruik: "Militair en politie"
         },
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Beretta_M38.jpg/450px-Beretta_M38.jpg"
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Beretta_M38.jpg/300px-Beretta_M38.jpg"
     },
+    
     {
         id: 3,
-        naam: "Arquebus",
-        type: "vuurwapen",
-        periode: "renaissance",
-        jaar: "1400-1600",
-        beschrijving: "De arquebus was een van de eerste draagbare vuurwapens en markeerde het begin van een nieuwe era in oorlogsvoering.",
+        naam: "MP 41(r)",
+        type: "Machinegeweer",
+        periode: "Tweede Wereldoorlog",
+        jaar: "1941",
+        beschrijving: `
+          <h3><strong>Ontstaan en Achtergrond</strong></h3>  
+          <p>De MP 41(r) werd ontwikkeld tijdens de Tweede Wereldoorlog door Duitse troepen, 
+          die grote hoeveelheden Sovjet PPSh-41 machinepistolen buitmaakten aan het Oostfront.</p>
+          
+          <h4><strong>Achtergrond</strong></h4>  
+          <p>Omdat het PPSh-41 ontworpen was voor 7,62×25mm Tokarev-munitie, 
+          werd het ombouwen van deze wapens naar de standaard Duitse 9×19mm Parabellum-munitie een 
+          strategische zet om logistieke problemen te verminderen. De MP 41(r) maakte gebruik van MP 40 magazijnen, 
+          waardoor compatibiliteit met Duitse munitievoorraden gewaarborgd werd.</p>  
+        `,
         details: {
-            lengte: "90-120cm",
-            kaliber: "12-20mm",
-            materiaal: "IJzer en hout",
-            gebruik: "Militair"
+          gewicht: "3,6 kg (ongeladen)",
+          kaliber: "9×19mm Parabellum",
+          vuursnelheid: "850 schoten per minuut",
+          magazijncapaciteit: "32 patronen (MP 40 magazijn)",
+          land: "Duitsland/Rusland",
+          gebruik: "Militair, aanpassing van buitgemaakte wapens",
+          prijs: "4300 Dollar"
         },
-        image: "/api/placeholder/400/300"
-    }
+        image: "https://i-enlisted.cdn.gaijin.net/original/3X/4/d/4da6537797a7fffd9824a022da1b2843797bb127.jpeg"
+      }
+      
+      
+      
+    
 ];

@@ -18,7 +18,12 @@ header {
     color: white;
     padding: 1rem 0;
 }
-
+.weapon-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 nav {
     max-width: 1200px;
     margin: 0 auto;
@@ -227,4 +232,40 @@ footer {
     height: 12px;
     border-radius: 50%;
     background: #2c3e50;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 90vh;
+    margin-top: 2%;
+}
+
+.modal-close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.weapon-image {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.weapon-image:hover {
+    transform: scale(1.05);
 }

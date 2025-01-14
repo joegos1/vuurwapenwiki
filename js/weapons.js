@@ -52,27 +52,35 @@ const weaponsData = [
     },
     
     {
-        id: 5,
+        id: 3,
         naam: "MP 41(r)",
-        type: "Machinepistool",
+        type: "Machinegeweer",
         periode: "Tweede Wereldoorlog",
         jaar: "1941",
-        beschrijving: 
-          "De MP 41(r) was een door Duitsland aangepaste versie van het Sovjet PPSh-41 machinepistool, " +
-          "omgebouwd voor 9×19mm Parabellum munitie en het gebruik van MP 40 magazijnen.",
-        
+        beschrijving: `
+          <h3><strong>Ontstaan en Achtergrond</strong></h3>  
+          <p>De MP 41(r) werd ontwikkeld tijdens de Tweede Wereldoorlog door Duitse troepen, 
+          die grote hoeveelheden Sovjet PPSh-41 machinepistolen buitmaakten aan het Oostfront.</p>
+          
+          <h4><strong>Achtergrond</strong></h4>  
+          <p>Omdat het PPSh-41 ontworpen was voor 7,62×25mm Tokarev-munitie, 
+          werd het ombouwen van deze wapens naar de standaard Duitse 9×19mm Parabellum-munitie een 
+          strategische zet om logistieke problemen te verminderen. De MP 41(r) maakte gebruik van MP 40 magazijnen, 
+          waardoor compatibiliteit met Duitse munitievoorraden gewaarborgd werd.</p>  
+        `,
         details: {
           gewicht: "3,6 kg (ongeladen)",
           kaliber: "9×19mm Parabellum",
           vuursnelheid: "850 schoten per minuut",
           magazijncapaciteit: "32 patronen (MP 40 magazijn)",
-          land: "Frankrijk",
+          land: "Duitsland/Rusland",
           gebruik: "Militair, aanpassing van buitgemaakte wapens",
-          prijs: "4300 Dollar",
+          prijs: "4300 Dollar"
         },
-      
         image: "https://i-enlisted.cdn.gaijin.net/original/3X/4/d/4da6537797a7fffd9824a022da1b2843797bb127.jpeg"
-      },
+      }
+      
+      
       
     
 ];

@@ -75,14 +75,14 @@ function setupEventListeners() {
     document.getElementById('searchInput').addEventListener('input', handleSearch);
     document.getElementById('periodFilter').addEventListener('change', handleFilters);
     document.getElementById('typeFilter').addEventListener('change', handleFilters);
-    document.getElementById('countryFilter').addEventListener('change', handleFilters);
+    // Removed countryFilter event listener
     document.getElementById('backButton').addEventListener('click', showOverview);
 }
 
 async function handleFilters() {
     const periode = document.getElementById('periodFilter').value;
     const type = document.getElementById('typeFilter').value;
-    const land = document.getElementById('countryFilter').value;
-    const results = await db.filter(periode, type, land);
+    // Removed land parameter
+    const results = await db.filter(periode, type);
     renderWeapons(results);
 }

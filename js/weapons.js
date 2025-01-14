@@ -1,7 +1,7 @@
 const weaponsData = [
     {
         id: 1,
-        naam: "Beretta",
+        naam: "Beretta M1934",
         type: "Pistool",
         periode: "Tweede Wereldoorlog",
         jaar: "1934-1991",
@@ -24,9 +24,10 @@ const weaponsData = [
             caliber: ".380 ACP",
             gewicht: "1.1-1.8kg",
             materiaal: "Staal",
+            land: "Italie",
             gebruik: "Militair en civiel"
         },
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Beretta_34_%286825664724%29.jpg/450px-Beretta_34_%286825664724%29.jpg"
+         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Beretta_34_%286825664724%29.jpg/450px-Beretta_34_%286825664724%29.jpg"
 
 
 
@@ -36,7 +37,7 @@ const weaponsData = [
         id: 2,
         naam: "Beretta M38A",
         type: "automatisch vuurwapen",
-        periode: "moderne tijd",
+        periode: "Tweede Wereldoorlog",
         jaar: "1938-1950",
         beschrijving: "De Beretta M38A was een Italiaans automatisch vuurwapen dat breed werd ingezet tijdens en na de Tweede Wereldoorlog.\n\nGebruikers tijdens WWII:\n- Koninklijk Italiaans Leger\n- Duitse Wehrmacht\n- Italiaanse RSI strijdkrachten\n- Geallieerde troepen (buitgemaakte exemplaren)\n\nGebruikers na WWII:\n- Italiaanse Nationale Politie\n- Roemeense strijdkrachten\n- Costa Ricaanse leger\n- Diverse Europese politie-eenheden\n\nBijzonderheden:\n- Zeer effectief in woestijnomstandigheden tijdens Noord-Afrika campagne\n- Gewaardeerd om betrouwbaarheid en precisie\n- Lang in gebruik gebleven bij ordediensten",
         details: {
@@ -44,10 +45,12 @@ const weaponsData = [
             gewicht: "4.2kg",
             kaliber: "9x19mm Parabellum",
             materiaal: "Staal en hout",
+            land: "Italie",
             gebruik: "Militair en politie"
         },
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Beretta_M38.jpg/450px-Beretta_M38.jpg"
+        image: "../img/file.webp"
     },
+
     {
         id: 3,
         naam: "Arquebus",
@@ -59,6 +62,7 @@ const weaponsData = [
             lengte: "90-120cm",
             kaliber: "12-20mm",
             materiaal: "IJzer en hout",
+            land: "Duitsland",
             gebruik: "Militair"
         },
         image: "/api/placeholder/400/300"

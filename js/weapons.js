@@ -48,23 +48,31 @@ const weaponsData = [
             land: "Italie",
             gebruik: "Militair en politie"
         },
-        image: "../img/file.webp"
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Beretta_M38.jpg/300px-Beretta_M38.jpg"
     },
-
+    
     {
-        id: 3,
-        naam: "Arquebus",
-        type: "vuurwapen",
-        periode: "renaissance",
-        jaar: "1400-1600",
-        beschrijving: "De arquebus was een van de eerste draagbare vuurwapens en markeerde het begin van een nieuwe era in oorlogsvoering.",
+        id: 5,
+        naam: "MP 41(r)",
+        type: "Vuurwapen",
+        periode: "Tweede Wereldoorlog",
+        jaar: "1941",
+        beschrijving: 
+          "De MP 41(r) was een door Duitsland aangepaste versie van het Sovjet PPSh-41 machinepistool, " +
+          "omgebouwd voor 9×19mm Parabellum munitie en het gebruik van MP 40 magazijnen.",
+        
         details: {
-            lengte: "90-120cm",
-            kaliber: "12-20mm",
-            materiaal: "IJzer en hout",
-            land: "Duitsland",
-            gebruik: "Militair"
+          gewicht: "3,6 kg (ongeladen)",
+          kaliber: "9×19mm Parabellum",
+          vuursnelheid: "850 schoten per minuut",
+          magazijncapaciteit: "32 patronen (MP 40 magazijn)",
+          land: "Duitsland",
+          gebruik: "Militair, aanpassing van buitgemaakte wapens",
+          prijs: "4300 Dollar",
         },
-        image: "/api/placeholder/400/300"
-    }
+      
+        image: "https://i-enlisted.cdn.gaijin.net/original/3X/4/d/4da6537797a7fffd9824a022da1b2843797bb127.jpeg"
+      },
+      
+    
 ];

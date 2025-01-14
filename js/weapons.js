@@ -54,7 +54,7 @@ const weaponsData = [
     {
         id: 5,
         naam: "MP 41(r)",
-        type: "Vuurwapen",
+        type: "Machinepistool",
         periode: "Tweede Wereldoorlog",
         jaar: "1941",
         beschrijving: 
@@ -66,7 +66,7 @@ const weaponsData = [
           kaliber: "9×19mm Parabellum",
           vuursnelheid: "850 schoten per minuut",
           magazijncapaciteit: "32 patronen (MP 40 magazijn)",
-          land: "Duitsland",
+          land: "Frankrijk",
           gebruik: "Militair, aanpassing van buitgemaakte wapens",
           prijs: "4300 Dollar",
         },

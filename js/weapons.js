@@ -36,7 +36,7 @@ const weaponsData = [
     {
         id: 2,
         naam: "Beretta M38A",
-        type: "Machinegeweer",
+        type: "Machinepistool",
         periode: "Tweede Wereldoorlog",
         jaar: "1938-1950",
         beschrijving: "De Beretta M38A was een Italiaans automatisch vuurwapen dat breed werd ingezet tijdens en na de Tweede Wereldoorlog.\n\nGebruikers tijdens WWII:\n- Koninklijk Italiaans Leger\n- Duitse Wehrmacht\n- Italiaanse RSI strijdkrachten\n- Geallieerde troepen (buitgemaakte exemplaren)\n\nGebruikers na WWII:\n- Italiaanse Nationale Politie\n- Roemeense strijdkrachten\n- Costa Ricaanse leger\n- Diverse Europese politie-eenheden\n\nBijzonderheden:\n- Zeer effectief in woestijnomstandigheden tijdens Noord-Afrika campagne\n- Gewaardeerd om betrouwbaarheid en precisie\n- Lang in gebruik gebleven bij ordediensten",
@@ -56,7 +56,7 @@ const weaponsData = [
     {
         id: 3,
         naam: "MP 41(r)",
-        type: "Machinegeweer",
+        type: "Machinepistool",
         periode: "Tweede Wereldoorlog",
         jaar: "1941",
         beschrijving: `
@@ -221,6 +221,53 @@ const weaponsData = [
         },
         "image": "https://th.bing.com/th/id/OIP.ZtHIsqIg8In_M2ObhStk8AHaHa?rs=1&pid=ImgDetMain"
       },
+
+      {
+        "id": 9,
+        "naam": "Chauchat",
+        "type": "Machinegeweer",
+        "periode": "Eerste Wereldoorlog",
+        "jaar": "1915-1927",
+        "beschrijving": `
+          <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+          <p>De Chauchat werd ontwikkeld in Frankrijk in 1915, tijdens de Eerste Wereldoorlog, met als doel de infanterie een draagbaar automatisch wapen te bieden. 
+          Het lichte machinegeweer werd ontworpen door kolonel Louis Chauchat en Charles Sutter en kreeg de officiële aanduiding Fusil Mitrailleur Mle 1915 CSRG.</p>
+      
+          <h4><strong>Gebruiksperiode en Problemen</strong></h4>
+          <p>De Chauchat werd beroemd om zijn brede inzet in de Eerste Wereldoorlog, maar ook berucht vanwege frequente mechanische storingen. 
+          Vooral de openingen in het magazijn maakten het wapen extreem gevoelig voor vuil en modder, wat het onbetrouwbaar maakte in loopgravenomstandigheden.</p>
+      <br>
+          <h4><strong>Gebruikers van de Chauchat</strong></h4>
+          <ul>
+            <li><strong>Frankrijk</strong>: Hoofdgebruiker tijdens de Eerste Wereldoorlog, gebruikte de Chauchat als standaard licht machinegeweer voor infanterie-eenheden.</li>
+            <li><strong>Verenigde Staten</strong>: Amerikaanse troepen kregen de Chauchat in 8mm Lebel en een variant in .30-06, hoewel de laatste variant bijzonder onbetrouwbaar was.</li>
+            <li><strong>België</strong>: Gebruikte de Chauchat na de oorlog voor infanterieondersteuning.</li>
+            <li><strong>Italië</strong>: Werd gebruikt door Italiaanse troepen, vooral tijdens de laatste fasen van de Eerste Wereldoorlog.</li>
+            <li><strong>Griekenland</strong>: Ontvangen als militaire hulp na de Eerste Wereldoorlog.</li>
+            <li><strong>Polen</strong>: Ingezet tijdens de Pools-Russische oorlog.</li>
+            <li><strong>Finland</strong>: Gebruikt door Finse troepen tijdens de Winteroorlog en Continuation War.</li>
+            <li><strong>Roemenië</strong>: Gebruikt als standaard licht machinegeweer gedurende de interbellumperiode.</li>
+            <li><strong>Tsjechoslowakije</strong>: Overgenomen na de Eerste Wereldoorlog.</li>
+            <li><strong>Spanje</strong>: Ingezet tijdens de Spaanse Burgeroorlog door verschillende facties.</li>
+            <li><strong>Mexico</strong>: Gebruikt in beperkte aantallen.</li>
+          </ul>
+      <br>
+          <h4><strong>Erfenis</strong></h4>
+          <p>Ondanks zijn gebreken heeft de Chauchat een belangrijke rol gespeeld in de ontwikkeling van lichte machinegeweren. 
+          Zijn invloed is terug te zien in latere ontwerpen, waarbij mobiliteit en automatische vuurkracht gecombineerd werden.</p>
+        `,
+        "details": {
+          "gewicht": "9,07 kg (ongeladen)",
+          "kaliber": "8×50mmR Lebel",
+          "vuursnelheid": "240 schoten per minuut",
+          "magazijncapaciteit": "20 patronen",
+          "land": "Frankrijk",
+          "gebruik": "Militair",
+          "prijs": "Onbekend"
+        },
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Chauchat_1_%2850643241222%29_%28cropped%29.jpg/450px-Chauchat_1_%2850643241222%29_%28cropped%29.jpg" // Auteur: Gemeente vrij beeld via Wikimedia Commons
+      },
+      
       
     
 ];

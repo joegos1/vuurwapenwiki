@@ -264,10 +264,10 @@ const weaponsData = [
           "prijs": "Afhankelijk van model en staat"
         },
         "image": "https://live.amoskeagauction.com/images/lot/2268/22680_xl.jpg?ts=1689229975"
-      }
+      },
 
       {
-        "id": 9,
+        "id": 10,
         "naam": "Chauchat",
         "type": "Licht Machinegeweer",
         "periode": "Eerste Wereldoorlog",

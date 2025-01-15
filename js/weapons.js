@@ -279,8 +279,10 @@ const weaponsData = [
       
           <h4><strong>Gebruiksperiode en Problemen</strong></h4>
           <p>De Chauchat werd beroemd om zijn brede inzet in de Eerste Wereldoorlog, maar ook berucht vanwege frequente mechanische storingen. 
-          Vooral de openingen in het magazijn maakten het wapen extreem gevoelig voor vuil en modder, wat het onbetrouwbaar maakte in loopgravenomstandigheden.</p>
-      
+          Vooral de openingen in het magazijn maakten het wapen extreem gevoelig voor vuil en modder, wat het onbetrouwbaar maakte in loopgravenomstandigheden.</p> <br>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/French_soldier_with_Chauchat_taken_by_Jacques_Ridel_in_Le_Monchel_May_1918.jpg/330px-French_soldier_with_Chauchat_taken_by_Jacques_Ridel_in_Le_Monchel_May_1918.jpg" alt="Chauchat" width="300" height="200"> <br>
+          <p> Chauchat in gebruik tijdens de Eerste Wereldoorlog</p>
+          <br>
           <h4><strong>Gebruikers van de Chauchat</strong></h4>
           <ul>
             <li><strong>Frankrijk</strong>: Hoofdgebruiker tijdens de Eerste Wereldoorlog, gebruikte de Chauchat als standaard licht machinegeweer voor infanterie-eenheden.</li>
@@ -299,7 +301,7 @@ const weaponsData = [
             <li><strong>Syrische Staat</strong>: Gebruikt tijdens de Arabisch-Israëlische Oorlog van 1948.</li>
             <li><strong>Turkije</strong>: Gebruikt door de Turkse Nationale Beweging en later door het leger.</li>
           </ul>
-      
+      <br>
           <h4><strong>Erfenis</strong></h4>
           <p>Ondanks zijn gebreken heeft de Chauchat een belangrijke rol gespeeld in de ontwikkeling van lichte machinegeweren. 
           Zijn invloed is terug te zien in latere ontwerpen, waarbij mobiliteit en automatische vuurkracht gecombineerd werden.</p>
@@ -313,7 +315,7 @@ const weaponsData = [
           "gebruik": "Militair",
           "prijs": "Onbekend"
         },
-        "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Chauchat.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Chauchat_1_%2850643241222%29_%28cropped%29.jpg/450px-Chauchat_1_%2850643241222%29_%28cropped%29.jpg"
       },
       
       

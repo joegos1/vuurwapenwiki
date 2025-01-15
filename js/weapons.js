@@ -36,7 +36,7 @@ const weaponsData = [
     {
         id: 2,
         naam: "Beretta M38A",
-        type: "automatisch vuurwapen",
+        type: "Machinegeweer",
         periode: "Tweede Wereldoorlog",
         jaar: "1938-1950",
         beschrijving: "De Beretta M38A was een Italiaans automatisch vuurwapen dat breed werd ingezet tijdens en na de Tweede Wereldoorlog.\n\nGebruikers tijdens WWII:\n- Koninklijk Italiaans Leger\n- Duitse Wehrmacht\n- Italiaanse RSI strijdkrachten\n- Geallieerde troepen (buitgemaakte exemplaren)\n\nGebruikers na WWII:\n- Italiaanse Nationale Politie\n- Roemeense strijdkrachten\n- Costa Ricaanse leger\n- Diverse Europese politie-eenheden\n\nBijzonderheden:\n- Zeer effectief in woestijnomstandigheden tijdens Noord-Afrika campagne\n- Gewaardeerd om betrouwbaarheid en precisie\n- Lang in gebruik gebleven bij ordediensten",
@@ -187,6 +187,39 @@ const weaponsData = [
           "prijs": "Niet beschikbaar"
         },
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Dutch_Mannlicher_M1895_rifle_noBG.png/640px-Dutch_Mannlicher_M1895_rifle_noBG.png"
+      },
+      
+      {
+        "id": 8,
+        "naam": "Colt Python",
+        "type": "Revolver",
+        "periode": "Modern",
+        "jaar": "1955",
+        "beschrijving": `
+          <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+          <p>De Colt Python werd geïntroduceerd in 1955 door Colt's Manufacturing Company als een premium revolver. 
+          Het werd ontworpen als een nauwkeurig en duurzaam vuurwapen, speciaal gericht op de veeleisende schietsport en wetshandhavers.</p>
+      
+          <h4><strong>Gebruik en Populariteit</strong></h4>
+          <p>De Python stond bekend om zijn uitzonderlijke afwerking, soepele trekker en uitstekende precisie. Het werd een symbool van 
+          vakmanschap en werd gebruikt door zowel politie als particuliere eigenaren. Vanwege zijn betrouwbaarheid en elegantie werd 
+          de Python een van de meest iconische revolvers in de geschiedenis.</p>
+      
+          <h4><strong>Technische Kenmerken</strong></h4>
+          <p>De Colt Python was oorspronkelijk ontworpen voor het .357 Magnum-kaliber, maar kon ook .38 Special-munitie afvuren. 
+          Het wapen had een draaibare cilinder met zes kamers en werd geleverd met verschillende looplengtes, variërend van 2,5 tot 8 inch. 
+          Zijn robuuste ontwerp en nauwkeurigheid maakten het een favoriet onder verzamelaars en schutters.</p>
+        `,
+        "details": {
+          "gewicht": "Varieert afhankelijk van looplengte (ca. 1,2-1,4 kg)",
+          "kaliber": ".357 Magnum",
+          "vuursnelheid": "Handmatig (double-action)",
+          "magazijncapaciteit": "6 kamers (cilinder)",
+          "land": "Verenigde Staten",
+          "gebruik": "Schietsport, wetshandhaving, verzamelaars",
+          "prijs": "Afhankelijk van model en staat"
+        },
+        "image": "https://th.bing.com/th/id/OIP.ZtHIsqIg8In_M2ObhStk8AHaHa?rs=1&pid=ImgDetMain"
       },
       
     

@@ -57,16 +57,18 @@ const weaponsData = [
         type: "Machinegeweer",
         periode: "Tweede Wereldoorlog",
         jaar: "1941",
+        //
         beschrijving: `
           <h3><strong>Ontstaan en Achtergrond</strong></h3>  
-          <p>De MP 41(r) werd ontwikkeld tijdens de Tweede Wereldoorlog door Duitse troepen, 
-          die grote hoeveelheden Sovjet PPSh-41 machinepistolen buitmaakten aan het Oostfront.</p>
+          <p>De MP 41(r) werd ontwikkeld tijdens de Tweede Wereldoorlog door Duitse Wehrmacht, 
+          die grote hoeveelheden Sovjet PPSh-41 machinepistolen buitmaakten aan het Oostfront. <br>
+          De (R) staat voor Russland = Rusland.</p>
           
           <h4><strong>Achtergrond</strong></h4>  
-          <p>Omdat het PPSh-41 ontworpen was voor 7,62×25mm Tokarev-munitie, 
+          <p>Omdat De PPSh-41 ontworpen was voor 7,62×25mm Tokarev-munitie, 
           werd het ombouwen van deze wapens naar de standaard Duitse 9×19mm Parabellum-munitie een 
           strategische zet om logistieke problemen te verminderen. De MP 41(r) maakte gebruik van MP 40 magazijnen, 
-          waardoor compatibiliteit met Duitse munitievoorraden gewaarborgd werd.</p>  
+          waardoor compatibiliteit met Duitse munitievoorraden gemakkelijker werd.</p>  
         `,
         details: {
           gewicht: "3,6 kg (ongeladen)",

@@ -81,33 +81,37 @@ const weaponsData = [
         image: "https://i-enlisted.cdn.gaijin.net/original/3X/4/d/4da6537797a7fffd9824a022da1b2843797bb127.jpeg"
       },
       {
-        id: 4,
-        naam: "MP 41(r)",
-        type: "Machinegeweer",
-        periode: "Tweede Wereldoorlog",
-        jaar: "1941",
-        beschrijving: `
-          <h3><strong>Ontstaan en Achtergrond</strong></h3>  
-          <p>De MP 41(r) werd ontwikkeld tijdens de Tweede Wereldoorlog door Duitse Wehrmacht, 
-          die grote hoeveelheden Sovjet PPSh-41 machinepistolen buitmaakten aan het Oostfront. <br>
-          De (R) staat voor Russland = Rusland.</p>
-          
-          <h4><strong>Achtergrond</strong></h4>  
-          <p>Omdat De PPSh-41 ontworpen was voor 7,62×25mm Tokarev-munitie, 
-          werd het ombouwen van deze wapens naar de standaard Duitse 9×19mm Parabellum-munitie een 
-          strategische zet om logistieke problemen te verminderen. De MP 41(r) maakte gebruik van MP 40 magazijnen, 
-          waardoor compatibiliteit met Duitse munitievoorraden gemakkelijker werd.</p>  
+        "id": 5,
+        "naam": "SVT-38",
+        "type": "Semi-Automatisch Geweer",
+        "periode": "Tweede Wereldoorlog",
+        "jaar": "1938",
+        "beschrijving": `
+          <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+          <p>De SVT-38 werd in de late jaren '30 ontwikkeld door de Sovjet-Unie als een geavanceerd, semi-automatisch geweer. 
+          Het doel was om de vuurkracht van infanterie te vergroten en de standaard Mosin-Nagant-geweren te vervangen.</p>
+      
+          <h4><strong>Gebruiksperiode en Problemen</strong></h4>
+          <p>De SVT-38 werd geïntroduceerd in 1938 en al snel ingezet tijdens de Winteroorlog tegen Finland. 
+          Hoewel het ontwerp innovatief was, kampte het wapen met technische problemen, zoals kwetsbaarheid voor vuil en 
+          een complex productieproces, wat leidde tot beperkte betrouwbaarheid op het slagveld.</p>
+      
+          <h4><strong>Erfenis</strong></h4>
+          <p>De SVT-38 diende als basis voor zijn verbeterde opvolger, de SVT-40. Deze verbeteringen maakten het ontwerp 
+          robuuster en beter geschikt voor gebruik in zware oorlogsomstandigheden.</p>
         `,
-        details: {
-          gewicht: "3,6 kg (ongeladen)",
-          kaliber: "9×19mm Parabellum",
-          vuursnelheid: "850 schoten per minuut",
-          magazijncapaciteit: "32 patronen (MP 40 magazijn)",
-          land: "Duitsland/Rusland",
-          gebruik: "Militair, aanpassing van buitgemaakte wapens",
-          prijs: "4300 Dollar"
+        "details": {
+          "gewicht": "4,3 kg (ongeladen)",
+          "kaliber": "7,62×54mmR",
+          "vuursnelheid": "Semi-automatisch",
+          "magazijncapaciteit": "10 patronen",
+          "land": "Sovjet-Unie",
+          "gebruik": "Militair",
+          "prijs": "Niet beschikbaar"
         },
-        image: "https://i-enlisted.cdn.gaijin.net/original/3X/4/d/4da6537797a7fffd9824a022da1b2843797bb127.jpeg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Tokarew_SWT40_noBG.png/640px-Tokarew_SWT40_noBG.png"
+
+        
       },
       
       

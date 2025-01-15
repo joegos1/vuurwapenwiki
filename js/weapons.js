@@ -32,7 +32,7 @@ const weaponsData = [
 
 
     },
-
+//ATRIBUTE the author of the image
     {
         id: 2,
         naam: "Beretta M38A",
@@ -50,6 +50,7 @@ const weaponsData = [
         },
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Beretta_M38.jpg/300px-Beretta_M38.jpg"
     },
+    //ATRIBUTE the author of the image
     
     {
         id: 3,
@@ -80,6 +81,7 @@ const weaponsData = [
         },
         image: "https://i-enlisted.cdn.gaijin.net/original/3X/4/d/4da6537797a7fffd9824a022da1b2843797bb127.jpeg"
       },
+      //ATRIBUTE the author of the image
       {
         "id": 5,
         "naam": "SVT-38",
@@ -109,11 +111,44 @@ const weaponsData = [
           "gebruik": "Militair",
           "prijs": "Niet beschikbaar"
         },
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Tokarew_SWT40_noBG.png/640px-Tokarew_SWT40_noBG.png"
-
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/SVT-38_-_Ryssland_-_AM.045576.jpg/640px-SVT-38_-_Ryssland_-_AM.045576.jpg"
+     //ATRIBUTE the author of the image
         
       },
       
+      {
+        "id": 6,
+        "naam": "SVT-40",
+        "type": "Semi-Automatisch Geweer",
+        "periode": "Tweede Wereldoorlog",
+        "jaar": "1940",
+        "beschrijving": `
+          <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+          <p>De SVT-40 werd ontwikkeld als een verbeterde versie van de SVT-38, met het doel de tekortkomingen van zijn voorganger 
+          aan te pakken. Het werd ontworpen door Fjodor Tokarev en geïntroduceerd in 1940. Het wapen was lichter, eenvoudiger te produceren 
+          en beter bestand tegen zware oorlogscondities.</p>
+      
+          <h4><strong>Gebruik en Productie</strong></h4>
+          <p>De SVT-40 werd veelvuldig gebruikt door de Sovjet-troepen tijdens de Tweede Wereldoorlog. Ondanks zijn voordelen 
+          werd het uiteindelijk overschaduwd door eenvoudiger en robuustere wapens zoals de Mosin-Nagant en de PPSh-41. 
+          Het werd geproduceerd tot 1945, met ongeveer 1,6 miljoen eenheden.</p>
+      
+          <h4><strong>Technische Innovaties</strong></h4>
+          <p>Het wapen introduceerde enkele innovatieve functies voor die tijd, waaronder een verwijderbaar magazijn en een gasregelaar. 
+          Deze eigenschappen maakten het veelzijdig en gemakkelijk aan te passen aan verschillende gevechtsomstandigheden.</p>
+        `,
+        "details": {
+          "gewicht": "3,85 kg (ongeladen)",
+          "kaliber": "7,62×54mmR",
+          "vuursnelheid": "Semi-automatisch",
+          "magazijncapaciteit": "10 patronen",
+          "land": "Sovjet-Unie",
+          "gebruik": "Militair",
+          "prijs": "Niet beschikbaar"
+        },
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Tokarew_SWT40_noBG.png/640px-Tokarew_SWT40_noBG.png"
+      },
+      //ATRIBUTE the author of the image
       
     
 ];

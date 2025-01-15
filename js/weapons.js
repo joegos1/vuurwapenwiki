@@ -48,9 +48,10 @@ const weaponsData = [
             land: "Italie",
             gebruik: "Militair en politie"
         },
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Beretta_M38.jpg/300px-Beretta_M38.jpg"
+        image: "https://64.media.tumblr.com/3faffe7e0bace9246c48b95850d0f86e/tumblr_p6pac6NZVj1vpejtho1_1280.jpg"
     },
     //ATRIBUTE the author of the image
+    
     
     {
         id: 3,
@@ -149,6 +150,34 @@ const weaponsData = [
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Tokarew_SWT40_noBG.png/640px-Tokarew_SWT40_noBG.png"
       },
       //ATRIBUTE the author of the image
+      
+      {
+        "id": 7,
+        "naam": "Geweer M.95",
+        "type": "Grendel Geweer",
+        "periode": "Eind 19e eeuw - Tweede Wereldoorlog",
+        "jaar": "1895",
+        "beschrijving": `
+          <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+          <p>Het Geweer M.95, ook wel bekend als de Dutch Mannlicher, werd in 1895 geïntroduceerd als het standaard dienstgeweer van de Nederlandse strijdkrachten. Het werd ontworpen door Ferdinand Mannlicher en geproduceerd door Steyr, later onder licentie vervaardigd bij de Artillerie Inrichtingen in Zaandam. Het geweer kent twee versies, namelijk de Mannlicher karabijn M.95 en het Mannlicher geweer M.95, Waarvan de karabijn variant kleiner en lichter is en voornamelijk gebruikt door het cavalerie.</p>
+      
+          <h4><strong>Gebruik en Productie</strong></h4>
+          <p>Het geweer werd gebruikt door het Nederlandse leger van 1895 tot 1940 en speelde een rol in conflicten zoals de Eerste en Tweede Wereldoorlog. In totaal werden er ongeveer 470.000 exemplaren geproduceerd.</p>
+      
+          <h4><strong>Technische Kenmerken</strong></h4>
+          <p>Het M.95-geweer maakte gebruik van een grendelactie en werd geladen met een 5-schots en-bloc clip. Het was berucht om zijn complexe mechanisme, maar stond bekend om zijn nauwkeurigheid en betrouwbaarheid.</p>
+        `,
+        "details": {
+          "gewicht": "4,35 kg (ongeladen)",
+          "kaliber": "6,5×53mmR",
+          "vuursnelheid": "Repetitie",
+          "magazijncapaciteit": "5 patronen",
+          "land": "Nederland",
+          "gebruik": "Militair",
+          "prijs": "Niet beschikbaar"
+        },
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Dutch_Mannlicher_M1895_rifle_noBG.png/640px-Dutch_Mannlicher_M1895_rifle_noBG.png"
+      },
       
     
 ];

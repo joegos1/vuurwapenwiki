@@ -221,6 +221,57 @@ const weaponsData = [
         },
         "image": "https://th.bing.com/th/id/OIP.ZtHIsqIg8In_M2ObhStk8AHaHa?rs=1&pid=ImgDetMain"
       },
+
+      {
+        "id": 9,
+        "naam": "Chauchat",
+        "type": "Licht Machinegeweer",
+        "periode": "Eerste Wereldoorlog",
+        "jaar": "1915-1948",
+        "beschrijving": `
+          <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+          <p>De Chauchat werd ontwikkeld in Frankrijk in 1915, tijdens de Eerste Wereldoorlog, met als doel de infanterie een draagbaar automatisch wapen te bieden. 
+          Het lichte machinegeweer werd ontworpen door kolonel Louis Chauchat en Charles Sutter en kreeg de officiële aanduiding Fusil Mitrailleur Mle 1915 CSRG.</p> <br> 
+      
+          <h4><strong>Gebruiksperiode en Problemen</strong></h4>
+          <p>De Chauchat werd beroemd om zijn brede inzet in de Eerste Wereldoorlog, maar ook berucht vanwege frequente mechanische storingen. 
+          Vooral de openingen in het magazijn maakten het wapen extreem gevoelig voor vuil en modder, wat het onbetrouwbaar maakte in loopgravenomstandigheden.</p> <br>
+          <img src="https://cdn2.picryl.com/photo/1918/05/01/french-soldier-with-chauchat-taken-by-jacques-ridel-in-le-monchel-may-1918-3a20f1-640.jpg" width="400" height="300" alt="Chauchat"> <br>
+          <p>Chauchat in actie tijdens de Eerste Wereldoorlog</p> <br>
+          <h4><strong>Gebruikers van de Chauchat</strong></h4>
+          <ul>
+            <li><strong>Frankrijk</strong>: Hoofdgebruiker tijdens de Eerste Wereldoorlog, gebruikte de Chauchat als standaard licht machinegeweer voor infanterie-eenheden.</li>
+            <li><strong>Verenigde Staten</strong>: Amerikaanse troepen kregen de Chauchat in 8mm Lebel en een variant in .30-06, hoewel de laatste variant bijzonder onbetrouwbaar was.</li>
+            <li><strong>België</strong>: Gebruikte de Chauchat na de oorlog voor infanterieondersteuning. Ongeveer 6.935 stuks, waarvan de helft omgebouwd werd naar 7.65×53mm Mauser.</li>
+            <li><strong>Italië</strong>: Werd gebruikt door Italiaanse troepen, vooral tijdens de laatste fasen van de Eerste Wereldoorlog. 1.729 stuks.</li>
+            <li><strong>Griekenland</strong>: Ontvangen als militaire hulp na de Eerste Wereldoorlog.</li>
+            <li><strong>Polen</strong>: Ingezet tijdens de Pools-Russische oorlog. Ongeveer 100.000 stuks, veel omgebouwd naar 7.92×57mm Mauser.</li>
+            <li><strong>Finland</strong>: Gebruikt door Finse troepen tijdens de Winteroorlog en Continuation War.</li>
+            <li><strong>Roemenië</strong>: Gebruikt als standaard licht machinegeweer gedurende de interbellumperiode. Ongeveer 4.495 stuks.</li>
+            <li><strong>Tsjechoslowakije</strong>: Overgenomen na de Eerste Wereldoorlog. 130 stuks werden door de Tsjechoslowaakse legioen meegenomen uit Rusland.</li>
+            <li><strong>Spanje</strong>: Ingezet tijdens de Spaanse Burgeroorlog door verschillende facties.</li>
+            <li><strong>Mexico</strong>: Gebruikt in beperkte aantallen.</li>
+            <li><strong>China</strong>: Ongeveer 100 exemplaren geproduceerd door het Jinglin Arsenal en gebruikt tijdens de Tweede Chinees-Japanse Oorlog.</li>
+            <li><strong>Latvia</strong>: 546 stuks gebruikt door het Latvian Army (in april 1936).</li>
+            <li><strong>Syrische Staat</strong>: Gebruikt tijdens de Arabisch-Israëlische Oorlog van 1948.</li>
+            <li><strong>Turkije</strong>: Gebruikt door de Turkse Nationale Beweging en later door het leger.</li>
+          </ul>
+      <br>
+          <h4><strong>Erfenis</strong></h4>
+          <p>Ondanks zijn gebreken heeft de Chauchat een belangrijke rol gespeeld in de ontwikkeling van lichte machinegeweren. 
+          Zijn invloed is terug te zien in latere ontwerpen, waarbij mobiliteit en automatische vuurkracht gecombineerd werden.</p>
+        `,
+        "details": {
+          "gewicht": "9,07 kg (ongeladen)",
+          "kaliber": "8×50mmR Lebel",
+          "vuursnelheid": "240 schoten per minuut",
+          "magazijncapaciteit": "20 patronen",
+          "land": "Frankrijk",
+          "gebruik": "Militair",
+          "prijs": "Onbekend"
+        },
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfH7blGL6iGKvHUcjJFfq0hW21RA7XKBWsVw&s"
+      },
       
     
 ];

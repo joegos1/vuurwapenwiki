@@ -36,7 +36,7 @@ const weaponsData = [
     {
         id: 2,
         naam: "Beretta M38A",
-        type: "Machinegeweer",
+        type: "Machinepistool",
         periode: "Tweede Wereldoorlog",
         jaar: "1938-1950",
         beschrijving: "De Beretta M38A was een Italiaans automatisch vuurwapen dat breed werd ingezet tijdens en na de Tweede Wereldoorlog.\n\nGebruikers tijdens WWII:\n- Koninklijk Italiaans Leger\n- Duitse Wehrmacht\n- Italiaanse RSI strijdkrachten\n- Geallieerde troepen (buitgemaakte exemplaren)\n\nGebruikers na WWII:\n- Italiaanse Nationale Politie\n- Roemeense strijdkrachten\n- Costa Ricaanse leger\n- Diverse Europese politie-eenheden\n\nBijzonderheden:\n- Zeer effectief in woestijnomstandigheden tijdens Noord-Afrika campagne\n- Gewaardeerd om betrouwbaarheid en precisie\n- Lang in gebruik gebleven bij ordediensten",
@@ -56,7 +56,7 @@ const weaponsData = [
     {
         id: 3,
         naam: "MP 41(r)",
-        type: "Machinegeweer",
+        type: "Machinepistool",
         periode: "Tweede Wereldoorlog",
         jaar: "1941",
         beschrijving: `
@@ -269,9 +269,9 @@ const weaponsData = [
       {
         "id": 10,
         "naam": "Chauchat",
-        "type": "Licht Machinegeweer",
+        "type": "Machinegeweer",
         "periode": "Eerste Wereldoorlog",
-        "jaar": "1915-1927",
+        "jaar": "1915-1948",
         "beschrijving": `
           <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
           <p>De Chauchat werd ontwikkeld in Frankrijk in 1915, tijdens de Eerste Wereldoorlog, met als doel de infanterie een draagbaar automatisch wapen te bieden. 
@@ -280,6 +280,7 @@ const weaponsData = [
           <h4><strong>Gebruiksperiode en Problemen</strong></h4>
           <p>De Chauchat werd beroemd om zijn brede inzet in de Eerste Wereldoorlog, maar ook berucht vanwege frequente mechanische storingen. 
           Vooral de openingen in het magazijn maakten het wapen extreem gevoelig voor vuil en modder, wat het onbetrouwbaar maakte in loopgravenomstandigheden.</p> <br>
+
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/French_soldier_with_Chauchat_taken_by_Jacques_Ridel_in_Le_Monchel_May_1918.jpg/330px-French_soldier_with_Chauchat_taken_by_Jacques_Ridel_in_Le_Monchel_May_1918.jpg" alt="Chauchat" width="300" height="200"> <br>
           <p> Chauchat in gebruik tijdens de Eerste Wereldoorlog</p>
           <br>
@@ -297,7 +298,7 @@ const weaponsData = [
             <li><strong>Spanje</strong>: Ingezet tijdens de Spaanse Burgeroorlog door verschillende facties.</li>
             <li><strong>Mexico</strong>: Gebruikt in beperkte aantallen.</li>
             <li><strong>China</strong>: Ongeveer 100 exemplaren geproduceerd door het Jinglin Arsenal en gebruikt tijdens de Tweede Chinees-Japanse Oorlog.</li>
-            <li><strong>Latvia</strong>: 546 stuks gebruikt door het Latvian Army (in april 1936).</li>
+            <li><strong>Letland</strong>: 546 stuks gebruikt door het Lets Leger (in april 1936).</li>
             <li><strong>Syrische Staat</strong>: Gebruikt tijdens de Arabisch-Israëlische Oorlog van 1948.</li>
             <li><strong>Turkije</strong>: Gebruikt door de Turkse Nationale Beweging en later door het leger.</li>
           </ul>

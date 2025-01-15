@@ -98,7 +98,17 @@ const weaponsData = [
           <p>De SVT-38 werd geïntroduceerd in 1938 en al snel ingezet tijdens de Winteroorlog tegen Finland. 
           Hoewel het ontwerp innovatief was, kampte het wapen met technische problemen, zoals kwetsbaarheid voor vuil en 
           een complex productieproces, wat leidde tot beperkte betrouwbaarheid op het slagveld.</p>
-      
+
+          <h4><strong>Gebruikers van de  SVT-38</strong></h4>
+         <ul>
+         <li>Sovjet-Unie</li>
+         <li>Finland</li>
+         <li>Tsjechoslowakije</li>
+         <li>Nazi Duitsland buitgemaakt Met de naam Gewehr 259(r)</li>
+         <li>Italiaanse Partizanen</li>
+         <li>Noord Korea </li>
+         </ul>
+         
           <h4><strong>Erfenis</strong></h4>
           <p>De SVT-38 diende als basis voor zijn verbeterde opvolger, de SVT-40. Deze verbeteringen maakten het ontwerp 
           robuuster en beter geschikt voor gebruik in zware oorlogsomstandigheden.</p>
@@ -110,7 +120,7 @@ const weaponsData = [
           "magazijncapaciteit": "10 patronen",
           "land": "Sovjet-Unie",
           "gebruik": "Militair",
-          "prijs": "Niet beschikbaar"
+          "prijs": "Amerika = 4200 Dollar , Europa = 900 Dollar"
         },
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/SVT-38_-_Ryssland_-_AM.045576.jpg/640px-SVT-38_-_Ryssland_-_AM.045576.jpg"
      //ATRIBUTE the author of the image

@@ -36,7 +36,7 @@ const weaponsData = [
     {
         id: 2,
         naam: "Beretta M38A",
-        type: "Machinepistool",
+        type: "Machinegeweer",
         periode: "Tweede Wereldoorlog",
         jaar: "1938-1950",
         beschrijving: "De Beretta M38A was een Italiaans automatisch vuurwapen dat breed werd ingezet tijdens en na de Tweede Wereldoorlog.\n\nGebruikers tijdens WWII:\n- Koninklijk Italiaans Leger\n- Duitse Wehrmacht\n- Italiaanse RSI strijdkrachten\n- Geallieerde troepen (buitgemaakte exemplaren)\n\nGebruikers na WWII:\n- Italiaanse Nationale Politie\n- Roemeense strijdkrachten\n- Costa Ricaanse leger\n- Diverse Europese politie-eenheden\n\nBijzonderheden:\n- Zeer effectief in woestijnomstandigheden tijdens Noord-Afrika campagne\n- Gewaardeerd om betrouwbaarheid en precisie\n- Lang in gebruik gebleven bij ordediensten",
@@ -56,7 +56,7 @@ const weaponsData = [
     {
         id: 3,
         naam: "MP 41(r)",
-        type: "Machinepistool",
+        type: "Machinegeweer",
         periode: "Tweede Wereldoorlog",
         jaar: "1941",
         beschrijving: `
@@ -221,6 +221,50 @@ const weaponsData = [
         },
         "image": "https://th.bing.com/th/id/OIP.ZtHIsqIg8In_M2ObhStk8AHaHa?rs=1&pid=ImgDetMain"
       },
+
+      {
+        "id": 9,
+        "naam": "Colt Single Action Army",
+        "type": "Revolver",
+        "periode": "19e eeuw - heden",
+        "jaar": "1873",
+        "beschrijving": `
+          <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+          <p>De Colt Single Action Army, vaak de "Peacemaker" genoemd, werd in 1873 geïntroduceerd door Colt's Patent Firearms Manufacturing Company. 
+          Het was ontworpen als een robuust, betrouwbaar en veelzijdig wapen voor het Amerikaanse leger en werd snel een icoon van het Wilde Westen.</p>
+      
+          <h4><strong>Gebruik en Geschiedenis</strong></h4>
+          <p>Het wapen werd wijdverbreid gebruikt door soldaten, wetshandhavers, en cowboys. Dankzij zijn eenvoudige maar efficiënte ontwerp bleef het 
+          populair door de decennia heen en werd het een symbool van de Amerikaanse cultuur. De revolver werd ingezet tijdens verschillende historische 
+          conflicten, waaronder de Indiase oorlogen en de Spaans-Amerikaanse Oorlog.</p>
+      
+          <h4><strong>Technische Kenmerken</strong></h4>
+          <p>De Colt Single Action Army is een enkelvoudige actie revolver, ontworpen voor .45 Colt-munitie. Het wapen heeft een cilinder met zes kamers 
+          en een kenmerkende hameractie, waarbij de hamer handmatig moet worden gespannen voor elk schot. Het werd geproduceerd in verschillende 
+          looplengtes, van 4,75 inch tot 7,5 inch, en zelfs een "Buntline Special" met een extra lange loop.</p>
+      
+          <h4><strong>Gebruikers van de Colt Single Action Army</strong></h4>
+          <ul>
+            <li>Verenigde Staten (leger en wetshandhavers)</li>
+            <li>Cowboys en pioniers</li>
+            <li>Verzamelaars en schutters wereldwijd</li>
+          </ul>
+      
+          <h4><strong>Erfenis</strong></h4>
+          <p>De Colt Single Action Army blijft een van de meest iconische vuurwapens ter wereld. Het is een gewild verzamelobject en wordt nog steeds geproduceerd 
+          door Colt in zowel klassieke als moderne uitvoeringen.</p>
+        `,
+        "details": {
+          "gewicht": "1,05 kg",
+          "kaliber": ".45 Colt (origineel), andere varianten beschikbaar",
+          "vuursnelheid": "Handmatig (single-action)",
+          "magazijncapaciteit": "6 kamers (cilinder)",
+          "land": "Verenigde Staten",
+          "gebruik": "Militair, civiel, verzamelaars",
+          "prijs": "Afhankelijk van model en staat"
+        },
+        "image": "https://live.amoskeagauction.com/images/lot/2268/22680_xl.jpg?ts=1689229975"
+      }
 
       {
         "id": 9,

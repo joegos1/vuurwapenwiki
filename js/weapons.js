@@ -319,6 +319,54 @@ const weaponsData = [
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Chauchat_1_%2850643241222%29_%28cropped%29.jpg/450px-Chauchat_1_%2850643241222%29_%28cropped%29.jpg"
       },
       
+      {
+        "id": 11,
+        "naam": "M1918 Browning Automatic Rifle",
+        "type": "Machinegeweer",
+        "periode": "Eerste Wereldoorlog - Korea Oorlog",
+        "jaar": "1918",
+        "beschrijving": `
+          <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+          <p>De M1918 Browning Automatic Rifle (BAR) werd ontworpen door John Browning in 1917 en geïntroduceerd in 1918. Het werd ontwikkeld als een licht machinegeweer 
+          voor gebruik door de Amerikaanse infanterie tijdens de Eerste Wereldoorlog en werd later ook ingezet in andere conflicten, zoals de Tweede Wereldoorlog 
+          en de Koreaanse Oorlog.</p>
+      
+          <h4><strong>Gebruik en Geschiedenis</strong></h4>
+          <p>De BAR werd ontworpen om infanteristen te voorzien van een draagbaar automatisch wapen dat zowel voor onderdrukkingsvuur als precisievuur kon worden gebruikt. 
+          Het werd vaak bediend door een enkele schutter en ondersteund door een helper die extra munitie droeg. De BAR stond bekend om zijn betrouwbaarheid en veelzijdigheid 
+          in verschillende terreinomstandigheden.</p>
+      
+          <h4><strong>Technische Kenmerken</strong></h4>
+          <p>De M1918 BAR was een luchtgekoeld, magazijngevoed, selectievuur-wapen dat zowel volledig automatisch als semi-automatisch kon vuren. 
+          Het gebruikte een afneembaar magazijn met 20 patronen en was oorspronkelijk gekamerd voor .30-06 Springfield-munitie. Het wapen was relatief zwaar, 
+          wat zorgde voor stabiliteit tijdens het vuren.</p>
+      
+          <h4><strong>Gebruikers van de M1918 BAR</strong></h4>
+          <ul>
+            <li>Verenigde Staten</li>
+            <li>Gemenebestlanden</li>
+            <li>Frankrijk</li>
+            <li>Noord-Korea (buitgemaakt)</li>
+            <li>België</li>
+            <li>Andere bondgenoten in de Tweede Wereldoorlog</li>
+          </ul>
+      
+          <h4><strong>Erfenis</strong></h4>
+          <p>Hoewel de M1918 BAR uiteindelijk werd vervangen door modernere wapens, blijft het een iconisch symbool van de Amerikaanse infanterie in de 20e eeuw. 
+          Het is een favoriet onder verzamelaars en historici vanwege zijn innovatieve ontwerp en historische betekenis.</p>
+        `,
+        "details": {
+          "gewicht": "7,25 kg",
+          "kaliber": ".30-06 Springfield",
+          "vuursnelheid": "500-650 schoten per minuut",
+          "magazijncapaciteit": "20 patronen",
+          "land": "Verenigde Staten",
+          "gebruik": "Militair",
+          "prijs": "Afhankelijk van model en staat"
+        },
+        "image": "https://www.forgottenweapons.com/wp-content/uploads/2013/07/m1918bar-01-1024x323.jpg"
+      },
+      
       
     
 ];

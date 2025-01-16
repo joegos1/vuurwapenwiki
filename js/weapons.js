@@ -296,7 +296,6 @@ const weaponsData = [
             <li><strong>Roemenië</strong>: Gebruikt als standaard licht machinegeweer gedurende de interbellumperiode. Ongeveer 4.495 stuks.</li>
             <li><strong>Tsjechoslowakije</strong>: Overgenomen na de Eerste Wereldoorlog. 130 stuks werden door de Tsjechoslowaakse legioen meegenomen uit Rusland.</li>
             <li><strong>Spanje</strong>: Ingezet tijdens de Spaanse Burgeroorlog door verschillende facties.</li>
-            <li><strong>Mexico</strong>: Gebruikt in beperkte aantallen.</li>
             <li><strong>China</strong>: Ongeveer 100 exemplaren geproduceerd door het Jinglin Arsenal en gebruikt tijdens de Tweede Chinees-Japanse Oorlog.</li>
             <li><strong>Letland</strong>: 546 stuks gebruikt door het Lets Leger (in april 1936).</li>
             <li><strong>Syrische Staat</strong>: Gebruikt tijdens de Arabisch-Israëlische Oorlog van 1948.</li>
@@ -314,7 +313,7 @@ const weaponsData = [
           "magazijncapaciteit": "20 patronen",
           "land": "Frankrijk",
           "gebruik": "Militair",
-          "prijs": "Onbekend"
+          "prijs": "Europa = 2000 tot 5000 Euro, Amerika = 2000 tot 6000 Dollar"
         },
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Chauchat_1_%2850643241222%29_%28cropped%29.jpg/450px-Chauchat_1_%2850643241222%29_%28cropped%29.jpg"
       },
@@ -323,7 +322,7 @@ const weaponsData = [
         "id": 11,
         "naam": "M1918 Browning Automatic Rifle",
         "type": "Machinegeweer",
-        "periode": "Eerste Wereldoorlog - Korea Oorlog",
+        "periode": "Eerste Wereldoorlog",
         "jaar": "1918",
         "beschrijving": `
           <h3><strong>Ontstaan en Ontwikkeling</strong></h3>

@@ -365,6 +365,47 @@ const weaponsData = [
         },
         "image": "https://www.forgottenweapons.com/wp-content/uploads/2013/07/m1918bar-01-1024x323.jpg"
       },
+      {
+        "id": 12,
+        "naam": "Hakim Geweer",
+        "type": "Semi-Automatisch Geweer",
+        "periode": "Koude Oorlog",
+        "jaar": "1950",
+        "beschrijving": `
+          <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+          <p>Het Hakim-geweer werd geproduceerd door Egypte in de jaren 1950, gebaseerd op de Zweedse Ljungman AG-42B. Ontworpen door Erik Eklund, werd het aangepast voor 7,92×57mm Mauser-patronen vanwege bestaande munitievoorraden. Het vertegenwoordigde de modernisering van de Egyptische strijdkrachten na de revolutie van 1952.</p>
+      
+          <h4><strong>Gebruik en Geschiedenis</strong></h4>
+          <p>Het Hakim-geweer was uitgerust met een direct gasimpingement-systeem en een verstelbare gasregelaar. De terugslag werd verminderd door een geïntegreerde mondingsrem. Het werd voornamelijk door Egyptische troepen gebruikt en later vervangen door de AK-47. Ongeveer 70.000 exemplaren werden geproduceerd.</p>
+      
+          <h4><strong>Technische Kenmerken</strong></h4>
+          <p>Het Hakim-geweer had een 10-patronenmagazijn, een kantelbare grendel, en vuurde halfautomatisch. Het zware ontwerp met een looplengte van 638 mm maakte het wapen accuraat, maar zwaar.</p>
+      
+          <h4><strong>Gebruikers van het Hakim-Geweer</strong></h4>
+          <ul>
+            <li>Egypte</li>
+            <li>Syrië</li>
+            <li>Somalië</li>
+            <li>Togo</li>
+            <li>Irish National Liberation Army</li>
+          </ul> <br>
+      
+          <h4><strong>Erfenis</strong></h4>
+          <p>Ondanks zijn complexiteit blijft het Hakim-geweer een favoriet bij verzamelaars vanwege zijn unieke ontwerp en historische betekenis. Het illustreert Egypte's poging tot zelfvoorziening in wapenproductie.</p>
+        `,
+        "details": {
+          "gewicht": "4,75 kg",
+          "kaliber": "7,92×57mm Mauser",
+          "vuursnelheid": "Semi-Automatisch",
+          "magazijncapaciteit": "10 patronen",
+          "land": "Egypte",
+          "gebruik": "Militair",
+          "prijs": "Verzamelwaarde afhankelijk van staat"
+        },
+        "image": "https://www.pyramydair.com/blog/images/04-04-08-8mm.jpg"
+      },
+      
+      
       
       
     

@@ -367,10 +367,10 @@ const weaponsData = [
       },
       {
         "id": 12,
-        "naam": "Hakim Geweer",
+        "naam": "Hakim",
         "type": "Semi-Automatisch Geweer",
         "periode": "Koude Oorlog",
-        "jaar": "1950",
+        "jaar": "1950-1960",
         "beschrijving": `
           <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
           <p>Het Hakim-geweer werd geproduceerd door Egypte in de jaren 1950, gebaseerd op de Zweedse Ljungman AG-42B. Ontworpen door Erik Eklund, werd het aangepast voor 7,92×57mm Mauser-patronen vanwege bestaande munitievoorraden. Het vertegenwoordigde de modernisering van de Egyptische strijdkrachten na de revolutie van 1952.</p>
@@ -379,7 +379,7 @@ const weaponsData = [
           <p>Het Hakim-geweer was uitgerust met een direct gasimpingement-systeem en een verstelbare gasregelaar. De terugslag werd verminderd door een geïntegreerde mondingsrem. Het werd voornamelijk door Egyptische troepen gebruikt en later vervangen door de AK-47. Ongeveer 70.000 exemplaren werden geproduceerd.</p>
       
           <h4><strong>Technische Kenmerken</strong></h4>
-          <p>Het Hakim-geweer had een 10-patronenmagazijn, een kantelbare grendel, en vuurde halfautomatisch. Het zware ontwerp met een looplengte van 638 mm maakte het wapen accuraat, maar zwaar.</p>
+          <p>Het Hakim-geweer had een 10-patronenmagazijn, een kantelbare grendel, en vuurde semi-automatisch. Het zware ontwerp met een looplengte van 638 mm maakte het wapen accuraat, maar zwaar.</p>
       
           <h4><strong>Gebruikers van het Hakim-Geweer</strong></h4>
           <ul>

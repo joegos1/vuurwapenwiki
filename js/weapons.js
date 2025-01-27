@@ -404,6 +404,103 @@ const weaponsData = [
         },
         "image": "https://www.pyramydair.com/blog/images/04-04-08-8mm.jpg"
       },
+      {
+        "id": 13,
+        "naam": "Berthier Karabijn",
+        "type": "Grendel Geweer",
+        "periode": "Eerste Wereldoorlog",
+        "jaar": "1890-1960",
+        "beschrijving": `
+          <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+          <p>Het Berthier-geweer werd eind 19e eeuw ontwikkeld als een alternatief voor het oudere Lebel-geweer. Het ontwerp werd geleid door de Franse ingenieur André Virgile Paul Marie Berthier, die streefde naar een eenvoudiger en praktischer ontwerp voor de Franse infanterie en koloniale troepen. Het eerste model, de Mle 1890, werd in 1890 geïntroduceerd en was bedoeld voor de cavalerie.</p>
+          <br>
+          <h4><strong>Gebruik en Geschiedenis</strong></h4>
+          <p>Oorspronkelijk ontworpen voor cavalerie-eenheden, werd het Berthier-geweer tijdens de Eerste Wereldoorlog aangepast voor bredere infanteriegebruik. De vroege modellen hadden een magazijncapaciteit van drie patronen, wat tijdens de loopgravenoorlog als onvoldoende werd beschouwd. Dit leidde tot de introductie van de Mle 1916, met een vergroot vijfpatronenmagazijn. Het wapen werd ook gebruikt in latere conflicten, waaronder de Tweede Wereldoorlog, de Eerste Indochinese Oorlog en de Algerijnse Oorlog.</p>
+      <br>
+          <h4><strong>Varianten van het Berthier-geweer</strong></h4>
+          <ul>
+            <li><strong>Mle 1890:</strong> Het eerste model, ontwikkeld voor de cavalerie. Dit korte geweer had een magazijncapaciteit van drie patronen en werd gekamerd voor de 8×50mmR Lebel-patroon.</li>
+            <li><strong>Mle 1902:</strong> Een verbeterde variant ontworpen voor de Franse artillerie, met enkele aanpassingen aan de looplengte en de balans.</li>
+            <li><strong>Mle 1907:</strong> Speciaal ontworpen voor koloniale troepen, met een robuuster ontwerp om beter bestand te zijn tegen zware omstandigheden.</li>
+            <li><strong>Mle 1907/15:</strong> Een langere versie ontwikkeld voor de infanterie tijdens de Eerste Wereldoorlog. Dit model bleef het originele drievoudige magazijn gebruiken.</li>
+            <li><strong>Mle 1916:</strong> Een cruciale verbetering met een vergroot magazijn van vijf patronen, ontworpen om beter te voldoen aan de eisen van de loopgravenoorlog.</li>
+            <li><strong>Mle 1907/15-M34:</strong> Een gemoderniseerde versie aangepast voor de 7,5×54mm Franse munitie, bedoeld om te voldoen aan de nieuwe standaard van het Franse leger in de jaren 1930.</li>
+          </ul>
+      <br>
+          <h4><strong>Gebruikers van het Berthier-geweer</strong></h4>
+          <ul>
+            <li><strong>Keizerrijk Ethiopië:</strong> Veel wapens werden ontvangen als militaire hulp van Frankrijk. Sommige werden aangepast, zoals verkorte versies tot karabijnlengte (een proces dat ook op andere wapens werd toegepast, zoals de Lebel), andere hadden geïmproviseerde magazijnen of clips in plaats van de standaard en-bloc (zoals een Lee-Enfield clip).</li>
+            <li><strong>Frankrijk:</strong> Standaardwapen van het leger, zou langzaam de Lebel verdringen na de oorlog. Het bleef in gebruik tijdens de Duitse invasie van Frankrijk (zowel in de originele kaliber als in de M34-conversie).</li>
+            <li><strong>Nazi-Duitsland:</strong> Veroverd tijdens de invasie van Frankrijk, aangeduid als Gewehr 241(f) (M34), Gewehr 304(f) (Fusil 1916) en Karabiner 553(f) (Mousqueton 1916). Sommige werden opnieuw uitgegeven aan Volkssturm-eenheden aan het eind van de oorlog.</li>
+            <li><strong>Koninkrijk Griekenland:</strong> Ontvangen van Frankrijk tijdens de Eerste Wereldoorlog, bleef in gebruik bij achterlinietroepen gedurende de Tweede Wereldoorlog.</li>
+            <li><strong>Tweede Poolse Republiek:</strong> Overgebleven uit de Eerste Wereldoorlog naast de Lebel en Chauchat (via Franse hulp aan het Blauwe Leger), zou vervangen worden door Binnenlandse Mauser-ontwerpen in de jaren 1930. Sommige werden als surplus verkocht aan Spanje.</li>
+            <li><strong>Roemenië:</strong> Ontvangen van Frankrijk tijdens de Eerste Wereldoorlog; bleef in gebruik bij achterlinietroepen, reservisten en beveiligings eenheden tot het einde van de Tweede Wereldoorlog.</li>
+            <li><strong>Koninkrijk Servië:</strong> Ontvangen van Frankrijk tijdens de Eerste Wereldoorlog.</li>
+            <li><strong>Spaanse Republiek:</strong> Ontvangen tussen 37.400 en 50.000 geweren en karabijnen van Polen tijdens de Spaanse Burgeroorlog.</li>
+            <li><strong>Verenigd Koninkrijk:</strong> Een paar werden uitgegeven aan de Home Guard na Duinkerken; door een gebrek aan munitie werden ze snel weggegooid zodra andere geweren beschikbaar waren.</li>
+            <li><strong>Vietnam:</strong> Gebruikt door de Viet Minh tijdens de Eerste Indochinese Oorlog.</li>
+          </ul>
+        `,
+        "details": {
+          "gewicht": "3,1 kg (Mle 1892 Karabijn); 3,6 kg (Mle 1902); 3,81 kg (Mle 1907/15)",
+          "kaliber": "8×50mmR Lebel; 7,5×54mm Frans (Mle 1907/15-M34)",
+          "vuursnelheid": "Handmatig, afhankelijk van de schutter",
+          "magazijncapaciteit": "3-5 patronen",
+          "land": "Frankrijk",
+          "gebruik": "Militair",
+          "prijs": "Afhankelijk van model en staat"
+        },
+        "image": "https://i.namu.wiki/i/eUFYagT7OV0Sd_P7RtD2nb0ATp-fGrfsgN7Xeso1ljdn53-3Bl5P460SoRffj-TzIIN8wVMpAYaVeqPxQmEfiw.webp"
+      },
+      {
+        "id": 14,
+        "naam": "MAS 38",
+        "type": "Submachinegun",
+        "periode": "Interbellum",
+        "jaar": "1938",
+        "beschrijving": `
+          <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+          <p>De MAS 38 werd ontwikkeld aan het einde van de jaren 1930 door de Franse wapenfabriek Manufacture d'Armes de Saint-Étienne (MAS). Het ontwerp was gericht op het creëren van een compacte en efficiënte submachinegun voor de Franse strijdkrachten, specifiek voor gebruik in de stadsoorlog en door koloniale troepen. Het werd geïntroduceerd in 1938 en had als doel om de verouderde handvuurwapens van de Franse infanterie te vervangen.</p>
+      <br>
+          <h4><strong>Gebruik en Geschiedenis</strong></h4>
+          <p>De MAS 38 werd ingezet tijdens de Tweede Wereldoorlog en bleef in gebruik na de oorlog bij de Franse politie en in koloniale conflicten. Het wapen was geliefd om zijn betrouwbaarheid en gebruiksvriendelijkheid, ondanks beperkingen zoals het relatief zwakke 7,65×20mm Longue-kaliber. De Duitse bezetters gebruikten het na de overname van Frankrijk in 1940 en gaven het de benaming MP722(f).</p>
+          <p>Een berucht moment in de geschiedenis van de MAS 38 was de executie van Benito Mussolini in 1945 door Italiaanse partizanen, waarbij een MAS 38 werd gebruikt.</p>
+      <br>
+          <h4><strong>Varianten van de MAS 38</strong></h4>
+          <ul>
+            <li><strong>MAS 38:</strong> Het originele model, uitgerust met een magazijn voor 32 patronen en een kaliber van 7,65mm Longue.</li>
+            <li><strong>MAS 38 Karabijn:</strong> Een aangepaste versie met een langere loop en verbeterde nauwkeurigheid, voornamelijk gebruikt in koloniale gebieden.</li>
+          </ul>
+      <br>
+          <h4><strong>Gebruikers van de MAS 38</strong></h4>
+          <ul>
+            <li><strong>Frankrijk:</strong> Gebruikt door de Franse strijdkrachten, politie en speciale eenheden tijdens en na de Tweede Wereldoorlog. Ook ingezet tijdens koloniale conflicten zoals de Eerste Indochinese Oorlog.</li>
+            <li><strong>Duitsland:</strong> Na de Franse nederlaag in 1940 werden veel MAS 38-wapens in beslag genomen door de nazi's en opnieuw ingezet door Duitse troepen onder de naam MP722(f).</li>
+            <li><strong>Italië:</strong> Italiaanse partizanen gebruikten de MAS 38, waaronder bij de executie van Benito Mussolini in 1945.</li>
+            <li><strong>Vichy-Frankrijk:</strong> Vichy-troepen gebruikten ook de MAS 38 tijdens de bezetting.</li>
+            <li><strong>Franse Politie:</strong> Na de Tweede Wereldoorlog bleef de Franse politie de MAS 38 gebruiken totdat deze in de jaren 1950 werd vervangen door de MAT-49 submachinegun.</li>
+            <li><strong>Indochina:</strong> Franse troepen in koloniale gebieden gebruikten de MAS 38 als standaardwapen in de vroege fase van de Eerste Indochinese Oorlog.</li>
+            <li><strong>Politie en Verzetsgroepen:</strong> In verschillende Europese landen werden buitgemaakte MAS 38's gebruikt door verzetsbewegingen en als tijdelijke politie-uitrusting na de oorlog.</li>
+            <li><strong>Italië (Naoorlogse Politie):</strong> In Italië werd de MAS 38 na de oorlog gebruikt door politiediensten in beperkte mate, voornamelijk in rurale gebieden.</li>
+          </ul>
+        `,
+        "details": {
+          "gewicht": "2,87 kg",
+          "kaliber": "7,65×20mm Longue",
+          "vuursnelheid": "600-700 schoten per minuut",
+          "magazijncapaciteit": "32 patronen",
+          "land": "Frankrijk",
+          "gebruik": "Militair en politie",
+          "prijs": "Afhankelijk van model en staat"
+        },
+        "image": "https://pm1.aminoapps.com/7045/8b6293b08e077782dc18edf53bae983b0e3054d2r1-1225-800v2_00.jpg"
+      }
+      
+      
+      
+      
+      
+      
       
       
       

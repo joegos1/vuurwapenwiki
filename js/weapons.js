@@ -164,29 +164,59 @@ const weaponsData = [
       {
         "id": 7,
         "naam": "Geweer M.95",
-        "type": "Grendel Geweer",
-        "periode": "Eind 19e eeuw - Tweede Wereldoorlog",
+        "type": "Bolt-action geweer",
+        "periode": "Eerste Wereldoorlog en Interbellum",
         "jaar": "1895",
         "beschrijving": `
           <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
-          <p>Het Geweer M.95, ook wel bekend als de Dutch Mannlicher, werd in 1895 geïntroduceerd als het standaard dienstgeweer van de Nederlandse strijdkrachten. Het werd ontworpen door Ferdinand Mannlicher en geproduceerd door Steyr, later onder licentie vervaardigd bij de Artillerie Inrichtingen in Zaandam. Het geweer kent twee versies, namelijk de Mannlicher karabijn M.95 en het Mannlicher geweer M.95, Waarvan de karabijn variant kleiner en lichter is en voornamelijk gebruikt door het cavalerie.</p>
-      
-          <h4><strong>Gebruik en Productie</strong></h4>
-          <p>Het geweer werd gebruikt door het Nederlandse leger van 1895 tot 1940 en speelde een rol in conflicten zoals de Eerste en Tweede Wereldoorlog. In totaal werden er ongeveer 470.000 exemplaren geproduceerd.</p>
-      
-          <h4><strong>Technische Kenmerken</strong></h4>
-          <p>Het M.95-geweer maakte gebruik van een grendelactie en werd geladen met een 5-schots en-bloc clip. Het was berucht om zijn complexe mechanisme, maar stond bekend om zijn nauwkeurigheid en betrouwbaarheid.</p>
+          <p>Het Geweer M.95, ook bekend als het Mannlicher M1895, werd oorspronkelijk ontwikkeld door Oostenrijk-Hongarije als een modern infanteriegeweer. Het Nederlandse leger introduceerde echter een eigen variant van dit geweer, aangepast aan hun behoeften. Het geweer werd gekenmerkt door zijn rechtlijnige grendelactie en het gebruik van een en-bloc clip-systeem, wat het herladen vergemakkelijkte.</p>
+          <br>
+          <h4><strong>Gebruik en Geschiedenis</strong></h4>
+          <p>De Nederlandse variant van het Geweer M.95 werd ingezet tijdens de Eerste Wereldoorlog en bleef in gebruik tot ver in het Interbellum. Het geweer was populair vanwege zijn betrouwbaarheid en eenvoudige onderhoud. Tijdens de mobilisatie van Nederland in de Eerste Wereldoorlog werd het Geweer M.95 het standaardwapen van de Nederlandse infanterie. Hoewel Nederland neutraal bleef tijdens de oorlog, werd het geweer wel gebruikt voor training en defensie.</p>
+          <p>Na de Eerste Wereldoorlog bleef het Geweer M.95 in gebruik bij het Nederlandse leger en werd het ook ingezet tijdens de mobilisatie aan de vooravond van de Tweede Wereldoorlog. Het geweer werd uiteindelijk vervangen door modernere wapens, maar bleef nog lang in gebruik bij reserve-eenheden en bij de koloniale troepen in Nederlands-Indië.</p>
+          <br>
+          <h4><strong>Varianten van het Geweer M.95</strong></h4>
+          <ul>
+            <li><strong>Geweer M.95:</strong> Het originele model, uitgerust met een 5-patroons en-bloc clip en een kaliber van 6,5×53,5mmR.</li>
+            <li><strong>Karabijn No.1 Oud Model:</strong> Geïntroduceerd in 1896, ontworpen voor de cavalerie en de Marechaussee. Later werd het het officiële karabijn van het KNIL (Koninklijk Nederlands Indisch Leger) in 1911 (1925 voor niet-Europese eenheden in Java).</li>
+            <li><strong>Karabijn No.2:</strong> Voor de Koninklijke Marechaussee, uitgerust met een bajonetmes.</li>
+            <li><strong>Karabijn No.3:</strong> Pioniers- en artillerie-karabijnmodel.</li>
+            <li><strong>Karabijn No.4:</strong> Een verkorte versie van het M.95, ontworpen in 1909 voor de Nederlandse fietsentropen, met een houten bescherming aan de linkerkant van het magazijn.</li>
+            <li><strong>M.95 Loopgraafgeweer:</strong> Een periscoopgeweerversie van het M.95, ontworpen in 1916 voor loopgravenoorlogvoering.</li>
+            <li><strong>Nieuw Model varianten (rond 1930):</strong> Nieuwe versies van de No.1, No.2, No.3 en No.4 karabijnen.</li>
+            <li><strong>Karabijn No.5:</strong> Geïntroduceerd in 1936, een verkorte versie van het Geweer M.95. De eerste 9.500 werden uitgegeven aan veldartillerie en luchtafweerartillerie. In totaal werden 35.500 stuks omgebouwd.</li>
+          </ul>
+          <br>
+          <h4><strong>Beutewaffen-designaties</strong></h4>
+          <p>Na de Duitse bezetting van Nederland werden de buitgemaakte wapens (Beutewaffen) gecatalogiseerd voor Duits gebruik. Hierbij staat:</p>
+          <ul>
+            <li><strong>G 211 (h):</strong> Geweer M1895 (Mannlicher M1895 Infanteriegeweer).</li>
+            <li><strong>Gr. G 212 (h):</strong> Loopgraafgeweer M1895 (Mannlicher M1895 loopgraafgeweer).</li>
+            <li><strong>K 411 (h):</strong> Karabijn No.1 Nieuw Model (cavalerie).</li>
+            <li><strong>K 412 (h):</strong> Karabijn No.1 Oud Model (cavalerie).</li>
+            <li><strong>K 413 (h):</strong> Karabijn No.3 Oud Model & Nieuw Model (artillerie & pioniers).</li>
+            <li><strong>K 414 (h):</strong> Karabijn No.4 Oud Model & Nieuw Model (fietsentropen).</li>
+          </ul>
+          <p>De Karabijn No.2 werd niet geclassificeerd omdat er weinig tot geen exemplaren werden buitgemaakt. De Karabijn No.5 werd geclassificeerd als een Geweer M95.</p>
+          <br>
+          <h4><strong>Gebruikers van het Geweer M.95</strong></h4>
+          <ul>
+            <li><strong>Nederland:</strong> Gebruikt door het Nederlandse leger tijdens de Eerste Wereldoorlog en het Interbellum. Ook ingezet in Nederlands-Indië.</li>
+            <li><strong>Nederlands-Indië:</strong> Gebruikt door koloniale troepen en lokale eenheden.</li>
+            <li><strong>Duitsland:</strong> Buitgemaakt tijdens de Tweede Wereldoorlog en opnieuw ingezet door Duitse troepen onder de naam Gewehr 211(h).</li>
+            <li><strong>Indonesië:</strong> Gebruikt door Indonesische strijdkrachten tijdens de Indonesische Onafhankelijkheidsoorlog.</li>
+          </ul>
         `,
         "details": {
-          "gewicht": "4,35 kg (ongeladen)",
-          "kaliber": "6,5×53mmR",
-          "vuursnelheid": "Repetitie",
+          "gewicht": "4,1 kg",
+          "kaliber": "6,5×53,5mmR",
+          "vuursnelheid": "Bolt-action (enkele schoten)",
           "magazijncapaciteit": "5 patronen",
           "land": "Nederland",
           "gebruik": "Militair",
-          "prijs": "Niet beschikbaar"
+          "prijs": "Afhankelijk van model en staat"
         },
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Dutch_Mannlicher_M1895_rifle_noBG.png/640px-Dutch_Mannlicher_M1895_rifle_noBG.png"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Mannlicher_M1895_Dutch.jpg/220px-Mannlicher_M1895_Dutch.jpg"
       },
       
       {

@@ -656,6 +656,48 @@ const weaponsData = [
       },
       "image": "https://gcp-la8-storage-cdn.lot-art.com/public/upl/32/Swiss-Vetterli-Model-186971-Infantry-Rifle_1669676891_1311.jpg"
   },
+  {
+    "id": 18,
+    "naam": "FN Browning 1922",
+    "type": "Semiautomatisch pistool",
+    "periode": "Interbellum",
+    "jaar": "1922",
+    "beschrijving": `
+      <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+      <p>De FN Browning 1922, ook bekend als de Browning M.25, werd ontwikkeld door Fabrique Nationale (FN) in België als een verbeterde versie van de Browning 1910. Het wapen werd ontworpen door John Moses Browning en werd in 1922 geïntroduceerd. Het pistool werd aanvankelijk ontwikkeld voor het Koninkrijk van Serviërs, Kroaten en Slovenen (later Joegoslavië), maar werd al snel populair in heel Europa. Het was bedoeld als een betrouwbaar en compact wapen voor militaire en politiedoeleinden, met een langere loop en een vergroot magazijn ten opzichte van zijn voorganger.</p>
+      <br>
+      <h4><strong>Gebruik en Geschiedenis</strong></h4>
+      <p>De FN Browning 1922 werd tijdens het interbellum en de Tweede Wereldoorlog gebruikt door verschillende Europese landen, waaronder Nederland, Griekenland, Roemenië, Frankrijk, Denemarken en Finland. Het Nederlandse leger adopteerde het wapen als standaardpistool, waarbij het bekend werd als de Browning M.25. Tijdens de Duitse bezetting van België werd de productie van de FN Browning 1922 voortgezet onder Duits toezicht, en het wapen kreeg de Duitse benaming Pistol 626(b). Het werd voornamelijk uitgegeven aan Luftwaffe-personeel.</p>
+      <p>Na de oorlog bleef de FN Browning 1922 in gebruik bij verschillende politiediensten en legereenheden, waaronder de Belgische Rijkswacht en de West-Duitse strijdkrachten. Het wapen werd gewaardeerd om zijn betrouwbaarheid en eenvoudige ontwerp, waardoor het tot in de jaren 1970 en 1980 in dienst bleef.</p>
+      <br>
+      <h4><strong>Varianten van de FN Browning 1922</strong></h4>
+      <ul>
+        <li><strong>FN Browning 1922 (.32 ACP):</strong> Het originele model, uitgerust met een magazijn voor 9 patronen en een kaliber van 7,65x17mm SR.</li>
+        <li><strong>FN Browning 1922 (.380 ACP):</strong> Een variant met een kaliber van 9x17mm Browning Short, uitgerust met een magazijn voor 8 patronen. Deze versie werd later de standaard voor het Nederlandse leger en politie.</li>
+      </ul>
+      <br>
+      <h4><strong>Gebruikers van de FN Browning 1922</strong></h4>
+      <ul>
+        <li><strong>Nederland:</strong> Het Nederlandse leger en de politie gebruikten de FN Browning 1922 als standaardpistool tijdens en na de Tweede Wereldoorlog. Het wapen werd ook gebruikt door de Koninklijke Marechaussee en de douane.</li>
+        <li><strong>Duitsland:</strong> Tijdens de Tweede Wereldoorlog werd de FN Browning 1922 onder Duitse bezetting geproduceerd en uitgegeven aan Luftwaffe-personeel onder de naam Pistol 626(b). Daarnaast werden veel exemplaren buitgemaakt als Beutewaffen (buitgemaakte wapens) en hergebruikt door Duitse troepen, vooral in bezette gebieden.</li>
+        <li><strong>België:</strong> De Belgische Rijkswacht gebruikte de FN Browning 1922 tot in de jaren 1980, waarna het werd vervangen door modernere wapens.</li>
+        <li><strong>Joegoslavië:</strong> Het wapen werd oorspronkelijk ontwikkeld voor Joegoslavië en bleef in gebruik bij het leger en de politie.</li>
+        <li><strong>Frankrijk:</strong> De Franse strijdkrachten en politie gebruikten de FN Browning 1922 tijdens het interbellum en de Tweede Wereldoorlog.</li>
+        <li><strong>Denemarken en Finland:</strong> Beide landen adopteerden de FN Browning 1922 voor militaire en politiedoeleinden.</li>
+        <li><strong>West-Duitsland:</strong> Na de oorlog werd de FN Browning 1922 gebruikt door de West-Duitse strijdkrachten.</li>
+      </ul>
+    `,
+    "details": {
+      "gewicht": "0,675 kg (ongeladen)",
+      "kaliber": "7,65x17mm SR (.32 ACP), 9x17mm Browning Short (.380 ACP)",
+      "vuursnelheid": "Enkelschots",
+      "magazijncapaciteit": "8-9 patronen",
+      "land": "België",
+      "gebruik": "Militair en politie",
+      "prijs": "Afhankelijk van model en staat"
+    },
+    "image": "https://www.alloutdoor.com/wp-content/uploads/2022/03/FN-1922.png"
+  },
     
     
       

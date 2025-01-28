@@ -692,7 +692,7 @@ const weaponsData = [
       "kaliber": "7,65x17mm SR (.32 ACP), 9x17mm Browning Short (.380 ACP)",
       "vuursnelheid": "Enkelschots",
       "magazijncapaciteit": "8-9 patronen",
-      "land": "België",
+      "land": "Belgie",
       "gebruik": "Militair en politie",
       "prijs": "Afhankelijk van model en staat"
     },
@@ -731,7 +731,7 @@ const weaponsData = [
         "kaliber": "10,6×25 mm",
         "vuursnelheid": "Dubbelwerkend",
         "magazijncapaciteit": "6-schots cilinder",
-        "land": "Duitse Keizerrijk",
+        "land": "Duitsland",
         "gebruik": "Militair en civiel",
         "prijs": "Afhankelijk van model en staat"
     },

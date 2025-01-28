@@ -10,12 +10,13 @@ function setupEventListeners() {
     document.getElementById('searchInput').addEventListener('input', handleSearch);
     document.getElementById('periodFilter').addEventListener('change', handleFilters);
     document.getElementById('typeFilter').addEventListener('change', handleFilters);
+    document.getElementById('countryFilter').addEventListener('change', handleFilters); // Nieuwe filter
     document.getElementById('backButton').addEventListener('click', showOverview);
 }
 
 // Zoek en filter functies
 async function handleSearch(e) {
-    const query = e.target.value;
+    const query = e.target.value.toLowerCase();
     const results = await db.search(query);
     renderWeapons(results);
 }
@@ -23,7 +24,8 @@ async function handleSearch(e) {
 async function handleFilters() {
     const periode = document.getElementById('periodFilter').value;
     const type = document.getElementById('typeFilter').value;
-    const results = await db.filter(periode, type);
+    const land = document.getElementById('countryFilter').value; // Nieuwe filter
+    const results = await db.filter(periode, type, land); // Pas de filterfunctie aan
     renderWeapons(results);
 }
 
@@ -70,19 +72,4 @@ async function showWeaponDetail(id) {
 function showOverview() {
     document.getElementById('weapon-detail').classList.add('hidden');
     document.getElementById('weapons-grid').style.display = 'grid';
-}
-function setupEventListeners() {
-    document.getElementById('searchInput').addEventListener('input', handleSearch);
-    document.getElementById('periodFilter').addEventListener('change', handleFilters);
-    document.getElementById('typeFilter').addEventListener('change', handleFilters);
-    // Removed countryFilter event listener
-    document.getElementById('backButton').addEventListener('click', showOverview);
-}
-
-async function handleFilters() {
-    const periode = document.getElementById('periodFilter').value;
-    const type = document.getElementById('typeFilter').value;
-    // Removed land parameter
-    const results = await db.filter(periode, type);
-    renderWeapons(results);
 }

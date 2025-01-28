@@ -1,37 +1,31 @@
-// Simpele in-memory database implementatie
-class Database {
-    constructor() {
-        this.data = null;
-    }
+const db = {
+    weapons: [],
 
-    async initialize(data) {
-        this.data = data;
-    }
+    initialize(data) {
+        this.weapons = data;
+    },
 
-    async getAll() {
-        return this.data;
-    }
+    getAll() {
+        return this.weapons;
+    },
 
-    async getById(id) {
-        return this.data.find(item => item.id === id);
-    }
-
-    async search(query) {
-        query = query.toLowerCase();
-        return this.data.filter(item => 
-            item.naam.toLowerCase().includes(query) ||
-            item.periode.toLowerCase().includes(query) ||
-            item.type.toLowerCase().includes(query)
+    search(query) {
+        return this.weapons.filter(weapon =>
+            weapon.naam.toLowerCase().includes(query) ||
+            weapon.periode.toLowerCase().includes(query) ||
+            weapon.type.toLowerCase().includes(query)
         );
-    }
+    },
 
-    async filter(periode, type) {
-        return this.data.filter(item => {
-            const periodeMatch = !periode || item.periode === periode;
-            const typeMatch = !type || item.type === type;
-            return periodeMatch && typeMatch;
+    filter(periode, type, land) {
+        return this.weapons.filter(weapon => {
+            return (!periode || weapon.periode === periode) &&
+                   (!type || weapon.type === type) &&
+                   (!land || weapon.details.land === land);
         });
-    }
-}
+    },
 
-const db = new Database();
+    getById(id) {
+        return this.weapons.find(weapon => weapon.id === id);
+    }
+};

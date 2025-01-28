@@ -540,7 +540,94 @@ const weaponsData = [
           "prijs": "Afhankelijk van model en staat"
         },
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/MAS36_crop.jpg/220px-MAS36_crop.jpg"
-      }
+      },
+      {
+        "id": 16,
+        "naam": "M1871 Beaumont-geweer",
+        "type": "1-schots-geweer",
+        "periode": "Pre 1900",
+        "jaar": "1871",
+        "beschrijving": `
+            <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+            <p>Het Beaumont-geweer, officieel het M1871 Beaumont-geweer genoemd, werd ontworpen door de Nederlandse luitenant A.J.F. Beaumont. Dit enkelvoudig schietend geweer was bedoeld als standaardwapen voor het Nederlandse leger. Het ontwerp werd sterk beïnvloed door de ontwikkelingen van militaire vuurwapens in de 19e eeuw, met name het Italiaanse Vetterli-geweer. Het Beaumont-geweer maakte gebruik van een vergrendelsysteem dat het mogelijk maakte om veilig en betrouwbaar een enkel schot af te vuren.</p>
+            <p>In 1873 werd het oorspronkelijke ontwerp aangepast met een magazijnsysteem van de Oostenrijkse ingenieur Ferdinand Mannlicher, wat resulteerde in de M1871/88 Beaumont-Mannlicher. Dit verbeterde de vuurcapaciteit aanzienlijk, waardoor het geweer competitief bleef in een tijdperk van snelle technologische vooruitgang.</p>
+            <br>
+            <h4><strong>Gebruik en Geschiedenis</strong></h4>
+            <p>Het Beaumont-geweer werd door het Nederlandse leger ingevoerd in 1871 en diende als het primaire infanteriegeweer. Het was een betrouwbaar en stevig wapen dat gedurende decennia in gebruik bleef. Het geweer zag voornamelijk dienst binnen Nederland en in de overzeese koloniën. Hoewel het nooit op grote schaal werd ingezet in internationale conflicten, bleef het een symbool van de Nederlandse militaire modernisering in de late 19e eeuw.</p>
+            <p>Het geweer werd uiteindelijk verdrongen door nieuwere ontwerpen met hogere vuursnelheden en verbeterde magazijnsystemen. Tegen het begin van de 20e eeuw was het Beaumont-geweer grotendeels uitgefaseerd, hoewel het in sommige gebieden en bij reservetroepen nog beperkt werd gebruikt.</p>
+            <br>
+            <h4><strong>Vergelijking met het M1870 Vetterli-geweer</strong></h4>
+            <p>Het Beaumont-geweer was qua ontwerp vergelijkbaar met het Italiaanse M1870 Vetterli-geweer, dat eveneens een enkel schot per lading kon afvuren. Beide geweren werden aangepast om magazijnen te ondersteunen, waarmee ze beter aansloten bij de eisen van moderne oorlogsvoering. Het Vetterli-geweer stond bekend om zijn vroege toepassing van een magazijn, terwijl het Beaumont-geweer opviel door de introductie van de Mannlicher-aanpassingen, die het gebruiksgemak verbeterden.</p>
+            <br>
+            <h4><strong>Technische Specificaties en Varianten</strong></h4>
+            <ul>
+                <li><strong>M1871 Beaumont:</strong> Het originele ontwerp, een enkel schot per lading met een kaliber van 11 mm.</li>
+                <li><strong>M1871/88 Beaumont-Mannlicher:</strong> Een verbeterde versie met een magazijnsysteem van vijf patronen, gebaseerd op het ontwerp van Ferdinand Mannlicher.</li>
+            </ul>
+            <br>
+            <h4><strong>Gebruikers van het Beaumont-geweer</strong></h4>
+            <ul>
+                <li><strong>Nederland:</strong> Het primaire wapen van het Nederlandse leger en koloniale troepen in Nederlands-Indië.</li>
+                <li><strong>Nederlands-Indië:</strong> Ingezet in de koloniale gebieden door Nederlandse troepen.</li>
+            </ul>
+        `,
+        "details": {
+            "gewicht": "4,0 kg",
+            "kaliber": "11×52 mm R",
+            "vuursnelheid": "Enkel schot per lading",
+            "magazijncapaciteit": "1 patroon (M1871), 5 patronen (M1871/88)",
+            "land": "Nederland",
+            "gebruik": "Militair",
+            "prijs": "Afhankelijk van model en staat"
+        },
+        "image": "https://image.invaluable.com/housePhotos/bradfordsauction/42/688942/H22021-L233452509.jpg"
+    },
+
+    {
+      "id": 17,
+      "naam": "Vetterli 1869/1871",
+      "type": "Grendel Geweer",
+      "periode": "Pre 1900",
+      "jaar": "1869",
+      "beschrijving": `
+          <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+          <p>Het Vetterli-geweer, ontworpen door Friedrich Vetterli, was een innovatief Zwitsers repetitiegeweer dat werd ontwikkeld in de late 19e eeuw. Het oorspronkelijke model, de Vetterli Mod. 1869, was een van de eerste militaire geweren met een magazijnsysteem. Dit systeem maakte gebruik van een 11-patroons intern magazijn, wat destijds uitzonderlijk was. De Vetterli 1869 werd in 1871 verbeterd met technologische aanpassingen, wat resulteerde in de Vetterli 1869/1871.</p>
+          <p>Het geweer combineerde kenmerken van het Amerikaanse Henry-geweer, zoals het magazijnontwerp, met Europese precisie en robuustheid. Het was het eerste Zwitserse geweer dat gebruik maakte van een centraalvuurpatroon en een repetitiemechanisme, wat het een van de modernste geweren van zijn tijd maakte.</p>
+          <br>
+          <h4><strong>Gebruik en Geschiedenis</strong></h4>
+          <p>Het Vetterli-geweer werd door het Zwitserse leger in 1869 ingevoerd als standaardwapen. Het speelde een cruciale rol in de modernisering van de Zwitserse strijdkrachten. Hoewel het nooit in grote veldslagen werd gebruikt, omdat Zwitserland neutraal bleef, was het een belangrijk wapen voor de nationale verdediging.</p>
+          <p>De Vetterli 1869/1871 en zijn latere varianten werden ook geëxporteerd naar andere landen en dienden in een aantal koloniale conflicten. In de loop van de tijd werd het geweer aangepast voor verschillende doeleinden, zoals trainingswapens of ceremoniële functies, totdat het uiteindelijk werd vervangen door modernere wapens aan het einde van de 19e eeuw.</p>
+          <br>
+          <h4><strong>Varianten van het Vetterli-geweer</strong></h4>
+          <ul>
+              <li><strong>Vetterli Mod. 1869:</strong> Het originele model met een enkel schot en een intern magazijn van 11 patronen.</li>
+              <li><strong>Vetterli 1869/1871:</strong> Een verbeterde versie met aanpassingen aan de grendel en precisie.</li>
+              <li><strong>Vetterli 1878/81:</strong> Een verdere ontwikkeling met een verbeterde loop en betrouwbaarheid.</li>
+              <li><strong>Vetterli-Vitali:</strong> Een Italiaanse variant die werd aangepast met een extern magazijnsysteem, ontworpen door Giuseppe Vitali.</li>
+              <li><strong>Vetterli-karabijn:</strong> Een kortere versie van het geweer, bedoeld voor cavalerie en speciale eenheden.</li>
+          </ul>
+          <br>
+          <h4><strong>Gebruikers van het Vetterli-geweer</strong></h4>
+          <ul>
+              <li><strong>Zwitserland:</strong> Het standaardgeweer van het Zwitserse leger in de late 19e eeuw.</li>
+              <li><strong>Italië:</strong> Gebruikt door het Italiaanse leger na aanpassingen met het Vitali-magazijnsysteem.</li>
+              <li><strong>Griekenland:</strong> Beperkt gebruikt tijdens conflicten in de Balkan.</li>
+              <li><strong>Koloniale gebruikers:</strong> Exportversies werden ingezet in diverse koloniale conflicten in Afrika en Azië.</li>
+          </ul>
+      `,
+      "details": {
+          "gewicht": "4,5 kg",
+          "kaliber": "10,4×38 mm Rimfire",
+          "vuursnelheid": "Repetitie (enkele schoten)",
+          "magazijncapaciteit": "11 patronen",
+          "land": "Zwitserland",
+          "gebruik": "Militair",
+          "prijs": "Afhankelijk van model en staat"
+      },
+      "image": "https://gcp-la8-storage-cdn.lot-art.com/public/upl/32/Swiss-Vetterli-Model-186971-Infantry-Rifle_1669676891_1311.jpg"
+  },
+    
+    
       
       
       

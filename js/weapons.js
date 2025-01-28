@@ -164,7 +164,7 @@ const weaponsData = [
       {
         "id": 7,
         "naam": "Geweer M.95",
-        "type": "Bolt-action geweer",
+        "type": "Grendel Geweer",
         "periode": "Eerste Wereldoorlog en Interbellum",
         "jaar": "1895",
         "beschrijving": `
@@ -216,7 +216,7 @@ const weaponsData = [
           "gebruik": "Militair",
           "prijs": "Afhankelijk van model en staat"
         },
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Mannlicher_M1895_Dutch.jpg/220px-Mannlicher_M1895_Dutch.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Dutch_Mannlicher_M1895_carbine.jpg/563px-Dutch_Mannlicher_M1895_carbine.jpg"
       },
       
       {
@@ -528,7 +528,7 @@ const weaponsData = [
       {
         "id": 15,
         "naam": "MAS 36",
-        "type": "Bolt-action geweer",
+        "type": "Grendel Geweer",
         "periode": "Interbellum",
         "jaar": "1936",
         "beschrijving": `

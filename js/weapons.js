@@ -494,7 +494,54 @@ const weaponsData = [
           "prijs": "Afhankelijk van model en staat"
         },
         "image": "https://pm1.aminoapps.com/7045/8b6293b08e077782dc18edf53bae983b0e3054d2r1-1225-800v2_00.jpg"
+      },
+      {
+        "id": 15,
+        "naam": "MAS 36",
+        "type": "Bolt-action geweer",
+        "periode": "Interbellum",
+        "jaar": "1936",
+        "beschrijving": `
+          <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+          <p>De MAS 36 werd ontwikkeld in de jaren 1930 door de Franse wapenfabriek Manufacture d'Armes de Saint-Étienne (MAS) als opvolger van de verouderde Lebel- en Berthier-geweren. Het ontwerp was gericht op het creëren van een modern, betrouwbaar en nauwkeurig infanteriegeweer voor de Franse strijdkrachten. Het werd geïntroduceerd in 1936 en was bedoeld om het standaardwapen van de Franse infanterie te worden.</p>
+          <br>
+          <h4><strong>Gebruik en Geschiedenis</strong></h4>
+          <p>De MAS 36 werd ingezet tijdens de Tweede Wereldoorlog en bleef in gebruik bij de Franse strijdkrachten tot ver in de jaren 1950. Het geweer was bekend om zijn eenvoudige constructie en betrouwbaarheid, hoewel het relatief kort was in vergelijking met andere geweren uit die tijd. Tijdens de Duitse bezetting van Frankrijk werden veel MAS 36-geweren in beslag genomen en opnieuw ingezet door Duitse troepen onder de naam Gewehr 242(f).</p>
+          <p>Na de oorlog bleef de MAS 36 in gebruik bij Franse troepen tijdens koloniale conflicten, zoals de Eerste Indochinese Oorlog en de Algerijnse Oorlog. Het geweer werd uiteindelijk vervangen door het semi-automatische MAS 49-geweer.</p>
+          <br>
+          <h4><strong>Varianten van de MAS 36</strong></h4>
+          <ul>
+            <li><strong>MAS 36:</strong> Het originele model, uitgerust met een 5-patroons intern magazijn en een kaliber van 7,5×54mm Frans.</li>
+            <li><strong>MAS 36 CR39:</strong> Een aangepaste versie met een opvouwbare kolf, speciaal ontworpen voor parachutisten.</li>
+            <li><strong>MAS 36 LG48:</strong> Een granaatwerperversie, uitgerust met een granaatwerper aan de loop.</li>
+          </ul>
+          <br>
+          <h4><strong>Gebruikers van de MAS 36</strong></h4>
+          <ul>
+            <li><strong>Algerije:</strong> Gebruikt door Algerijnse strijdkrachten en rebellen tijdens de Algerijnse Onafhankelijkheidsoorlog.</li>
+            <li><strong>Cambodja:</strong> Gebruikt tijdens de Cambodjaanse Burgeroorlog en door de Khmer Rouge.</li>
+            <li><strong>Frankrijk:</strong> Gebruikt door de Vrije Franse Strijdkrachten, het Franse Verzet, het Vichy-regime en het naoorlogse Franse leger.</li>
+            <li><strong>Laos:</strong> Buitgemaakt tijdens de Eerste Indochinese Oorlog en de Vietnamoorlog. Ook gebruikt door het Koninkrijk Laos, dat het geweer ontving van de Franse regering.</li>
+            <li><strong>Monaco:</strong> Gebruikt door de Compagnie des Carabiniers du Prince.</li>
+            <li><strong>Marokko:</strong> Gebruikt door de Koninklijke Marokkaanse Strijdkrachten en het Marokkaanse Bevrijdingsleger.</li>
+            <li><strong>Nazi-Duitsland:</strong> Aangeduid als Gewehr 242(f). Uitgegeven aan bezettingstroepen in Frankrijk en Volkssturm-eenheden.</li>
+            <li><strong>Polen:</strong> Gebruikt door enkele eenheden van het Poolse leger in Frankrijk in 1940.</li>
+            <li><strong>Vietnam:</strong> Gebruikt door zowel Noord- als Zuid-Vietnamese strijdkrachten.</li>
+            <li><strong>Niet-statelijke gebruikers:</strong> Gebruikt door ISIL-strijders in 2019.</li>
+          </ul>
+        `,
+        "details": {
+          "gewicht": "3,7 kg",
+          "kaliber": "7,5×54mm Frans",
+          "vuursnelheid": "Bolt-action (enkele schoten)",
+          "magazijncapaciteit": "5 patronen",
+          "land": "Frankrijk",
+          "gebruik": "Militair",
+          "prijs": "Afhankelijk van model en staat"
+        },
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/MAS36_crop.jpg/220px-MAS36_crop.jpg"
       }
+      
       
       
       

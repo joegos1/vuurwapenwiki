@@ -656,6 +656,47 @@ const weaponsData = [
       },
       "image": "https://gcp-la8-storage-cdn.lot-art.com/public/upl/32/Swiss-Vetterli-Model-186971-Infantry-Rifle_1669676891_1311.jpg"
   },
+
+  {
+    "id": 18,
+    "naam": "M1897 Reichsrevolver",
+    "type": "Revolver",
+    "periode": "19e eeuw",
+    "jaar": "1897",
+    "beschrijving": `
+        <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+        <p>De M1897 Reichsrevolver werd ontwikkeld als een verbeterde versie van de eerder ingevoerde M1879 Reichsrevolver. Deze revolvers waren ontworpen als standaard zijwapens voor het Duitse Keizerlijke leger. Ze werden geproduceerd om een robuust, betrouwbaar en eenvoudig te onderhouden wapen te bieden voor officiers en cavalerie-eenheden. De M1897 had een compacter ontwerp in vergelijking met zijn voorganger, waardoor hij beter geschikt was voor dragen en gebruik in het veld.</p>
+        <p>De revolver had een dubbelwerkend mechanisme, een moderne verbetering ten opzichte van het enkelwerkende mechanisme van de M1879. Dit maakte het mogelijk om sneller te vuren, wat het een praktisch voordeel gaf in gevechtssituaties.</p>
+        <br>
+        <h4><strong>Gebruik en Geschiedenis</strong></h4>
+        <p>De Reichsrevolver was een standaard zijwapen van het Duitse leger in de late 19e eeuw en bleef in dienst tot de vroege jaren van de 20e eeuw. Hoewel het ontwerp robuust was, werd het beschouwd als verouderd tegen de tijd dat semi-automatische pistolen zoals de Luger P08 in gebruik werden genomen. Het wapen werd voornamelijk gebruikt tijdens militaire trainingen en door reservetroepen.</p>
+        <p>De M1897 Reichsrevolver werd uiteindelijk uitgefaseerd, maar bleef beperkt in gebruik bij politiemachten en burgerwachten in Duitsland. Ook doken sommige exemplaren op in de Eerste Wereldoorlog, hoewel ze toen al grotendeels waren vervangen door modernere pistolen.</p>
+        <br>
+        <h4><strong>Technische Specificaties en Varianten</strong></h4>
+        <ul>
+            <li><strong>M1879 Reichsrevolver:</strong> Het originele model, bekend om zijn lange loop en enkelwerkend mechanisme.</li>
+            <li><strong>M1897 Reichsrevolver:</strong> Een compactere, dubbelwerkende variant van het oorspronkelijke ontwerp.</li>
+        </ul>
+        <br>
+        <h4><strong>Gebruikers van de Reichsrevolver</strong></h4>
+        <ul>
+            <li><strong>Duitsland:</strong> Het standaard zijwapen van het Keizerlijke Duitse leger tot de introductie van de Luger P08.</li>
+            <li><strong>Politie en burgerwachten:</strong> In gebruik bij lokale veiligheidsdiensten na de militaire uitfasering.</li>
+        </ul>
+    `,
+    "details": {
+        "gewicht": "1,0 kg",
+        "kaliber": "10,6×25 mm",
+        "vuursnelheid": "Dubbelwerkend",
+        "magazijncapaciteit": "6-schots cilinder",
+        "land": "Duitse Keizerrijk",
+        "gebruik": "Militair en civiel",
+        "prijs": "Afhankelijk van model en staat"
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Germany_revolver%2C_Model_1883%2C_10.55_mm%2C_issued_to_1st_Sanitary_Company%2C_9th_Hospital_Train%2C_Prussian_Army_-_National_World_War_I_Museum_-_Kansas_City%2C_MO_-_DSC07480.JPG/640px-thumbnail.jpg"
+},
+
+
     
     
       

@@ -881,6 +881,51 @@ const weaponsData = [
   },
   "image": "https://modernfirearms.net/userfiles/images/rifle/DE/1343412604.jpg"
 },
+{
+  "id": 22,
+  "naam": "MP 34 / Solothurn S1-100",
+  "type": "Machinepistool",
+  "periode": "Interbellum / Tweede Wereldoorlog",
+  "jaar": "1929",
+  "beschrijving": `
+    <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+    <p>De MP 34, ook bekend als de Solothurn S1-100, werd ontworpen door Louis Stange en geproduceerd door de Oostenrijkse wapenfabrikant Steyr-Solothurn. Het ontwerp was gebaseerd op de Duitse Bergmann MP18 en werd in eerste instantie ontwikkeld door Rheinmetall. Vanwege de beperkingen van het Verdrag van Versailles werd de productie uitbesteed aan de Zwitserse dochteronderneming Solothurn en later in licentie vervaardigd door Steyr in Oostenrijk.</p>
+    <br>
+    <h4><strong>Gebruik en Geschiedenis</strong></h4>
+    <p>De MP 34 werd beschouwd als een van de beste machinepistolen van zijn tijd, met een uitzonderlijke afwerkingskwaliteit en betrouwbaarheid. Het wapen werd aanvankelijk gebruikt door de Oostenrijkse Bundesheer en later overgenomen door het Duitse leger na de Anschluss van 1938. Tijdens de Tweede Wereldoorlog werd de MP 34 in beperkte mate gebruikt door Duitse eenheden, vooral politie- en achterhoede-eenheden, vanwege de hoge productiekosten en complexiteit.</p>
+    <p>Naast Oostenrijk en Duitsland werd de MP 34 geëxporteerd naar verschillende landen en gebruikt door militaire en politie-eenheden wereldwijd. Na de oorlog bleef het wapen in sommige landen in gebruik, vooral bij politie- en paramilitaire eenheden.</p>
+    <br>
+    <h4><strong>Varianten van de MP 34</strong></h4>
+    <ul>
+      <li><strong>MP 34 (Steyr-Solothurn):</strong> De standaardversie geproduceerd in Oostenrijk.</li>
+      <li><strong>S1-100:</strong> De exportversie van de MP 34, vaak aangepast aan verschillende kalibers.</li>
+      <li><strong>Portugese MP 34:</strong> Speciale versie in dienst bij het Portugese leger.</li>
+      <li><strong>Spaanse MP 34:</strong> In beperkte aantallen gebruikt tijdens de Spaanse Burgeroorlog.</li>
+    </ul>
+    <br>
+    <h4><strong>Gebruikers van de MP 34</strong></h4>
+    <ul>
+      <li><strong>Oostenrijk:</strong> Het Oostenrijkse leger gebruikte de MP 34 tot de annexatie door Duitsland.</li>
+      <li><strong>Duitsland:</strong> Gebruikt door de Wehrmacht en de Ordnungspolizei tijdens de Tweede Wereldoorlog.</li>
+      <li><strong>Portugal:</strong> In dienst bij de Portugese strijdkrachten tot in de jaren '60.</li>
+      <li><strong>Spanje:</strong> Beperkt gebruik tijdens de Spaanse Burgeroorlog.</li>
+      <li><strong>China:</strong> Sommige exemplaren werden geëxporteerd naar Chinese strijdkrachten.</li>
+      <li><strong>Brazilië:</strong> Gebruikt door politie- en militaire eenheden.</li>
+      <li><strong>Bolivia:</strong> Ingezet tijdens conflicten in Zuid-Amerika.</li>
+    </ul>
+  `,
+  "details": {
+    "gewicht": "4,25 kg (ongeladen)",
+    "kaliber": "9x19mm Parabellum (standaard), ook beschikbaar in andere kalibers",
+    "vuursnelheid": "500-600 schoten per minuut",
+    "magazijncapaciteit": "20 tot 32 patronen",
+    "land": "Oostenrijk",
+    "gebruik": "Militair en politie",
+    "prijs": "Afhankelijk van model en staat"
+  },
+  "image": "https://i.pinimg.com/736x/47/c1/82/47c182899092c356084548778cb57ed5.jpg"
+}
+
 
 
     

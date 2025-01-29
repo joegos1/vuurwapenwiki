@@ -794,6 +794,52 @@ const weaponsData = [
   },
   "image": "https://preview.redd.it/q679csg8v3u31.jpg?width=640&crop=smart&auto=webp&s=7079db4359792d5ec43e296bd94b4451cd8918e9"
 },
+{
+  "id": 21,
+  "naam": "Gewehr 88",
+  "type": "Handmatig repetitie geweer",
+  "periode": "Laat 19e eeuw - Eerste Wereldoorlog",
+  "jaar": "1888",
+  "beschrijving": `
+    <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+    <p>De Gewehr 88, of Kommissionsgewehr, werd geïntroduceerd in een tijdperk van snelle militaire technologische vooruitgang, vooral na de introductie van rookvrij kruit door de Fransen met hun Lebel-geweer in 1886. Duitsland, dat zijn militaire superioriteit wilde behouden, reageerde snel door een commissie op te richten die een nieuw geweer moest ontwikkelen. Dit resulteerde in de Gewehr 88, die in 1888 werd aangenomen. Het was een van de eerste geweren die de nieuwe 8x57mm munitie gebruikte, die significant grotere reikwijdte en penetratievermogen bood dan eerdere modellen.</p>
+    <br>
+    <h4><strong>Gebruik en Historische Context</strong></h4>
+    <p>In de late 19e eeuw, tijdens de Duitse koloniale expansie in Afrika en het Verre Oosten, werd de Gewehr 88 gebruikt in gevechten zoals de Herero- en Nama-opstand in Duitse Zuidwest-Afrika en de strijd tegen de Boxers in China. Het geweer was een symbool van Duitse militaire modernisering en industrialisatie, weerspiegelend de groei van het Duitse Rijk als een wereldmacht.</p>
+    <p>Met het uitbreken van de Eerste Wereldoorlog bleek de Gewehr 88, hoewel al verouderd, nog steeds nuttig. Duitse troepen, vooral reservisten, tweede linie en niet-frontlinie eenheden, werden ermee uitgerust vanwege de hoge productie en beschikbaarheid ervan. Het werd ook gebruikt bij de verdediging van het Duitse moederland en in de loopgravenoorlog waar langeafstandsschoten minder doorslaggevend waren.</p>
+    <p>De invoering van de S-patrone (Spitzgeschoss, spitsvormige kogel) in 1905, die een hogere druk produceerde, maakte de aanpassing van de Gewehr 88 noodzakelijk. Dit leidde tot de 88/05 variant, die de Duitse militairen in staat stelde om een meer effectieve munitie te gebruiken zonder volledige vervanging van hun wapens. Dit was een strategische beslissing om de kosten laag te houden terwijl de vuurkracht werd verhoogd.</p>
+    <br>
+    <h4><strong>Varianten van de Gewehr 88</strong></h4>
+    <ul>
+      <li><strong>Gewehr 88/05:</strong> Met aanpassingen voor de S-patrone, waaronder een versterkte kamer en aangepast vizier.</li>
+      <li><strong>Karabiner 88:</strong> Ontwikkeld voor mobiele troepen zoals cavalerie, met een kortere loop voor snellere verplaatsing.</li>
+      <li><strong>Gewehr 91:</strong> Een variant voor artillerie en genie, nog korter dan de Karabiner 88, voor gespecialiseerde taken.</li>
+      <li><strong>Hanyang 88:</strong> Een Chinese productie die de Duitse technologie naar Azië bracht, gebruikt in de Qing-dynastie en later door de Nationalisten.</li>
+      <li><strong>Turkse Gewehr 88/05/35:</strong> Een aangepaste versie voor de Ottomaanse (later Turkse) troepen, reflecterend de militaire samenwerking tussen Duitsland en het Ottomaanse Rijk.</li>
+      <li><strong>Bayerische Gewehr 88:</strong> Een regionale variant met specifieke Beierse kenmerken, symbolisch voor de semi-autonome militaire structuur binnen het Duitse Rijk.</li>
+      <li><strong>Commissie Rifle:</strong> De benaming in Engelstalige landen, vaak voor exportmodellen, benadrukkend de internationale handel in wapens tijdens deze periode.</li>
+    </ul>
+    <br>
+    <h4><strong>Gebruikers van de Gewehr 88</strong></h4>
+    <ul>
+      <li><strong>Duitsland:</strong> Het geweer symboliseerde de Duitse militaire innovatie en was cruciaal in de koloniale expansie en de Eerste Wereldoorlog.</li>
+      <li><strong>Turkije (Ottomaanse Rijk):</strong> Massale aankoop en aanpassing reflecteren de Duitse invloed en militaire samenwerking tijdens de Balkanoorlogen en WWI.</li>
+      <li><strong>China:</strong> De Hanyang 88 werd een symbool van modernisering tijdens de eindfase van de Qing-dynastie en de turbulente periode van de Chinese Burgeroorlog.</li>
+      <li><strong>Brazilië, Bulgarije, Ethiopië, Peru, Chili:</strong> Het gebruik in deze landen toont de globale verspreiding van Duitse wapentechnologie en de geopolitieke dynamiek van de tijd.</li>
+      <li><strong>Verenigde Staten, Mexico:</strong> Na WWI werden veel Gewehr 88's naar de VS gebracht als oorlogstrofeeën, terwijl Mexico ze gebruikte tijdens de Revolutie, illustrerend hoe wapens uit Europese conflicten andere regionale conflicten beïnvloedden.</li>
+    </ul>
+  `,
+  "details": {
+    "gewicht": "3,9 kg (ongeladen)",
+    "kaliber": "8x57mm I (origineel), later 8x57mm IS (S-patrone)",
+    "vuursnelheid": "Handmatig repetitie",
+    "magazijncapaciteit": "5 patronen (en-bloc clip)",
+    "land": "Duitsland",
+    "gebruik": "Militair, Jacht, Sport",
+    "prijs": "Afhankelijk van staat, variant en historisch belang"
+  },
+  "image": "https://modernfirearms.net/userfiles/images/rifle/DE/1343412604.jpg"
+},
 
 
     

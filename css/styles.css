@@ -17,6 +17,8 @@ header {
     background-color: #4b5320; /* Military green */
     color: white;
     padding: 1rem 0;
+    text-decoration: none;
+    color: white;
     animation: slideDown 0.8s ease-out;
 }
 .weapon-card img {
@@ -41,6 +43,7 @@ nav {
     font-size: 1.5rem;
     font-weight: bold;
     opacity: 0;
+    text-decoration: none;
     animation: slideRight 0.8s ease-out forwards;
     animation-delay: 0.5s;
 }

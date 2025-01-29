@@ -737,6 +737,63 @@ const weaponsData = [
     },
     "image": "https://gcp-la8-storage-cdn.lot-art.com/public/upl/50/Revolver-a-good-M1879-106mm-Reichsrevolver-made-in-1887_1624173676_5772.jpg"
 },
+{
+  "id": 20,
+  "naam": "Luger P08",
+  "type": "Pistool",
+  "periode": "Eerste Wereldoorlog",
+  "jaar": "1900",
+  "beschrijving": `
+    <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+    <p>De Luger P08, ook bekend als de Parabellum-Pistole of P08, werd ontworpen door Georg Luger en Hugo Borchardt. Het pistool werd geïntroduceerd in 1900 door Deutsche Waffen und Munitionsfabriken (DWM) en werd al snel de standaarddienstpistool van het Duitse leger. De naam "Luger" verwijst naar de ontwerper, terwijl "Parabellum" afkomstig is van de Latijnse uitdrukking "Si vis pacem, para bellum" (als je vrede wilt, bereid je voor op oorlog), wat de oorlogsmotivatie van het ontwerp weerspiegelt.</p>
+    <br>
+    <h4><strong>Gebruik en Geschiedenis</strong></h4>
+    <p>De Luger P08 werd vooral beroemd tijdens de Eerste Wereldoorlog, waar het wijdverbreid werd gebruikt door Duitse troepen. Het pistool werd gewaardeerd om zijn precisie en de unieke toggle-link mechaniek, hoewel het ook complex en duur was om te produceren. Tijdens de Tweede Wereldoorlog werd de Luger nog steeds gebruikt, maar in mindere mate omdat het werd vervangen door de meer kosteneffectieve Walther P38. De Luger bleef echter een symbool van Duitse militaire geschiedenis.</p>
+    <p>Na de oorlog werden Lugerpistolen vaak verzameld als oorlogssouvenirs, en ze blijven populair bij wapenverzamelaars vanwege hun historische waarde en design.</p>
+    <br>
+    <h4><strong>Varianten van de Luger P08</strong></h4>
+    <ul>
+      <li><strong>Luger P08 (9mm Parabellum):</strong> De standaardversie met een 8-patronen magazijn.</li>
+      <li><strong>Artillery Luger:</strong> Een variant met een langere loop van 200 mm en een schouderholster, vaak gebruikt door artillerieofficieren.</li>
+      <li><strong>Navy Luger:</strong> Gebruikt door de Duitse marine, met een langere loop en een magazijn voor 12 patronen.</li>
+      <li><strong>Luger P04:</strong> Een marinevariant met een 200 mm loop en trommelmagazijn voor langeafstandsschieten.</li>
+      <li><strong>Luger P17:</strong> Een versimpelde WWI-versie met minder decoratie om productiekosten te verlagen.</li>
+      <li><strong>Luger Carbine:</strong> Geconverteerde Lugers met een lange loop voor gebruik als karabijn.</li>
+      <li><strong>Commercial Luger:</strong> Varianten voor de burgermarkt, vaak met decoratieve gravures.</li>
+      <li><strong>Albanese Luger:</strong> Speciaal voor Albanië vervaardigd, met unieke markeringen.</li>
+      <li><strong>Brazilliaanse Luger:</strong> Een model dat werd geëxporteerd naar Brazilië, met een .45 ACP kaliber variant.</li>
+    </ul>
+    <br>
+    <h4><strong>Gebruikers van de Luger P08</strong></h4>
+    <ul>
+      <li><strong>Duitsland:</strong> Het Duitse leger, de marine en de luchtmacht gebruikten de Luger tijdens beide wereldoorlogen.</li>
+      <li><strong>Zwitzerland:</strong> Zwitserland kocht een aantal Lugers vóór de Eerste Wereldoorlog voor hun leger.</li>
+      <li><strong>Verenigde Staten:</strong> Veel Lugers werden na de oorlogen door Amerikaanse soldaten als oorlogstrofeeën meegenomen.</li>
+      <li><strong>Nederland:</strong> Gebruikt door het KNIL en de Koninklijke Marine, vooral in koloniale gebieden.</li>
+      <li><strong>België:</strong> Door de Belgische strijdkrachten en politie tijdens de interbellumperiode.</li>
+      <li><strong>Finland:</strong> Gebruikt in de Finse Onafhankelijkheidsoorlog en Winteroorlog.</li>
+      <li><strong>Bulgarije:</strong> Tot de Tweede Wereldoorlog als standaarddienstpistool voor officieren.</li>
+      <li><strong>Turkije:</strong> Gebruikt door het Ottomaanse leger en later het Turkse leger.</li>
+      <li><strong>Albanië:</strong> Voor hun militairen, vaak met lokale aanpassingen.</li>
+      <li><strong>Brazilië:</strong> Speciaal model voor de Braziliaanse politie en militairen.</li>
+      <li><strong>Portugal:</strong> Voornamelijk door hun mariniers tijdens de Eerste Wereldoorlog.</li>
+      <li><strong>Joegoslavië:</strong> Gebruikt door het Koninkrijk Joegoslavië voor hun officieren.</li>
+      <li><strong>Polen:</strong> Vooral na WWI, toen ze verschillende wapens van Duitse makelij overnamen.</li>
+      <li><strong>Noorwegen:</strong> Tot in de jaren '80 in beperkte mate door politie en militairen.</li>
+      <li><strong>Zweden:</strong> Beperkt gebruik door de Zweedse marine tijdens de interbellumperiode.</li>
+    </ul>
+  `,
+  "details": {
+    "gewicht": "0,87 kg (ongeladen)",
+    "kaliber": "9x19mm Parabellum",
+    "vuursnelheid": "Enkelschots",
+    "magazijncapaciteit": "8 patronen (standaard)",
+    "land": "Duitsland",
+    "gebruik": "Militair",
+    "prijs": "Afhankelijk van model en staat"
+  },
+  "image": "https://preview.redd.it/q679csg8v3u31.jpg?width=640&crop=smart&auto=webp&s=7079db4359792d5ec43e296bd94b4451cd8918e9"
+},
 
 
     

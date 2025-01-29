@@ -735,7 +735,7 @@ const weaponsData = [
         "gebruik": "Militair en civiel",
         "prijs": "Afhankelijk van model en staat"
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Germany_revolver%2C_Model_1883%2C_10.55_mm%2C_issued_to_1st_Sanitary_Company%2C_9th_Hospital_Train%2C_Prussian_Army_-_National_World_War_I_Museum_-_Kansas_City%2C_MO_-_DSC07480.JPG/640px-thumbnail.jpg"
+    "image": "https://gcp-la8-storage-cdn.lot-art.com/public/upl/50/Revolver-a-good-M1879-106mm-Reichsrevolver-made-in-1887_1624173676_5772.jpg"
 },
 
 

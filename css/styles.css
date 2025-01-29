@@ -328,3 +328,7 @@ footer {
 .weapon-image:hover {
     transform: scale(1.05);
 }
+.fotos {
+    border: black 1px solid;
+    border-radius: 20px;
+}

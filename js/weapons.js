@@ -797,7 +797,7 @@ const weaponsData = [
 {
   "id": 21,
   "naam": "Gewehr 88",
-  "type": "Handmatig repetitie geweer",
+  "type": "Grendel Geweer",
   "periode": "Laat 19e eeuw - Eerste Wereldoorlog",
   "jaar": "1888",
   "beschrijving": `
@@ -813,27 +813,28 @@ const weaponsData = [
 <ul class="content-list">
   <li class="list-item">
     <div class="list-item-title">Gewehr 88/05 (1905)</div>
-    <div class="list-item-content">Belangrijkste modernisering voor de nieuwe S-Munition, met versterkte loop, gewijzigde trekken en een verstelbaar vizier tot 2.000 meter.</div>
-  </li>
+    <div class="list-item-content">Belangrijkste modernisering voor de nieuwe S-Munition, met versterkte loop, gewijzigde trekken en een verstelbaar vizier tot 2.000 meter.</div> 
+    <img class= "fotos" src="https://images.squarespace-cdn.com/content/v1/5f8af05fac0b6b2f1661cc0b/38d3da8f-9ef4-4e5c-bc9a-3dd36664212e/Rifle.jpg" alt="Girl in a jacket" width="600" height="400"/> <br>
+  </li> <br>
   <li class="list-item">
     <div class="list-item-title">Karabiner 88 (1890)</div>
     <div class="list-item-content">Cavalerieversie met 490 mm loop en karakteristieke haak voor paardrijdend gebruik, ontworpen voor betere handelbaarheid te paard.</div>
+    <img class= "fotos" src="https://upload.wikimedia.org/wikipedia/commons/5/55/Karabiner_M_1888_S_MHM_noBG.png" alt="Karabiner 88" width="700" height="200"/> <br>
   </li>
   <li class="list-item">
     <div class="list-item-title">Gewehr 91 (1891)</div>
     <div class="list-item-content">Artillerie-uitvoering met unieke bajonetbevestiging en 460 mm loop, speciaal voor ondersteuningseenheden.</div>
+    <img class= "fotos" src="https://www.highwoodclassicarms.co.uk/Firerms%20For%20Sale/0229/1.JPG" alt="Gewehr 91 (1891)" width="700" height="200"/> <br>
   </li>
   <li class="list-item">
     <div class="list-item-title">Hanyang 88 (1895-1944)</div>
     <div class="list-item-content">Chinese licentieproductie met lokale modificaties. Ruim 1 miljoen geproduceerde exemplaren gebruikt tot in de Koreaanse Oorlog.</div>
+    <img class= "fotos" src="https://preview.redd.it/pxkejfzrs2o71.jpg?auto=webp&s=dd51264f2d12f188ad6a8f203ced5514cba9b3fd" alt="Hanyang 88 (1895-1944)" width="600" height="300"/> <br>
   </li>
   <li class="list-item">
     <div class="list-item-title">Ottomaanse M1890 (1914)</div>
     <div class="list-item-content">Turkse conversie naar 7.65×53mm Mauser kaliber, herkenbaar aan Arabische inscripties en speciaal vizier voor bergoorlogvoering.</div>
-  </li>
-  <li class="list-item">
-    <div class="list-item-title">Bayerische Model 1888</div>
-    <div class="list-item-content">Uitgerust met typisch Beiers sluitstuk en houten handguard, geproduceerd door Amberg tot 1897 voor regionale troepen.</div>
+    <img class= "fotos" src="https://preview.redd.it/proud-to-present-my-newest-acquisition-ottoman-mauser-1893-v0-bfzkq7cwyavc1.jpeg?width=4080&format=pjpg&auto=webp&s=bb78e2d4df74383ec2508bc7981659b39e403494" alt="Ottomaanse Mauser (1914)" width="400" height="250"/> <br>
   </li>
   <li class="list-item">
     <div class="list-item-title">Commissiegewehr (Export)</div>

@@ -809,25 +809,65 @@ const weaponsData = [
     <p>Met het uitbreken van de Eerste Wereldoorlog bleek de Gewehr 88, hoewel al verouderd, nog steeds nuttig. Duitse troepen, vooral reservisten, tweede linie en niet-frontlinie eenheden, werden ermee uitgerust vanwege de hoge productie en beschikbaarheid ervan. Het werd ook gebruikt bij de verdediging van het Duitse moederland en in de loopgravenoorlog waar langeafstandsschoten minder doorslaggevend waren.</p>
     <p>De invoering van de S-patrone (Spitzgeschoss, spitsvormige kogel) in 1905, die een hogere druk produceerde, maakte de aanpassing van de Gewehr 88 noodzakelijk. Dit leidde tot de 88/05 variant, die de Duitse militairen in staat stelde om een meer effectieve munitie te gebruiken zonder volledige vervanging van hun wapens. Dit was een strategische beslissing om de kosten laag te houden terwijl de vuurkracht werd verhoogd.</p>
     <br>
-    <h4><strong>Varianten van de Gewehr 88</strong></h4>
-    <ul>
-      <li><strong>Gewehr 88/05:</strong> Met aanpassingen voor de S-patrone, waaronder een versterkte kamer en aangepast vizier.</li>
-      <li><strong>Karabiner 88:</strong> Ontwikkeld voor mobiele troepen zoals cavalerie, met een kortere loop voor snellere verplaatsing.</li>
-      <li><strong>Gewehr 91:</strong> Een variant voor artillerie en genie, nog korter dan de Karabiner 88, voor gespecialiseerde taken.</li>
-      <li><strong>Hanyang 88:</strong> Een Chinese productie die de Duitse technologie naar Azië bracht, gebruikt in de Qing-dynastie en later door de Nationalisten.</li>
-      <li><strong>Turkse Gewehr 88/05/35:</strong> Een aangepaste versie voor de Ottomaanse (later Turkse) troepen, reflecterend de militaire samenwerking tussen Duitsland en het Ottomaanse Rijk.</li>
-      <li><strong>Bayerische Gewehr 88:</strong> Een regionale variant met specifieke Beierse kenmerken, symbolisch voor de semi-autonome militaire structuur binnen het Duitse Rijk.</li>
-      <li><strong>Commissie Rifle:</strong> De benaming in Engelstalige landen, vaak voor exportmodellen, benadrukkend de internationale handel in wapens tijdens deze periode.</li>
-    </ul>
-    <br>
-    <h4><strong>Gebruikers van de Gewehr 88</strong></h4>
-    <ul>
-      <li><strong>Duitsland:</strong> Het geweer symboliseerde de Duitse militaire innovatie en was cruciaal in de koloniale expansie en de Eerste Wereldoorlog.</li>
-      <li><strong>Turkije (Ottomaanse Rijk):</strong> Massale aankoop en aanpassing reflecteren de Duitse invloed en militaire samenwerking tijdens de Balkanoorlogen en WWI.</li>
-      <li><strong>China:</strong> De Hanyang 88 werd een symbool van modernisering tijdens de eindfase van de Qing-dynastie en de turbulente periode van de Chinese Burgeroorlog.</li>
-      <li><strong>Brazilië, Bulgarije, Ethiopië, Peru, Chili:</strong> Het gebruik in deze landen toont de globale verspreiding van Duitse wapentechnologie en de geopolitieke dynamiek van de tijd.</li>
-      <li><strong>Verenigde Staten, Mexico:</strong> Na WWI werden veel Gewehr 88's naar de VS gebracht als oorlogstrofeeën, terwijl Mexico ze gebruikte tijdens de Revolutie, illustrerend hoe wapens uit Europese conflicten andere regionale conflicten beïnvloedden.</li>
-    </ul>
+<h3 class="content-subhead"><strong>Varianten van het Gewehr 88</strong></h3>
+<ul class="content-list">
+  <li class="list-item">
+    <div class="list-item-title">Gewehr 88/05 (1905)</div>
+    <div class="list-item-content">Belangrijkste modernisering voor de nieuwe S-Munition, met versterkte loop, gewijzigde trekken en een verstelbaar vizier tot 2.000 meter.</div>
+  </li>
+  <li class="list-item">
+    <div class="list-item-title">Karabiner 88 (1890)</div>
+    <div class="list-item-content">Cavalerieversie met 490 mm loop en karakteristieke haak voor paardrijdend gebruik, ontworpen voor betere handelbaarheid te paard.</div>
+  </li>
+  <li class="list-item">
+    <div class="list-item-title">Gewehr 91 (1891)</div>
+    <div class="list-item-content">Artillerie-uitvoering met unieke bajonetbevestiging en 460 mm loop, speciaal voor ondersteuningseenheden.</div>
+  </li>
+  <li class="list-item">
+    <div class="list-item-title">Hanyang 88 (1895-1944)</div>
+    <div class="list-item-content">Chinese licentieproductie met lokale modificaties. Ruim 1 miljoen geproduceerde exemplaren gebruikt tot in de Koreaanse Oorlog.</div>
+  </li>
+  <li class="list-item">
+    <div class="list-item-title">Ottomaanse M1890 (1914)</div>
+    <div class="list-item-content">Turkse conversie naar 7.65×53mm Mauser kaliber, herkenbaar aan Arabische inscripties en speciaal vizier voor bergoorlogvoering.</div>
+  </li>
+  <li class="list-item">
+    <div class="list-item-title">Bayerische Model 1888</div>
+    <div class="list-item-content">Uitgerust met typisch Beiers sluitstuk en houten handguard, geproduceerd door Amberg tot 1897 voor regionale troepen.</div>
+  </li>
+  <li class="list-item">
+    <div class="list-item-title">Commissiegewehr (Export)</div>
+    <div class="list-item-content">Neutrale benaming voor leveringen aan Zuid-Amerika en de Balkan, vaak met mix van nieuwe en gereviseerde onderdelen.</div>
+  </li>
+</ul>
+
+<h3 class="content-subhead"><strong>Gebruikers & Historische Impact</strong></h3>
+<ul class="content-list">
+  <li class="list-item">
+    <div class="list-item-title">Duitse Keizerrijk</div>
+    <div class="list-item-content">Hoofdwapen tijdens de Boxeropstand en vroege WOI-jaren. Minstens 750.000 exemplaren ingezet bij de Slag om de Marne (1914).</div>
+  </li>
+  <li class="list-item">
+    <div class="list-item-title">Ottomaans Rijk</div>
+    <div class="list-item-content">Primair wapen tijdens de Gallipoli-campagne (1915). Gebruikt door beroemde eenheden zoals het 57e Infanterieregiment.</div>
+  </li>
+  <li class="list-item">
+    <div class="list-item-title">Republiek China</div>
+    <div class="list-item-content">Standaardwapen van de Zhili-Clique en Kwomintang, cruciaal in de Noordelijke Expeditie (1926-1928).</div>
+  </li>
+  <li class="list-item">
+    <div class="list-item-title">Volkssturm (1944-1945)</div>
+    <div class="list-item-content">Noodvoorraad uit musea en trainingscentra ingezet bij stadsgevechten, vaak met vereenvoudigde munitie.</div>
+  </li>
+  <li class="list-item">
+    <div class="list-item-title">Latijns-Amerika</div>
+    <div class="list-item-content">Chili gebruikte ze in de Salpeteroorlog (1879-1884), Mexico tijdens de Decena Trágica (1913).</div>
+  </li>
+  <li class="list-item">
+    <div class="list-item-title">Afrikaanse Staten</div>
+    <div class="list-item-content">Ethiopië zette ze in tegen Italiaanse kolonisten bij Adwa (1896), Zuid-Afrika gebruikte buitgemaakt exemplaren in de Boerenoorlogen.</div>
+  </li>
+</ul>
   `,
   "details": {
     "gewicht": "3,9 kg (ongeladen)",

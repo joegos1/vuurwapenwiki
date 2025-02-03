@@ -924,6 +924,88 @@ const weaponsData = [
     "prijs": "Afhankelijk van model en staat"
   },
   "image": "https://i.pinimg.com/736x/47/c1/82/47c182899092c356084548778cb57ed5.jpg"
+},
+{
+  "id": 23,
+  "naam": "Mauser C96",
+  "type": "Semi-automatisch pistool",
+  "periode": "Laat 19e eeuw - Tweede Wereldoorlog en daarna",
+  "jaar": "1896",
+  "beschrijving": `
+    <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+    <p>De Mauser C96, ontworpen door de gebroeders Feederle bij Mauser in 1896, was een revolutionair semi-automatisch pistool. Het kenmerkte zich door zijn karakteristieke "bezemensteel"-greep en interne magazijn, gevoed via stripper clips. Het was een van de eerste succesvolle semi-automatische pistolen en werd geprezen om zijn betrouwbaarheid en krachtige 7.63×25mm Mauser munitie. De C96 was populair bij militairen, avonturiers en handelaars, mede dankzij zijn lange bereik (uitgerust met een houten koffer die als kolf diende) en indrukwekkende vuurkracht.</p>
+    <br>
+    <h4><strong>Gebruik en Historische Context</strong></h4>
+    <p>De C96 werd wereldwijd gebruikt in conflicten zoals de Eerste Wereldoorlog, de Russische Revolutie en de Spaanse Burgeroorlog. Duitse officieren en de Ottomaanse elite-eenheden waardeerden het wapen voor zijn draagbaarheid en precisie. Tijdens de Tweede Wereldoorlog bleven oudere modellen in gebruik bij partizanen en reserve-eenheden. De C96 werd ook een icoon in de popcultuur, onder meer als basis voor Han Solo's blaster in <i>Star Wars</i>.</p>
+    <p>Een opvallende variant was de "Rode Negen" (Red Nine), aangepast voor 9×19mm Parabellum-munitie en gebruikt door Duitse stormtroepen in WOI. De Schnellfeuer-versie (1932) bood volautomatisch vuur en werd populair bij Chinese krijgsheren en de Sovjet-Unie.</p>
+    <br>
+    <h3 class="content-subhead"><strong>Varianten van de Mauser C96</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">"Bolo" Mauser (1917)</div>
+        <div class="list-item-content">Verkorte versie met 99 mm loop, bedoeld voor het Russische Rijk. De naam komt van de Bolsjewieken, die het veel gebruikten.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Mauser_C96_Bolo.jpg" alt="Bolo Mauser" width="600" height="400"/> <br>
+      </li> <br>
+      <li class="list-item">
+        <div class="list-item-title">"Red Nine" (1916)</div>
+        <div class="list-item-content">Gemarkeerd met een rode "9" op de greep voor 9mm Parabellum. Uitgegeven aan Duitse Sturmtruppen.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Mauser_Red_9.jpg" alt="Red Nine" width="500" height="300"/> <br>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">M712 Schnellfeuer (1932)</div>
+        <div class="list-item-content">Volautomatische versie met 20-patroons afneembaar magazijn. Gebruikt door de Waffen-SS en Chinese nationalisten.</div>
+        <img class="fotos" src="https://modernfirearms.net/wp-content/uploads/2017/12/Mauser-M712-Schnellfeuer-2.jpg" alt="M712 Schnellfeuer" width="700" height="400"/> <br>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Shanxi Type 17 (1928)</div>
+        <div class="list-item-content">Chinese kopie in .45 ACP, geproduceerd voor krijgsheer Yan Xishan. Ongeveer 8.500 gemaakt.</div>
+        <img class="fotos" src="https://preview.redd.it/shanxi-type-17-mauser-c96-in-45-acp-v0-3w4c7juxj5mb1.jpg?width=1080&crop=smart&auto=webp&s=3d6c1d9a5c8d5b4c05dab3cbfc1b3b8f8b8c2c13" alt="Shanxi Type 17" width="600" height="300"/> <br>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Astra Model 900 (1928)</div>
+        <div class="list-item-content">Spaanse licentieversie met verbeterde veiligheidssystemen, veel gebruikt in de Spaanse Burgeroorlog.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Astra_900.jpg" alt="Astra 900" width="400" height="250"/> <br>
+      </li>
+    </ul>
+    <br>
+    <h3 class="content-subhead"><strong>Gebruikers & Historische Impact</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">Duitse Keizerrijk</div>
+        <div class="list-item-content">Standaard sidearm voor officieren in WOI. Ook gebruikt door koloniale troepen in Afrika.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Sovjet-Unie</div>
+        <div class="list-item-content">De "Bolo" was een favoriet van de Tsjeka en rode commandanten tijdens de Russische Burgeroorlog.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Republiek China</div>
+        <div class="list-item-content">Krijgsheren zoals Zhang Zuolin bewapenden hun persoonlijke gardes met de C96.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Britse Imperium</div>
+        <div class="list-item-content">Winston Churchill droeg een C96 tijdens de Slag om Omdurman (1898); Lawrence van Arabië gebruikte er een in WOI.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Joegoslavische Partizanen</div>
+        <div class="list-item-content">Gebruikt door verzetsstrijders tegen de nazi's in de Balkan (1941-1945).</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Ottomaans Rijk</div>
+        <div class="list-item-content">Elitetroepen zoals de Sipahi-cavalerie droegen de C96 tijdens de Balkanoorlogen (1912-1913).</div>
+      </li>
+    </ul>
+  `,
+  "details": {
+    "gewicht": "1,13 kg (ongeladen)",
+    "kaliber": "7.63×25mm Mauser, 9×19mm Parabellum, .45 ACP",
+    "vuursnelheid": "Semi-automatisch (Schnellfeuer: 900–1.000 rpm)",
+    "magazijncapaciteit": "10 patronen (vast magazijn), 20 (Schnellfeuer)",
+    "land": "Duitsland",
+    "gebruik": "Militair, Jacht, Verzamelaars",
+    "prijs": "€2.000–€25.000 (afhankelijk van zeldzaamheid)"
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Mauser_C96_early%2C_right_side.jpg"
 }
 
 

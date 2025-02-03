@@ -1006,7 +1006,157 @@ const weaponsData = [
     "prijs": "€2.000–€25.000 (afhankelijk van zeldzaamheid)"
   },
   "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Mauser_C96_early%2C_right_side.jpg"
-}
+},
+{
+  "id": 24,
+  "naam": "Gewehr 98",
+  "type": "Bolt-action geweer",
+  "periode": "Laat 19e eeuw - Tweede Wereldoorlog en daarna",
+  "jaar": "1898",
+  "beschrijving": `
+    <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+    <p>De Gewehr 98, ontworpen door Paul Mauser en geïntroduceerd in 1898, was een baanbrekend bolt-action geweer dat diende als het standaard infanteriewapen van het Duitse leger. Het geweer was een verbeterde versie van eerdere Mauser-ontwerpen en kenmerkte zich door zijn betrouwbaarheid, precisie en robuuste constructie. De Gewehr 98 gebruikte het krachtige 7.92×57mm Mauser kaliber en was uitgerust met een intern magazijn dat gevoed werd met stripper clips. Het geweer werd al snel een symbool van Duitse militaire ingenieurskunst en werd wereldwijd bewonderd om zijn superieure prestaties.</p>
+    <br>
+    <h4><strong>Gebruik en Historische Context</strong></h4>
+    <p>De Gewehr 98 speelde een cruciale rol in de Eerste Wereldoorlog, waar het de primaire bewapening was van Duitse infanteristen. Het geweer werd geprezen om zijn nauwkeurigheid op lange afstand en zijn vermogen om te functioneren onder de meest barre omstandigheden. Na de oorlog bleef de Gewehr 98 in gebruik bij verschillende legers en werd het de basis voor vele andere geweerontwerpen, waaronder de Karabiner 98k, die tijdens de Tweede Wereldoorlog werd gebruikt. Het geweer werd ook gebruikt in conflicten zoals de Russische Burgeroorlog en de Spaanse Burgeroorlog.</p>
+    <p>Een opvallende variant was de "Scharfschützengewehr 98", een versie die was aangepast voor scherpschutters en was uitgerust met een telescopisch vizier. Deze variant werd zeer gewaardeerd om zijn precisie en werd gebruikt door Duitse scherpschutters tijdens de Eerste Wereldoorlog.</p>
+    <br>
+    <h3 class="content-subhead"><strong>Varianten van de Gewehr 98</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">Gewehr 98a (1904)</div>
+        <div class="list-item-content">Een lichtgewicht versie met een kortere loop en verbeterde handgreep, bedoeld voor cavalerie en artillerie-eenheden.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Gewehr_98a.jpg" alt="Gewehr 98a" width="600" height="400"/> <br>
+      </li> <br>
+      <li class="list-item">
+        <div class="list-item-title">Scharfschützengewehr 98 (1915)</div>
+        <div class="list-item-content">Scherpschuttersversie met telescopisch vizier, gebruikt door Duitse scherpschutters in WOI.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Scharfschützengewehr_98.jpg" alt="Scharfschützengewehr 98" width="500" height="300"/> <br>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Karabiner 98b (1923)</div>
+        <div class="list-item-content">Een kortere en lichtere versie, ontwikkeld voor cavalerie en andere mobiele eenheden.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Karabiner_98b.jpg" alt="Karabiner 98b" width="700" height="400"/> <br>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Karabiner 98k (1935)</div>
+        <div class="list-item-content">De meest bekende variant, gebruikt door het Duitse leger tijdens de Tweede Wereldoorlog. Het was korter en lichter dan de originele Gewehr 98.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Karabiner_98k.jpg" alt="Karabiner 98k" width="600" height="300"/> <br>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Yugoslavian M48 (1948)</div>
+        <div class="list-item-content">Een naoorlogse variant geproduceerd in Joegoslavië, gebaseerd op het Gewehr 98-ontwerp.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Yugoslavian_M48.jpg" alt="Yugoslavian M48" width="400" height="250"/> <br>
+      </li>
+    </ul>
+    <br>
+    <h3 class="content-subhead"><strong>Gebruikers & Historische Impact</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">Duitse Keizerrijk</div>
+        <div class="list-item-content">Standaard infanteriegeweer tijdens de Eerste Wereldoorlog, gebruikt door miljoenen soldaten.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Weimar Republiek</div>
+        <div class="list-item-content">Na WOI bleef de Gewehr 98 in gebruik bij de Reichswehr en later bij de Wehrmacht.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Ottomaans Rijk</div>
+        <div class="list-item-content">Het Ottomaanse Rijk kocht grote aantallen Gewehr 98's en gebruikte ze tijdens de Balkanoorlogen en WOI.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Republiek China</div>
+        <div class="list-item-content">De Gewehr 98 werd gebruikt door Chinese krijgsheren en later door de Nationalistische troepen.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Sovjet-Unie</div>
+        <div class="list-item-content">Gecapteerde Gewehr 98's werden gebruikt door het Rode Leger tijdens de Russische Burgeroorlog en WOII.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Verschillende Latijns-Amerikaanse landen</div>
+        <div class="list-item-content">Landen zoals Mexico en Brazilië kochten Gewehr 98's voor hun legers en gebruikten ze in verschillende conflicten.</div>
+      </li>
+    </ul>
+  `,
+  "details": {
+    "gewicht": "4,09 kg (ongeladen)",
+    "kaliber": "7.92×57mm Mauser",
+    "vuursnelheid": "Bolt-action (handmatig)",
+    "magazijncapaciteit": "5 patronen (intern magazijn)",
+    "land": "Duitsland",
+    "gebruik": "Militair, Jacht, Verzamelaars",
+    "prijs": "€1.500–€10.000 (afhankelijk van zeldzaamheid)"
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Gewehr_98.jpg"
+},
+{
+  "id": 25,
+  "naam": "PPSh-41",
+  "type": "Machinepistool",
+  "periode": "Tweede Wereldoorlog - Koude Oorlog",
+  "jaar": "1941",
+  "beschrijving": `
+    <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+    <p>De PPSh-41, ontworpen door Georgi Shpagin, werd in 1941 geïntroduceerd als een antwoord op de behoefte van de Sovjet-Unie aan een betrouwbaar en goedkoop te produceren machinepistool. Het wapen werd massaal geproduceerd tijdens de Tweede Wereldoorlog en werd een symbool van de Sovjet-verdediging. De PPSh-41 was bekend om zijn eenvoudige constructie, robuustheid en effectiviteit in gevechten op korte afstand. Het gebruikte de 7.62×25mm Tokarev-munitie en had een hoge vuursnelheid, waardoor het een geducht wapen was in de handen van Sovjet-soldaten.</p>
+    <br>
+    <h4><strong>Gebruik en Historische Context</strong></h4>
+    <p>De PPSh-41 werd uitgebreid gebruikt door het Rode Leger tijdens de Tweede Wereldoorlog, vooral in stedelijke gevechten en tijdens de verdediging van Stalingrad. Het wapen was populair vanwege zijn betrouwbaarheid in barre weersomstandigheden en zijn vermogen om snel vuur uit te brengen. Na de oorlog bleef de PPSh-41 in dienst bij verschillende communistische legers en verzetsbewegingen over de hele wereld, waaronder in Korea, Vietnam en Afrika.</p>
+    <p>Een opvallende variant was de PPSh-41 met een trommelmagazijn van 71 patronen, wat het wapen een aanzienlijke vuurkracht gaf. Er werden ook versies geproduceerd met een kortere loop voor gebruik door parachutisten en tankbemanningen.</p>
+    <br>
+    <h3 class="content-subhead"><strong>Varianten van de PPSh-41</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">PPSh-41 met trommelmagazijn</div>
+        <div class="list-item-content">Uitgerust met een 71-patroons trommelmagazijn voor maximale vuurkracht.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/7/7a/PPSh-41_drum_magazine.jpg" alt="PPSh-41 met trommelmagazijn" width="600" height="400"/> <br>
+      </li> <br>
+      <li class="list-item">
+        <div class="list-item-title">PPSh-41 met kortere loop</div>
+        <div class="list-item-content">Verkorte versie voor gebruik door parachutisten en tankbemanningen.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/8/8a/PPSh-41_short_barrel.jpg" alt="PPSh-41 met kortere loop" width="500" height="300"/> <br>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">PPSh-41 met kromme loop</div>
+        <div class="list-item-content">Experimentele versie met een kromme loop voor het afvuren vanuit dekking.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/PPSh-41_curved_barrel.jpg" alt="PPSh-41 met kromme loop" width="700" height="400"/> <br>
+      </li>
+    </ul>
+    <br>
+    <h3 class="content-subhead"><strong>Gebruikers & Historische Impact</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">Sovjet-Unie</div>
+        <div class="list-item-content">Standaard machinepistool van het Rode Leger tijdens de Tweede Wereldoorlog.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Volksrepubliek China</div>
+        <div class="list-item-content">Gebruikt door communistische troepen tijdens de Chinese Burgeroorlog.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Noord-Korea</div>
+        <div class="list-item-content">Uitgebreid gebruikt tijdens de Koreaanse Oorlog.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Vietnam</div>
+        <div class="list-item-content">Gebruikt door de Vietcong tijdens de Vietnamoorlog.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Afrika</div>
+        <div class="list-item-content">Gebruikt door verschillende bevrijdingsbewegingen tijdens de dekolonisatie.</div>
+      </li>
+    </ul>
+  `,
+  "details": {
+    "gewicht": "3,63 kg (ongeladen)",
+    "kaliber": "7.62×25mm Tokarev",
+    "vuursnelheid": "900–1.000 rpm",
+    "magazijncapaciteit": "35 patronen (doosmagazijn), 71 (trommelmagazijn)",
+    "land": "Sovjet-Unie",
+    "gebruik": "Militair, Verzamelaars",
+    "prijs": "€1.500–€10.000 (afhankelijk van zeldzaamheid)"
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/PPSh-41_drum_magazine.jpg"
+},
 
 
 

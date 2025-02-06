@@ -740,59 +740,83 @@ const weaponsData = [
 {
   "id": 20,
   "naam": "Luger P08",
-  "type": "Pistool",
+  "type": "Semi-automatisch pistool",
   "periode": "Eerste Wereldoorlog",
-  "jaar": "1900",
+  "jaar": "1900-1970",
   "beschrijving": `
     <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
-    <p>De Luger P08, ook bekend als de Parabellum-Pistole of P08, werd ontworpen door Georg Luger en Hugo Borchardt. Het pistool werd geïntroduceerd in 1900 door Deutsche Waffen und Munitionsfabriken (DWM) en werd al snel de standaarddienstpistool van het Duitse leger. De naam "Luger" verwijst naar de ontwerper, terwijl "Parabellum" afkomstig is van de Latijnse uitdrukking "Si vis pacem, para bellum" (als je vrede wilt, bereid je voor op oorlog), wat de oorlogsmotivatie van het ontwerp weerspiegelt.</p>
+    <p>De Luger P08, ontworpen door Georg Luger en gebaseerd op het Borchardt C-93-pistool, werd in 1908 het standaard dienstpistool van het Duitse leger. Het pistool was revolutionair door zijn kenmerkende toggle-lock mechanisme en het gebruik van de krachtige 9×19mm Parabellum-munitie, speciaal ontwikkeld voor dit wapen. De elegante vorm en betrouwbaarheid maakten het een icoon van de 20e-eeuwse vuurwapentechnologie. Tijdens de Eerste Wereldoorlog werd het massaal geproduceerd voor Duitse officieren en stormtroepen.</p>
     <br>
-    <h4><strong>Gebruik en Geschiedenis</strong></h4>
-    <p>De Luger P08 werd vooral beroemd tijdens de Eerste Wereldoorlog, waar het wijdverbreid werd gebruikt door Duitse troepen. Het pistool werd gewaardeerd om zijn precisie en de unieke toggle-link mechaniek, hoewel het ook complex en duur was om te produceren. Tijdens de Tweede Wereldoorlog werd de Luger nog steeds gebruikt, maar in mindere mate omdat het werd vervangen door de meer kosteneffectieve Walther P38. De Luger bleef echter een symbool van Duitse militaire geschiedenis.</p>
-    <p>Na de oorlog werden Lugerpistolen vaak verzameld als oorlogssouvenirs, en ze blijven populair bij wapenverzamelaars vanwege hun historische waarde en design.</p>
+    <h4><strong>Gebruik en Historische Context</strong></h4>
+    <p>De Luger P08 diende in beide wereldoorlogen als symbool van Duitse militaire precisie. Na WOI bleef het in gebruik bij de Reichswehr en later de Wehrmacht, terwijl het ook populair werd bij verzamelaars en officieren wereldwijd. Tijdens WOII werd het geleidelijk vervangen door de Walther P38, maar het bleef een statussymbool voor hoge officieren. De Luger werd ook gebruikt door landen zoals Finland, Zwitserland en het Ottomaanse Rijk. In de popcultuur werd het een icoon, onder meer gedragen door filmpersonages als <i>Hans Landa</i> in <i>Inglourious Basterds</i>.</p>
     <br>
-    <h4><strong>Varianten van de Luger P08</strong></h4>
-    <ul>
-      <li><strong>Luger P08 (9mm Parabellum):</strong> De standaardversie met een 8-patronen magazijn.</li>
-      <li><strong>Artillery Luger:</strong> Een variant met een langere loop van 200 mm en een schouderholster, vaak gebruikt door artillerieofficieren.</li>
-      <li><strong>Navy Luger:</strong> Gebruikt door de Duitse marine, met een langere loop en een magazijn voor 12 patronen.</li>
-      <li><strong>Luger P04:</strong> Een marinevariant met een 200 mm loop en trommelmagazijn voor langeafstandsschieten.</li>
-      <li><strong>Luger P17:</strong> Een versimpelde WWI-versie met minder decoratie om productiekosten te verlagen.</li>
-      <li><strong>Luger Carbine:</strong> Geconverteerde Lugers met een lange loop voor gebruik als karabijn.</li>
-      <li><strong>Commercial Luger:</strong> Varianten voor de burgermarkt, vaak met decoratieve gravures.</li>
-      <li><strong>Albanese Luger:</strong> Speciaal voor Albanië vervaardigd, met unieke markeringen.</li>
-      <li><strong>Brazilliaanse Luger:</strong> Een model dat werd geëxporteerd naar Brazilië, met een .45 ACP kaliber variant.</li>
+    <h3 class="content-subhead"><strong>Varianten van de Luger P08</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">Marine-Modell (1904)</div>
+        <div class="list-item-content">Uitgerust met een 150 mm loop en verstelbaar vizier voor de Kaiserliche Marine. Herkenbaar aan de anker-gravering.</div>
+        <img class="fotos" src="https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/REL/07465/screen/3831040.JPG" alt="Marine Luger" width="400" height="300"/> <br>
+      </li> <br>
+      <li class="list-item">
+        <div class="list-item-title">Lange P08 "Artillerie" (1917)</div>
+        <div class="list-item-content">Uitgerust met een 200 mm loop, trommelmagazijn (32 patronen) en houten kolf. Gebruikt door Duitse stormtroepen.</div>
+        <img class="fotos" src="https://s1.img.bidsquare.com/item/l/4033/4033850.jpeg?t=1GiBQo" alt="Artillerie Luger" width="450" height="250"/> <br>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Schweizer Armeepistole 06/29</div>
+        <div class="list-item-content">Zwitserse versie in 7.65×21mm Parabellum met verbeterde veiligheid. Gebruikt tot de jaren 1960.</div>
+        <img class="fotos" src="https://images.platforum.cloud/uploads/20211019/14c8ce7da2bbfbc0329bd08c8570d3b8.jpg" alt="Zwitserse Luger" width="500" height="300"/> <br>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Nazi-era "Krieghoff" Luger</div>
+        <div class="list-item-content">Zeldzame variant geproduceerd door Krieghoff voor de Luftwaffe, herkenbaar aan Nazi-adelaars en serienummers.</div>
+        <img class="fotos" src="https://phoenixinvestmentarms.com/History%20Pictures/1213HK37R/1213HK37-TopSht8w.jpg" alt="Krieghoff Luger" width="850" height="300"/> <br>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Amerikaanse "American Eagle"</div>
+        <div class="list-item-content">Commerciële exportmodellen met adelaarslogo voor de Amerikaanse markt (1901-1918).</div>
+        <img class="fotos" src="https://image.invaluable.com/housePhotos/maynardsfineart/31/715931/H0759-L289671007.jpg" alt="American Eagle Luger" width="600" height="400px"/> <br>
+      </li>
     </ul>
     <br>
-    <h4><strong>Gebruikers van de Luger P08</strong></h4>
-    <ul>
-      <li><strong>Duitsland:</strong> Het Duitse leger, de marine en de luchtmacht gebruikten de Luger tijdens beide wereldoorlogen.</li>
-      <li><strong>Zwitzerland:</strong> Zwitserland kocht een aantal Lugers vóór de Eerste Wereldoorlog voor hun leger.</li>
-      <li><strong>Verenigde Staten:</strong> Veel Lugers werden na de oorlogen door Amerikaanse soldaten als oorlogstrofeeën meegenomen.</li>
-      <li><strong>Nederland:</strong> Gebruikt door het KNIL en de Koninklijke Marine, vooral in koloniale gebieden.</li>
-      <li><strong>België:</strong> Door de Belgische strijdkrachten en politie tijdens de interbellumperiode.</li>
-      <li><strong>Finland:</strong> Gebruikt in de Finse Onafhankelijkheidsoorlog en Winteroorlog.</li>
-      <li><strong>Bulgarije:</strong> Tot de Tweede Wereldoorlog als standaarddienstpistool voor officieren.</li>
-      <li><strong>Turkije:</strong> Gebruikt door het Ottomaanse leger en later het Turkse leger.</li>
-      <li><strong>Albanië:</strong> Voor hun militairen, vaak met lokale aanpassingen.</li>
-      <li><strong>Brazilië:</strong> Speciaal model voor de Braziliaanse politie en militairen.</li>
-      <li><strong>Portugal:</strong> Voornamelijk door hun mariniers tijdens de Eerste Wereldoorlog.</li>
-      <li><strong>Joegoslavië:</strong> Gebruikt door het Koninkrijk Joegoslavië voor hun officieren.</li>
-      <li><strong>Polen:</strong> Vooral na WWI, toen ze verschillende wapens van Duitse makelij overnamen.</li>
-      <li><strong>Noorwegen:</strong> Tot in de jaren '80 in beperkte mate door politie en militairen.</li>
-      <li><strong>Zweden:</strong> Beperkt gebruik door de Zweedse marine tijdens de interbellumperiode.</li>
+    <h3 class="content-subhead"><strong>Gebruikers & Historische Impact</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">Duitse Keizerrijk/Wehrmacht</div>
+        <div class="list-item-content">Standaardpistool voor officieren in beide wereldoorlogen. Rommel droeg een Luger tijdens de Afrika-campagne.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Zwitserland</div>
+        <div class="list-item-content">Dienstpistool van het Zwitserse leger van 1900 tot 1949. Nog steeds ceremonieel gebruikt.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Finland</div>
+        <div class="list-item-content">Finse troepen gebruikten buitgemaakte Lugers tijdens de Winteroorlog (1939-1940).</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Ottomaanse Rijk</div>
+        <div class="list-item-content">Ottomaanse officieren droegen Lugers tijdens de Slag om Gallipoli (1915).</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Nederlands-Indië</div>
+        <div class="list-item-content">De KNIL Bestelde in 1927 3820 M.11 Lugers om de koloniën te beschermen</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Postoorlogse DDR</div>
+        <div class="list-item-content">Oost-Duitse politie gebruikte overgebleven Lugers tot de jaren 1960.</div>
+      </li>
     </ul>
   `,
   "details": {
     "gewicht": "0,87 kg (ongeladen)",
-    "kaliber": "9x19mm Parabellum",
-    "vuursnelheid": "Enkelschots",
-    "magazijncapaciteit": "8 patronen (standaard)",
+    "kaliber": "9×19mm Parabellum, 7.65×21mm Parabellum",
+    "vuursnelheid": "Semi-automatisch",
+    "magazijncapaciteit": "8 patronen (standaard), 32 (Artillerie-model)",
     "land": "Duitsland",
-    "gebruik": "Militair",
-    "prijs": "Afhankelijk van model en staat"
+    "gebruik": "Militair, Ceremonieel, Verzamelaars",
+    "prijs": "€2.500–€100.000 (afhankelijk van model en staat)"
   },
-  "image": "https://preview.redd.it/q679csg8v3u31.jpg?width=640&crop=smart&auto=webp&s=7079db4359792d5ec43e296bd94b4451cd8918e9"
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Luger_IMG_6768-retouched.jpg/450px-Luger_IMG_6768-retouched.jpg"
 },
 {
   "id": 21,
@@ -930,7 +954,7 @@ const weaponsData = [
   "naam": "Mauser C96",
   "type": "Semi-automatisch pistool",
   "periode": "Laat 19e eeuw - Tweede Wereldoorlog en daarna",
-  "jaar": "1896",
+  "jaar": "1896-1961",
   "beschrijving": `
     <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
     <p>De Mauser C96, ontworpen door de gebroeders Feederle bij Mauser in 1896, was een revolutionair semi-automatisch pistool. Het kenmerkte zich door zijn karakteristieke "bezemensteel"-greep en interne magazijn, gevoed via stripper clips. Het was een van de eerste succesvolle semi-automatische pistolen en werd geprezen om zijn betrouwbaarheid en krachtige 7.63×25mm Mauser munitie. De C96 was populair bij militairen, avonturiers en handelaars, mede dankzij zijn lange bereik (uitgerust met een houten koffer die als kolf diende) en indrukwekkende vuurkracht.</p>
@@ -944,27 +968,27 @@ const weaponsData = [
       <li class="list-item">
         <div class="list-item-title">"Bolo" Mauser (1917)</div>
         <div class="list-item-content">Verkorte versie met 99 mm loop, bedoeld voor het Russische Rijk. De naam komt van de Bolsjewieken, die het veel gebruikten.</div>
-        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Mauser_C96_Bolo.jpg" alt="Bolo Mauser" width="600" height="400"/> <br>
+        <img class="fotos" src="https://topwar.ru/uploads/posts/2021-09/1631418137_1_-9092479_1_lg.jpeg" alt="Bolo Mauser" width="500" height="300"/> <br>
       </li> <br>
       <li class="list-item">
         <div class="list-item-title">"Red Nine" (1916)</div>
         <div class="list-item-content">Gemarkeerd met een rode "9" op de greep voor 9mm Parabellum. Uitgegeven aan Duitse Sturmtruppen.</div>
-        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Mauser_Red_9.jpg" alt="Red Nine" width="500" height="300"/> <br>
+        <img class="fotos" src="https://www.lugerforums.com/attachments/red-9-jpg.644646/" alt="Red Nine" width="500" height="300"/> <br>
       </li>
       <li class="list-item">
         <div class="list-item-title">M712 Schnellfeuer (1932)</div>
         <div class="list-item-content">Volautomatische versie met 20-patroons afneembaar magazijn. Gebruikt door de Waffen-SS en Chinese nationalisten.</div>
-        <img class="fotos" src="https://modernfirearms.net/wp-content/uploads/2017/12/Mauser-M712-Schnellfeuer-2.jpg" alt="M712 Schnellfeuer" width="700" height="400"/> <br>
+        <img class="fotos" src="https://www.lugerforums.com/attachments/mauser-schnellfeuer-20110324-013-jpg.48142" alt="M712 Schnellfeuer" width="700" height="400"/> <br>
       </li>
       <li class="list-item">
         <div class="list-item-title">Shanxi Type 17 (1928)</div>
         <div class="list-item-content">Chinese kopie in .45 ACP, geproduceerd voor krijgsheer Yan Xishan. Ongeveer 8.500 gemaakt.</div>
-        <img class="fotos" src="https://preview.redd.it/shanxi-type-17-mauser-c96-in-45-acp-v0-3w4c7juxj5mb1.jpg?width=1080&crop=smart&auto=webp&s=3d6c1d9a5c8d5b4c05dab3cbfc1b3b8f8b8c2c13" alt="Shanxi Type 17" width="600" height="300"/> <br>
+        <img class="fotos" src="https://cdn-fastly.thefirearmblog.com/media/2024/05/16/14542072/potd-shanxi-chinese-45acp-mauser-c96.jpg?size=720x845&nocrop=1" alt="Shanxi Type 17" width="600" height="300"/> <br>
       </li>
       <li class="list-item">
         <div class="list-item-title">Astra Model 900 (1928)</div>
         <div class="list-item-content">Spaanse licentieversie met verbeterde veiligheidssystemen, veel gebruikt in de Spaanse Burgeroorlog.</div>
-        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Astra_900.jpg" alt="Astra 900" width="400" height="250"/> <br>
+        <img class="fotos" src="https://pre98.com/wp-content/uploads/2019/11/900astra-2.jpg" alt="Astra 900" width="400" height="250"/> <br>
       </li>
     </ul>
     <br>
@@ -994,6 +1018,10 @@ const weaponsData = [
         <div class="list-item-title">Ottomaans Rijk</div>
         <div class="list-item-content">Elitetroepen zoals de Sipahi-cavalerie droegen de C96 tijdens de Balkanoorlogen (1912-1913).</div>
       </li>
+      <li class="list-item">
+        <div class="list-item-title">Franse Gendarmerie</div>
+        <div class="list-item-content">De Franse regering plaatste een bestelling voor 2.000 pistolen met 99-millimeter (3,9 inch) lopen voor de Gendarmerie Nationale. Het pistool heeft zwarte ebonieten handgrepen in plaats van houten.(1920)</div>
+      </li>
     </ul>
   `,
   "details": {
@@ -1005,7 +1033,7 @@ const weaponsData = [
     "gebruik": "Militair, Jacht, Verzamelaars",
     "prijs": "€2.000–€25.000 (afhankelijk van zeldzaamheid)"
   },
-  "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Mauser_C96_early%2C_right_side.jpg"
+  "image": "https://www.americanrifleman.org/media/yakepd00/mauser-c96-broomhandle-pistol-7.jpg?quality=60"
 },
 {
   "id": 24,
@@ -1093,8 +1121,8 @@ const weaponsData = [
   "id": 25,
   "naam": "PPSh-41",
   "type": "Machinepistool",
-  "periode": "Tweede Wereldoorlog - Koude Oorlog",
-  "jaar": "1941",
+  "periode": "Tweede Wereldoorlog",
+  "jaar": "1941-2025",
   "beschrijving": `
     <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
     <p>De PPSh-41, ontworpen door Georgi Shpagin, werd in 1941 geïntroduceerd als een antwoord op de behoefte van de Sovjet-Unie aan een betrouwbaar en goedkoop te produceren machinepistool. Het wapen werd massaal geproduceerd tijdens de Tweede Wereldoorlog en werd een symbool van de Sovjet-verdediging. De PPSh-41 was bekend om zijn eenvoudige constructie, robuustheid en effectiviteit in gevechten op korte afstand. Het gebruikte de 7.62×25mm Tokarev-munitie en had een hoge vuursnelheid, waardoor het een geducht wapen was in de handen van Sovjet-soldaten.</p>
@@ -1111,8 +1139,9 @@ const weaponsData = [
         <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/7/7a/PPSh-41_drum_magazine.jpg" alt="PPSh-41 met trommelmagazijn" width="600" height="400"/> <br>
       </li> <br>
       <li class="list-item">
-        <div class="list-item-title">PPSh-41 met kortere loop</div>
-        <div class="list-item-content">Verkorte versie voor gebruik door parachutisten en tankbemanningen.</div>
+        <div class="list-item-title">Type 49</div>
+       <div class="list-item-content">In 1949 ontwikkelde Noord-Korea een eigen versie van de PPSH, bekend als de Type 49. </div>
+       <div class="list-item-content">Deze variant behield het trommelmagazijn en de hoge vuursnelheid, maar werd lokaal geproduceerd met kleine aanpassingen. </div>
         <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/8/8a/PPSh-41_short_barrel.jpg" alt="PPSh-41 met kortere loop" width="500" height="300"/> <br>
       </li>
       <li class="list-item">

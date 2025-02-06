@@ -485,7 +485,7 @@ const weaponsData = [
       {
         "id": 14,
         "naam": "MAS 38",
-        "type": "Submachinegun",
+        "type": "Machinepistool",
         "periode": "Interbellum",
         "jaar": "1938",
         "beschrijving": `
@@ -659,7 +659,7 @@ const weaponsData = [
   {
     "id": 18,
     "naam": "FN Browning 1922",
-    "type": "Semiautomatisch pistool",
+    "type": "Pistool",
     "periode": "Interbellum",
     "jaar": "1922",
     "beschrijving": `
@@ -703,7 +703,7 @@ const weaponsData = [
     "id": 19,
     "naam": "M1897 Reichsrevolver",
     "type": "Revolver",
-    "periode": "19e eeuw",
+    "periode": "Pre 1900",
     "jaar": "1897",
     "beschrijving": `
         <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
@@ -740,7 +740,7 @@ const weaponsData = [
 {
   "id": 20,
   "naam": "Luger P08",
-  "type": "Semi-automatisch pistool",
+  "type": "Pistool",
   "periode": "Eerste Wereldoorlog",
   "jaar": "1900-1970",
   "beschrijving": `
@@ -1038,7 +1038,7 @@ const weaponsData = [
 {
   "id": 24,
   "naam": "Gewehr 98",
-  "type": "Bolt-action geweer",
+  "type": "Grendel Geweer",
   "periode": "Laat 19e eeuw - Tweede Wereldoorlog en daarna",
   "jaar": "1898",
   "beschrijving": `

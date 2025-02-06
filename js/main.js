@@ -71,13 +71,18 @@ async function handleSearch(e) {
 
 async function handleFilters() {
     try {
+        const getSelectedValues = (filterId) => {
+            const checkboxes = document.querySelectorAll(`#${filterId} input[type="checkbox"]:checked`);
+            return Array.from(checkboxes).map(cb => cb.value);
+        };
+
         const filters = {
-            periode: document.getElementById('periodFilter').value,
-            type: document.getElementById('typeFilter').value,
-            land: document.getElementById('countryFilter').value
+            periodes: getSelectedValues('periodFilter'),
+            types: getSelectedValues('typeFilter'),
+            landen: getSelectedValues('countryFilter')
         };
         
-        const results = await db.filter(filters.periode, filters.type, filters.land);
+        const results = await db.filter(filters.periodes, filters.types, filters.landen);
         renderWeapons(results);
     } catch (error) {
         console.error('Filter failed:', error);
@@ -95,10 +100,15 @@ async function showWeaponDetail(id) {
         const weapon = await db.getById(id);
         const detail = document.getElementById('weapon-detail');
         const content = document.getElementById('weapon-content');
+        const filters = document.getElementById('filters');
         
         content.innerHTML = TEMPLATES.weaponDetail(weapon);
         document.getElementById('weapons-grid').style.display = 'none';
         detail.classList.remove('hidden');
+        filters.style.display = 'none';
+        
+        // Adjust main grid to single column when showing detail
+        document.querySelector('main').style.gridTemplateColumns = '1fr';
     } catch (error) {
         console.error('Failed to show weapon detail:', error);
     }
@@ -107,4 +117,8 @@ async function showWeaponDetail(id) {
 function showOverview() {
     document.getElementById('weapon-detail').classList.add('hidden');
     document.getElementById('weapons-grid').style.display = 'grid';
+    document.getElementById('filters').style.display = 'block';
+    
+    // Restore main grid to original layout
+    document.querySelector('main').style.gridTemplateColumns = '250px 1fr';
 }

@@ -17,11 +17,12 @@ const db = {
         );
     },
 
-    filter(periode, type, land) {
+    filter(periodes, types, landen) {
         return this.weapons.filter(weapon => {
-            return (!periode || weapon.periode === periode) &&
-                   (!type || weapon.type === type) &&
-                   (!land || weapon.details.land === land);
+            const matchesPeriode = !periodes.length || periodes.includes(weapon.periode);
+            const matchesType = !types.length || types.includes(weapon.type);
+            const matchesLand = !landen.length || landen.includes(weapon.details.land);
+            return matchesPeriode && matchesType && matchesLand;
         });
     },
 

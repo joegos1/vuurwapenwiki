@@ -1190,7 +1190,7 @@ const weaponsData = [
 {
   "id": 26,
   "naam": "MKB 42",
-  "type": "Machinepistool",
+  "type": "Aanvalsgeweer",
   "periode": "Tweede Wereldoorlog",
   "jaar": "1942-2025",
   "beschrijving": `

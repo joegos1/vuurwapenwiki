@@ -1236,7 +1236,7 @@ const weaponsData = [
 {
   "id": 27,
   "naam": "Carcano Modello 1891",
-  "type": "Bolt-action rifle",
+  "type": "Grendel Geweer",
   "periode": "Eerste Wereldoorlog, Tweede Wereldoorlog",
   "jaar": "1891-1945",
   "beschrijving": `
@@ -1266,7 +1266,32 @@ const weaponsData = [
     </ul>
     <br>
     <h3 class="content-subhead"><strong>Gebruikers & Historische Impact</strong></h3>
-    <!-- Ongewijzigde gebruikerslijst -->
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">Italië</div>
+        <div class="list-item-content">Standaardgeweer van 1891 tot 1945, gebruikt in alle Italiaanse conflicten.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Finland</div>
+        <div class="list-item-content">Gebruikt als "Tarkka M/39" tijdens de Winteroorlog tegen de USSR.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Nazi-Duitsland</div>
+        <div class="list-item-content">Ingedeeld als Gewehr 299(i) na de Italiaanse capitulatie in 1943.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Japan</div>
+        <div class="list-item-content">Geïmporteerde exemplaren gebruikt door marine-eenheden.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Ethiopië</div>
+        <div class="list-item-content">Buitgemaakt tijdens de Tweede Italiaans-Ethiopische Oorlog.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Verenigde Staten</div>
+        <div class="list-item-content">Surplusgeweren verkocht als goedkope jachtwapens na WOII.</div>
+      </li>
+    </ul>
   `,
   "details": {
     "gewicht": "3,8 kg (M91 infanteriegeweer)",

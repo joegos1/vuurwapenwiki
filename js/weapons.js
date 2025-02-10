@@ -164,48 +164,99 @@ const weaponsData = [
       {
         "id": 7,
         "naam": "Geweer M.95",
-        "type": "Grendel Geweer",
+        "type": "Bolt-action geweer",
         "periode": "Eerste Wereldoorlog en Interbellum",
-        "jaar": "1895",
+        "jaar": "1895-1945",
         "beschrijving": `
-          <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
-          <p>Het Geweer M.95, ook bekend als het Mannlicher M1895, werd oorspronkelijk ontwikkeld door Oostenrijk-Hongarije als een modern infanteriegeweer. Het Nederlandse leger introduceerde echter een eigen variant van dit geweer, aangepast aan hun behoeften. Het geweer werd gekenmerkt door zijn rechtlijnige grendelactie en het gebruik van een en-bloc clip-systeem, wat het herladen vergemakkelijkte.</p>
+          <h3>Ontstaan en Ontwikkeling</h3>
+          <p>Het Geweer M.95, ook bekend als het Mannlicher M1895, werd oorspronkelijk ontwikkeld door Oostenrijk-Hongarije als een modern infanteriegeweer. Het Nederlandse leger introduceerde echter een eigen variant van dit geweer, aangepast aan hun behoeften. Het geweer werd gekarakteriseerd door zijn rechtlijnige grendelactie en het gebruik van een en-bloc clipsysteem, wat het herladen vergemakkelijkte. De Nederlandse variant werd geproduceerd in verschillende uitvoeringen, waaronder infanteriegeweren en karabijnen.</p>
           <br>
-          <h4><strong>Gebruik en Geschiedenis</strong></h4>
-          <p>De Nederlandse variant van het Geweer M.95 werd ingezet tijdens de Eerste Wereldoorlog en bleef in gebruik tot ver in het Interbellum. Het geweer was populair vanwege zijn betrouwbaarheid en eenvoudige onderhoud. Tijdens de mobilisatie van Nederland in de Eerste Wereldoorlog werd het Geweer M.95 het standaardwapen van de Nederlandse infanterie. Hoewel Nederland neutraal bleef tijdens de oorlog, werd het geweer wel gebruikt voor training en defensie.</p>
-          <p>Na de Eerste Wereldoorlog bleef het Geweer M.95 in gebruik bij het Nederlandse leger en werd het ook ingezet tijdens de mobilisatie aan de vooravond van de Tweede Wereldoorlog. Het geweer werd uiteindelijk vervangen door modernere wapens, maar bleef nog lang in gebruik bij reserve-eenheden en bij de koloniale troepen in Nederlands-Indië.</p>
+          <h4>Gebruik en Geschiedenis</h4>
+          <p>De Nederlandse variant van het Geweer M.95 werd ingezet tijdens de Eerste Wereldoorlog en bleef in gebruik tot ver in het Interbellum. Het geweer was populair vanwege zijn betrouwbaarheid en eenvoudige onderhoud. Tijdens de mobilisatie van Nederland in de Eerste Wereldoorlog werd het Geweer M.95 het standaardwapen van de Nederlandse infanterie. Hoewel Nederland neutraal bleef tijdens de oorlog, werd het geweer wel gebruikt voor training en verdediging.</p>
+          <p>Na de Eerste Wereldoorlog bleef het Geweer M.95 in gebruik bij het Nederlandse leger en werd het ook ingezet tijdens de mobilisatie aan de vooravond van de Tweede Wereldoorlog. Het geweer werd uiteindelijk vervangen door modernere wapens, maar bleef nog lang in gebruik bij reservetroepen en koloniale eenheden in Nederlands-Indië.</p>
           <br>
-          <h4><strong>Varianten van het Geweer M.95</strong></h4>
-          <ul>
-            <li><strong>Geweer M.95:</strong> Het originele model, uitgerust met een 5-patroons en-bloc clip en een kaliber van 6,5×53,5mmR.</li>
-            <li><strong>Karabijn No.1 Oud Model:</strong> Geïntroduceerd in 1896, ontworpen voor de cavalerie en de Marechaussee. Later werd het het officiële karabijn van het KNIL (Koninklijk Nederlands Indisch Leger) in 1911 (1925 voor niet-Europese eenheden in Java).</li>
-            <li><strong>Karabijn No.2:</strong> Voor de Koninklijke Marechaussee, uitgerust met een bajonetmes.</li>
-            <li><strong>Karabijn No.3:</strong> Pioniers- en artillerie-karabijnmodel.</li>
-            <li><strong>Karabijn No.4:</strong> Een verkorte versie van het M.95, ontworpen in 1909 voor de Nederlandse fietsentropen, met een houten bescherming aan de linkerkant van het magazijn.</li>
-            <li><strong>M.95 Loopgraafgeweer:</strong> Een periscoopgeweerversie van het M.95, ontworpen in 1916 voor loopgravenoorlogvoering.</li>
-            <li><strong>Nieuw Model varianten (rond 1930):</strong> Nieuwe versies van de No.1, No.2, No.3 en No.4 karabijnen.</li>
-            <li><strong>Karabijn No.5:</strong> Geïntroduceerd in 1936, een verkorte versie van het Geweer M.95. De eerste 9.500 werden uitgegeven aan veldartillerie en luchtafweerartillerie. In totaal werden 35.500 stuks omgebouwd.</li>
+          <h3 class="content-subhead">Varianten van het Geweer M.95</h3>
+          <ul class="content-list">
+            <li class="list-item">
+              <div class="list-item-title">Geweer M.95 Infanterie</div>
+              <div class="list-item-content">Standaard infanteriegeweer met een lange loop en vaste kolf. Gebruikt door de Nederlandse infanterie tijdens de Eerste Wereldoorlog.</div>
+              <div class="list-item-image">
+                <img src="https://artillerieinrichtingenhembrug.wordpress.com/wp-content/uploads/2017/07/infanterie-geweer-model-1895.png" alt="Geweer M.95 Infanterie">
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="list-item-title">Karabijn No.1 Oud Model</div>
+              <div class="list-item-content">Geïntroduceerd in 1896, ontworpen voor de cavalerie en de Marechaussee. Later werd het het officiële karabijn van het KNIL (Koninklijk Nederlands Indisch Leger) in 1911 (1925 voor niet-Europese eenheden in Java).</div>
+              <div class="list-item-image">
+                <img src="https://collectie.nmm.nl/media/adlib/004267-a.jpg.1200x630_q85.jpg" alt="Karabijn No.1 Oud Model">
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="list-item-title">Karabijn No.2</div>
+              <div class="list-item-content">Voor de Koninklijke Marechaussee, uitgerust met een bajonetmes.</div>
+              <div class="list-item-image">
+                <img src="https://preview.redd.it/8j6j872osso61.jpg?width=640&crop=smart&auto=webp&s=16ad929b9c598aa51020c58af54f52283f532840" width="400" height="300" alt="Karabijn No.2">
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="list-item-title">Karabijn No.3</div>
+              <div class="list-item-content">Pioniers- en artillerie-karabijnmodel.</div>
+              <div class="list-item-image">
+                <img src="https://external-preview.redd.it/b2j0J8v41M6AIUc3VLGWE5MKvWIJdnmYShZFRHXx7uw.jpg?width=640&crop=smart&auto=webp&s=dac9a7996a98705be7f6369320c547042923080c" alt="Karabijn No.3">
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="list-item-title">Karabijn No.4</div>
+              <div class="list-item-content">Verkorte versie voor de Nederlandse fietsentropen, uitgerust met een houten bescherming aan de linkerkant van het magazijn.</div>
+              <div class="list-item-image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Mannlicher_M1895_Carabine_No_4.jpg/800px-Mannlicher_M1895_Carabine_No_4.jpg" alt="Karabijn No.4">
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="list-item-title">M.95 Loopgraafgeweer</div>
+              <div class="list-item-content">Een periscoopgeweerversie van het M.95, ontworpen in 1916 voor loopgravenoorlogvoering.</div>
+              <div class="list-item-image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Mannlicher_M1895_Trench_Gun.jpg/800px-Mannlicher_M1895_Trench_Gun.jpg" alt="M.95 Loopgraafgeweer">
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="list-item-title">Karabijn No.5</div>
+              <div class="list-item-content">Geïntroduceerd in 1936, een verkorte versie van het Geweer M.95. De eerste 9.500 werden uitgegeven aan veldartillerie en luchtafweerartillerie.</div>
+              <div class="list-item-image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Mannlicher_M1895_Carabine_No_5.jpg/800px-Mannlicher_M1895_Carabine_No_5.jpg" alt="Karabijn No.5">
+              </div>
+            </li>
           </ul>
           <br>
-          <h4><strong>Beutewaffen-designaties</strong></h4>
+          <h3 class="content-subhead">Beutewaffen-designaties</h3>
           <p>Na de Duitse bezetting van Nederland werden de buitgemaakte wapens (Beutewaffen) gecatalogiseerd voor Duits gebruik. Hierbij staat:</p>
-          <ul>
-            <li><strong>G 211 (h):</strong> Geweer M1895 (Mannlicher M1895 Infanteriegeweer).</li>
-            <li><strong>Gr. G 212 (h):</strong> Loopgraafgeweer M1895 (Mannlicher M1895 loopgraafgeweer).</li>
-            <li><strong>K 411 (h):</strong> Karabijn No.1 Nieuw Model (cavalerie).</li>
-            <li><strong>K 412 (h):</strong> Karabijn No.1 Oud Model (cavalerie).</li>
-            <li><strong>K 413 (h):</strong> Karabijn No.3 Oud Model & Nieuw Model (artillerie & pioniers).</li>
-            <li><strong>K 414 (h):</strong> Karabijn No.4 Oud Model & Nieuw Model (fietsentropen).</li>
+          <ul class="content-list">
+            <li class="list-item">
+              <div class="list-item-title">G 211 (h)</div>
+              <div class="list-item-content">Geweer M1895 (Mannlicher M1895 Infanteriegeweer).</div>
+            </li>
+            <li class="list-item">
+              <div class="list-item-title">Gr. G 212 (h)</div>
+              <div class="list-item-content">Loopgraafgeweer M1895 (Mannlicher M1895 loopgraafgeweer).</div>
+            </li>
+            <li class="list-item">
+              <div class="list-item-title">K 411 (h)</div>
+              <div class="list-item-content">Karabijn No.1 Nieuw Model (cavalerie).</div>
+            </li>
+            <li class="list-item">
+              <div class="list-item-title">K 412 (h)</div>
+              <div class="list-item-content">Karabijn No.1 Oud Model (cavalerie).</div>
+            </li>
+            <li class="list-item">
+              <div class="list-item-title">K 413 (h)</div>
+              <div class="list-item-content">Karabijn No.3 Oud Model & Nieuw Model (artillerie & pioniers).</div>
+            </li>
+            <li class="list-item">
+              <div class="list-item-title">K 414 (h)</div>
+              <div class="list-item-content">Karabijn No.4 Oud Model & Nieuw Model (fietsentropen).</div>
+            </li>
           </ul>
-          <p>De Karabijn No.2 werd niet geclassificeerd omdat er weinig tot geen exemplaren werden buitgemaakt. De Karabijn No.5 werd geclassificeerd als een Geweer M95.</p>
-          <br>
-          <h4><strong>Gebruikers van het Geweer M.95</strong></h4>
-          <ul>
-            <li><strong>Nederland:</strong> Gebruikt door het Nederlandse leger tijdens de Eerste Wereldoorlog en het Interbellum. Ook ingezet in Nederlands-Indië.</li>
-            <li><strong>Nederlands-Indië:</strong> Gebruikt door koloniale troepen en lokale eenheden.</li>
-            <li><strong>Duitsland:</strong> Buitgemaakt tijdens de Tweede Wereldoorlog en opnieuw ingezet door Duitse troepen onder de naam Gewehr 211(h).</li>
-            <li><strong>Indonesië:</strong> Gebruikt door Indonesische strijdkrachten tijdens de Indonesische Onafhankelijkheidsoorlog.</li>
-          </ul>
+          <p>De Karabijn No.2 werd niet geclassificeerd omdat er weinig tot geen exemplaren werden buitgemaakt. De Karabijn No.5 werd geclassificeerd als K 415 (h).</p>
         `,
         "details": {
           "gewicht": "4,1 kg",
@@ -213,11 +264,12 @@ const weaponsData = [
           "vuursnelheid": "Bolt-action (enkele schoten)",
           "magazijncapaciteit": "5 patronen",
           "land": "Nederland",
-          "gebruik": "Militair",
-          "prijs": "Afhankelijk van model en staat"
+          "gebruik": "Militair, Verzamelaars",
+          "prijs": "€800–€3.000 (afhankelijk van zeldzaamheid)"
         },
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Dutch_Mannlicher_M1895_carbine.jpg/563px-Dutch_Mannlicher_M1895_carbine.jpg"
       },
+      
       
       {
         "id": 8,

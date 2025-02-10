@@ -1231,7 +1231,7 @@ const weaponsData = [
     "gebruik": "Militair, Historische verzamelobjecten",
     "prijs": "€5.000–€50.000 (afhankelijk van staat en zeldzaamheid)"
   },
-  "image": "https://vignette.wikia.nocookie.net/world-war-2/images/3/30/MKb42(H).png/revision/latest?cb=20130511164942"
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Mkb_42W_%28Walther%29.jpg/640px-Mkb_42W_%28Walther%29.jpg"
 },
 {
   "id": 27,
@@ -1304,6 +1304,77 @@ const weaponsData = [
   },
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Carcano_Mod91_TS.jpg/1200px-Carcano_Mod91_TS.jpg"
 },
+
+{
+  "id": 28,
+  "naam": "StG 44",
+  "type": "Aanvalsgeweer",
+  "periode": "Tweede Wereldoorlog",
+  "jaar": "1944-2025",
+  "beschrijving": `
+    <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+    <p>De Sturmgewehr 44 (StG 44) werd in 1944 geïntroduceerd als het eerste volwaardige aanvalsgeweer ter wereld. Ontworpen door nazi-Duitsland, werd het ontwikkeld om de effectiviteit van infanterie-eenheden te vergroten door een wapen te bieden dat zowel nauwkeurig als snelvuurcapaciteit had. Het gebruikte de 7.92×33mm Kurz-patroon en had een selectief vuurmechanisme.</p>
+    <br>
+    <h4><strong>Gebruik en Historische Context</strong></h4>
+    <p>De StG 44 werd gebruikt door de Duitse Wehrmacht tijdens de laatste jaren van de Tweede Wereldoorlog. Het bewees zijn waarde in veldslagen aan het Oostfront en had een grote invloed op de naoorlogse ontwikkeling van aanvalsgeweren, waaronder de AK-47. Ondanks zijn innovatieve ontwerp werd de productie beperkt door oorlogsomstandigheden.</p>
+    <br>
+    <h3 class="content-subhead"><strong>Varianten van de StG 44</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">StG 44 Standaard</div>
+        <div class="list-item-content">De originele versie met een houten kolf en een 30-patroons magazijn.</div>
+        <img class="fotos" src="https://th.bing.com/th/id/R.6d0477f94f856c5cb5bfd29f2a8a8c54?rik=dV2XeizgGfeK1Q&pid=ImgRaw&r=0" alt="StG 44 Standaard" width="650" height="250"/> <br>
+      </li> <br>
+      <li class="list-item">
+        <div class="list-item-title">StG 44 met nachtkijker</div>
+        <div class="list-item-content">Een variant uitgerust met een ZG 1229 nachtkijker voor nachtoperaties.</div>
+        <img class="fotos" src="https://th.bing.com/th/id/OIP.3onx737KnwpvaHgKF_xJNwHaDD?rs=1&pid=ImgDetMain" alt="StG 44 met nachtkijker" width="650" height="250"/> <br>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">StG 44 Krummlauf</div>
+        <div class="list-item-content">Een experimentele variant met een gebogen loop (30° of 45°) bedoeld voor vuren vanuit dekking, bijvoorbeeld vanuit loopgraven of pantservoertuigen. De loop sleet echter snel, waardoor de variant niet op grote schaal werd ingezet.</div>
+        <img class="fotos" src="https://th.bing.com/th/id/R.a70e0af7026b9bbc2d549b4a80834a82?rik=7AlHmRM01e%2fk6Q&riu=http%3a%2f%2fweaponland.ru%2fimages%2fautomat%2fgermani%2fMP-43-MP-44-Stg-44-8.jpg&ehk=rLtAyk8TWbD6Wt3ylRYZDVho8B4NmcUtq27v7RSFnDI%3d&risl=&pid=ImgRaw&r=0" alt="StG 44 Krummlauf" width="650" height="250"/> <br>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">StG 45(M)</div>
+        <div class="list-item-content">De StG 45(M) was een late oorlogse poging om een eenvoudiger en goedkoper alternatief voor de StG 44 te ontwikkelen. Dit model maakte gebruik van een roller-delayed blowback systeem, dat later de basis vormde voor de Heckler & Koch G3 en de CETME-geweren. De oorlog eindigde echter voordat de StG 45 in productie kon gaan.</div>
+        <img class="fotos" src="https://i-enlisted.cdn.gaijin.net/optimized/3X/6/9/699694ae36e62cfb6f69620bbbacd34e66933a1e_2_1000x350.jpeg" alt="StG 45(M)" width="650" height="250"/> <br>
+      </li>
+    </ul>
+    <br>
+    <h3 class="content-subhead"><strong>Gebruikers & Historische Impact</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">Nazi-Duitsland</div>
+        <div class="list-item-content">Beperkt gebruikt door de Wehrmacht in de late stadia van de oorlog.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Oost-Duitsland</div>
+        <div class="list-item-content">Gebruikt door de Nationale Volksarmee in de vroege jaren na de oorlog.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Vietnam</div>
+        <div class="list-item-content">Sommige exemplaren werden gebruikt door de Vietcong.</div>
+      </li>
+    </ul>
+    <br>
+    <h3><strong>Granatwerfer voor de StG 44</strong></h3>
+    <p>De StG 44 kon uitgerust worden met een granaatwerperadapter voor het afvuren van geweergranaten. Dit verhoogde de veelzijdigheid van het wapen en maakte het effectief tegen gepantserde doelen en vijandelijke stellingen.</p>
+  `,
+  "details": {
+    "gewicht": "4,6 kg (ongeladen)",
+    "kaliber": "7.92×33mm Kurz",
+    "vuursnelheid": "500–600 rpm",
+    "magazijncapaciteit": "30 patronen",
+    "land": "Duitsland",
+    "gebruik": "Militair, Historische verzamelobjecten",
+    "prijs": "€5.000–€30.000 (afhankelijk van staat en zeldzaamheid)"
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Sturmgewehr44_noBG.jpg/300px-Sturmgewehr44_noBG.jpg"
+},
+
+
+
 
 
 

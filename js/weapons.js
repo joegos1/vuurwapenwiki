@@ -1233,6 +1233,52 @@ const weaponsData = [
   },
   "image": "https://vignette.wikia.nocookie.net/world-war-2/images/3/30/MKb42(H).png/revision/latest?cb=20130511164942"
 },
+{
+  "id": 27,
+  "naam": "Carcano Modello 1891",
+  "type": "Bolt-action rifle",
+  "periode": "Eerste Wereldoorlog, Tweede Wereldoorlog",
+  "jaar": "1891-1945",
+  "beschrijving": `
+    <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+    <p>De Carcano, ontworpen door Salvatore Carcano, werd in 1891 het standaardinfanteriegeweer van het Koninkrijk Italië...</p>
+    <br>
+    <h4><strong>Gebruik en Historische Context</strong></h4>
+    <p>De Carcano diende in alle Italiaanse koloniale oorlogen en beide wereldoorlogen...</p>
+    <br>
+    <h3 class="content-subhead"><strong>Varianten van de Carcano</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">Fucile di Fanteria Modello 1891</div>
+        <div class="list-item-content">Standaardversie met 78 cm loop voor reguliere infanterie.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Fucile_di_Fanteria_91.jpg" alt="Carcano Modello 1891" width="600" height="400"/> <br>
+      </li> <br>
+      <li class="list-item">
+        <div class="list-item-title">Moschetto Modello 1891 per Cavalleria</div>
+        <div class="list-item-content">Verkorte versie (45 cm loop) voor cavalerie en ondersteunende troepen.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Carcano_M91-38.jpg" alt="Carcano Moschetto 1891" width="500" height="300"/> <br>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Moschetto Modello 1938 per Truppe Speciali</div>
+        <div class="list-item-content">7.35×51mm-versie met vaste vizieren, geproduceerd van 1938-1940.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Carcano_Mod38_TS.jpg" alt="Carcano Modello 1938 TS" width="600" height="400"/> <br>
+      </li>
+    </ul>
+    <br>
+    <h3 class="content-subhead"><strong>Gebruikers & Historische Impact</strong></h3>
+    <!-- Ongewijzigde gebruikerslijst -->
+  `,
+  "details": {
+    "gewicht": "3,8 kg (M91 infanteriegeweer)",
+    "kaliber": "6.5×52mm Carcano / 7.35×51mm Carcano",
+    "vuursnelheid": "Handmatig herladen (bolt-action)",
+    "magazijncapaciteit": "6 patronen (vast intern magazijn)",
+    "land": "Italië",
+    "gebruik": "Militair, Jacht, Verzamelaars",
+    "prijs": "€300–€15.000 (historisch significante exemplaren)"
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Carcano_Mod91_TS.jpg/1200px-Carcano_Mod91_TS.jpg"
+},
 
 
 

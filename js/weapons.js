@@ -1136,7 +1136,7 @@ const weaponsData = [
       <li class="list-item">
         <div class="list-item-title">PPSh-41 met trommelmagazijn</div>
         <div class="list-item-content">Uitgerust met een 71-patroons trommelmagazijn voor maximale vuurkracht.</div>
-        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/7/7a/PPSh-41_drum_magazine.jpg" alt="PPSh-41 met trommelmagazijn" width="600" height="400"/> <br>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/0/01/PPSh-41_from_soviet.jpg" alt="PPSh-41 met trommelmagazijn" width="600" height="400"/> <br>
       </li> <br>
       <li class="list-item">
         <div class="list-item-title">Type 49</div>
@@ -1147,7 +1147,7 @@ const weaponsData = [
       <li class="list-item">
         <div class="list-item-title">PPSh-41 met kromme loop</div>
         <div class="list-item-content">Experimentele versie met een kromme loop voor het afvuren vanuit dekking.</div>
-        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/PPSh-41_curved_barrel.jpg" alt="PPSh-41 met kromme loop" width="700" height="400"/> <br>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/PPSh-41_curved_barrel.jpg" alt="PPSh-41 met kromme loop" width="600" height="400"/> <br>
       </li>
     </ul>
     <br>
@@ -1184,7 +1184,7 @@ const weaponsData = [
     "gebruik": "Militair, Verzamelaars",
     "prijs": "€1.500–€10.000 (afhankelijk van zeldzaamheid)"
   },
-  "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/PPSh-41_drum_magazine.jpg"
+  "image": "https://lh3.googleusercontent.com/ci/AL18g_QDf17D-VCpsbG7YqBR9S1Jio7g2BuIIAsCLXASbV3CPdixN-e9Eyug7z-_Pc7hagjLloqorw=s1200"
 },
 
 

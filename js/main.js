@@ -29,6 +29,44 @@ const TEMPLATES = {
     `
 };
 
+// ======= URL Parameter Handling =======
+function getUrlParams() {
+    const params = new URLSearchParams(window.location.search);
+    return {
+        periodes: params.getAll('periode'),
+        types: params.getAll('type'),
+        landen: params.getAll('land')
+    };
+}
+
+function updateUrlParams(filters) {
+    const params = new URLSearchParams();
+    
+    filters.periodes.forEach(periode => params.append('periode', periode));
+    filters.types.forEach(type => params.append('type', type));
+    filters.landen.forEach(land => params.append('land', land));
+    
+    const newUrl = `${window.location.pathname}${params.toString() ? '?' + params.toString() : ''}`;
+    window.history.pushState({}, '', newUrl);
+}
+
+function applyFiltersFromUrl() {
+    const params = getUrlParams();
+    
+    // Helper function to check checkboxes based on URL params
+    const setCheckboxes = (filterId, values) => {
+        document.querySelectorAll(`#${filterId} input[type="checkbox"]`).forEach(cb => {
+            cb.checked = values.includes(cb.value);
+        });
+    };
+
+    setCheckboxes('periodFilter', params.periodes);
+    setCheckboxes('typeFilter', params.types);
+    setCheckboxes('countryFilter', params.landen);
+    
+    return params;
+}
+
 // ======= Initialization =======
 document.addEventListener('DOMContentLoaded', async () => {
     try {
@@ -36,6 +74,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         const weapons = await db.getAll();
         renderWeapons(weapons);
         setupEventListeners();
+        
+        // Apply filters from URL if present
+        const urlFilters = applyFiltersFromUrl();
+        if (urlFilters.periodes.length || urlFilters.types.length || urlFilters.landen.length) {
+            handleFilters();
+        }
     } catch (error) {
         console.error('Initialization failed:', error);
     }
@@ -56,6 +100,12 @@ function setupEventListeners() {
     elements.type.addEventListener('change', handleFilters);
     elements.country.addEventListener('change', handleFilters);
     elements.back.addEventListener('click', showOverview);
+
+    // Handle browser back/forward buttons
+    window.addEventListener('popstate', () => {
+        applyFiltersFromUrl();
+        handleFilters();
+    });
 }
 
 // ======= Search & Filter Functions =======
@@ -81,6 +131,9 @@ async function handleFilters() {
             types: getSelectedValues('typeFilter'),
             landen: getSelectedValues('countryFilter')
         };
+        
+        // Update URL with current filters
+        updateUrlParams(filters);
         
         const results = await db.filter(filters.periodes, filters.types, filters.landen);
         renderWeapons(results);

@@ -1187,6 +1187,54 @@ const weaponsData = [
   "image": "https://lh3.googleusercontent.com/ci/AL18g_QDf17D-VCpsbG7YqBR9S1Jio7g2BuIIAsCLXASbV3CPdixN-e9Eyug7z-_Pc7hagjLloqorw=s1200"
 },
 
+{
+  "id": 26,
+  "naam": "MKB 42",
+  "type": "Machinepistool",
+  "periode": "Tweede Wereldoorlog",
+  "jaar": "1942-2025",
+  "beschrijving": `
+    <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+    <p>De Maschinenkarabiner 42 (MKB 42) werd in 1942 ontwikkeld als een vroege voorloper van het moderne aanvalsgeweer. Ontworpen door zowel Haenel (MKB 42(H)) als Walther (MKB 42(W)), was dit wapen een experiment van nazi-Duitsland om een nieuw type vuurwapen te introduceren dat de kloof tussen machinepistolen en karabijnen kon overbruggen. Het gebruikte de 7.92×33mm Kurz-patroon en had een selectief vuurmechanisme, waardoor soldaten zowel semi- als volautomatisch konden vuren.</p>
+    <br>
+    <h4><strong>Gebruik en Historische Context</strong></h4>
+    <p>De MKB 42 werd voornamelijk getest door Duitse troepen aan het Oostfront, waar het zich bewees als een veelzijdig en krachtig wapen. Door zijn effectiviteit legde het de basis voor de ontwikkeling van de Sturmgewehr 44, dat later de standaard werd voor moderne aanvalsgeweren. Hoewel slechts enkele duizenden exemplaren van de MKB 42 werden geproduceerd, heeft het een enorme invloed gehad op de evolutie van infanteriewapens.</p>
+    <br>
+    <h3 class="content-subhead"><strong>Varianten van de MKB 42</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">MKB 42(H)</div>
+        <div class="list-item-content">Ontworpen door Haenel, dit model had een open grendel en een relatief hoge vuursnelheid.</div>
+        <img class="fotos" src="https://th.bing.com/th/id/OIP.crJr4QbVaGGKjhfjSpsbogAAAA?rs=1&pid=ImgDetMain" alt="MKB 42(H)" width="600" height="250"/> <br>
+      </li> <br>
+      <li class="list-item">
+        <div class="list-item-title">MKB 42(W)</div>
+        <div class="list-item-content">De Walther-versie had enkele ontwerpwijzigingen, waaronder een gesloten grendel.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Mkb_42W_%28Walther%29.jpg/640px-Mkb_42W_%28Walther%29.jpg" alt="MKB 42(W)" width="600" height="250"/> <br>
+      </li>
+    </ul>
+    <br>
+    <h3 class="content-subhead"><strong>Gebruikers & Historische Impact</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">Nazi-Duitsland</div>
+        <div class="list-item-content">Beperkt gebruikt door Duitse troepen aan het Oostfront als experimenteel wapen.</div>
+      </li>
+    </ul>
+  `,
+  "details": {
+    "gewicht": "4,8 kg (ongeladen)",
+    "kaliber": "7.92×33mm Kurz",
+    "vuursnelheid": "500–600 rpm",
+    "magazijncapaciteit": "30 patronen",
+    "land": "Duitsland",
+    "gebruik": "Militair, Historische verzamelobjecten",
+    "prijs": "€5.000–€50.000 (afhankelijk van staat en zeldzaamheid)"
+  },
+  "image": "https://vignette.wikia.nocookie.net/world-war-2/images/3/30/MKb42(H).png/revision/latest?cb=20130511164942"
+},
+
+
 
 
     

@@ -1237,7 +1237,7 @@ const weaponsData = [
   "id": 27,
   "naam": "Carcano Modello 1891",
   "type": "Grendel Geweer",
-  "periode": "Eerste Wereldoorlog, Tweede Wereldoorlog",
+  "periode": "Eerste Wereldoorlog",
   "jaar": "1891-1945",
   "beschrijving": `
     <h3><strong>Ontstaan en Ontwikkeling</strong></h3>

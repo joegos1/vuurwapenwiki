@@ -822,7 +822,7 @@ const weaponsData = [
   "id": 21,
   "naam": "Gewehr 88",
   "type": "Grendel Geweer",
-  "periode": "Laat 19e eeuw - Eerste Wereldoorlog",
+  "periode": "Eerste Wereldoorlog",
   "jaar": "1888",
   "beschrijving": `
     <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
@@ -909,7 +909,7 @@ const weaponsData = [
   "id": 22,
   "naam": "MP 34 / Solothurn S1-100",
   "type": "Machinepistool",
-  "periode": "Interbellum / Tweede Wereldoorlog",
+  "periode": "Tweede Wereldoorlog",
   "jaar": "1929",
   "beschrijving": `
     <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
@@ -953,7 +953,7 @@ const weaponsData = [
   "id": 23,
   "naam": "Mauser C96",
   "type": "Semi-automatisch pistool",
-  "periode": "Laat 19e eeuw - Tweede Wereldoorlog en daarna",
+  "periode": "Eerste Wereldoorlog",
   "jaar": "1896-1961",
   "beschrijving": `
     <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
@@ -1039,7 +1039,7 @@ const weaponsData = [
   "id": 24,
   "naam": "Gewehr 98",
   "type": "Grendel Geweer",
-  "periode": "Laat 19e eeuw - Tweede Wereldoorlog en daarna",
+  "periode": "Eerste Wereldoorlog",
   "jaar": "1898",
   "beschrijving": `
     <h3><strong>Ontstaan en Ontwikkeling</strong></h3>

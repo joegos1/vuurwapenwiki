@@ -1550,7 +1550,122 @@ const weaponsData = [
     "prijs": "€800–€5.000 (afhankelijk van staat en zeldzaamheid)"
   },
   "image": "https://www.highwoodclassicarms.co.uk/Firerms%20For%20Sale/0018/1.JPG"
-}
+},
+{
+  "id": 31,
+  "naam": "Berdan Nr. 2",
+  "type": "Infanteriegeweer",
+  "periode": "1868-1891",
+  "jaar": "1870",
+  "beschrijving": `
+    <h3><strong>Introductie en Geschiedenis</strong></h3>
+    <p>De Berdan Nr. 2, ontworpen door de Amerikaanse schutter Hiram Berdan, was een baanbrekend grendelgeweer dat in 1870 door het Russische leger werd aangenomen. Het was een van de eerste grendelgeweren die op grote schaal werden gebruikt en markeerde een belangrijke stap voorwaarts in de vuurwapentechnologie. Het geweer was vernoemd naar zijn ontwerper, Hiram Berdan, een bekende Amerikaanse schutter en militair. De Berdan Nr. 2 werd geproduceerd in verschillende varianten, waaronder een infanterie- en een cavalerieversie.</p>
+    <br>
+    <h4><strong>Gebruik en Historische Context</strong></h4>
+    <p>De Berdan Nr. 2 werd in verschillende conflicten gebruikt, waaronder de Russisch-Turkse oorlog van 1877-1878. Het geweer stond bekend om zijn nauwkeurigheid en betrouwbaarheid, waardoor het populair was bij soldaten. Het was een enkelschotsgeweer, wat betekende dat het na elk schot handmatig moest worden herladen. Ondanks dit nadeel was de Berdan Nr. 2 een zeer effectief wapen, vooral op lange afstanden.</p>
+    <br>
+    <h3 class="content-subhead"><strong>Varianten van de Berdan</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">Berdan Nr. 1</div>
+        <div class="list-item-content">Een eerdere versie met een 'trapdoor'-actie, die minder succesvol was dan de Nr. 2. De Berdan Nr. 1 was het eerste ontwerp van Hiram Berdan en werd in kleine aantallen geproduceerd. Het geweer had een aantal nadelen, waaronder een complex herlaadmechanisme.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Berdan_I_rifle.jpg/800px-Berdan_I_rifle.jpg" alt="Berdan Nr. 1" width="600" height="400"/> <br>
+      </li> <br>
+      <li class="list-item">
+        <div class="list-item-title">Berdan Nr. 2 (Infanterie)</div>
+        <div class="list-item-content">De standaardversie voor infanterie, gekenmerkt door zijn houten kolf en lange loop. De infanterievariant van de Berdan Nr. 2 was het meest geproduceerde model en werd op grote schaal gebruikt door het Russische leger. Het geweer had een lange loop voor een betere nauwkeurigheid en was chambered in het 10.75x58mmR-patroon.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Berdan_II.jpg/800px-Berdan_II.jpg" alt="Berdan Nr. 2 Infanterie" width="500" height="300"/> <br>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Berdan Nr. 2 (Cavalerie)</div>
+        <div class="list-item-content">Een kortere versie, speciaal ontworpen voor gebruik door de cavalerie. De cavalerieversie van de Berdan Nr. 2 had een kortere loop dan de infanterievariant, waardoor hij handiger was voor gebruik te paard. Het geweer was ook lichter dan de infanterievariant.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Berdan_II_carbine.jpg/800px-Berdan_II_carbine.jpg" alt="Berdan Nr. 2 Cavalerie" width="600" height="400"/> <br>
+      </li>
+    </ul>
+    <br>
+    <h3 class="content-subhead"><strong>Gebruikers & Historische Impact</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">Rusland</div>
+        <div class="list-item-content">Het standaard infanteriegeweer van het Russische leger voor vele jaren. De Berdan Nr. 2 werd in grote aantallen geproduceerd in Rusland en diende als het standaard infanteriegeweer van het Russische leger gedurende vele jaren. Het geweer werd gebruikt in verschillende conflicten, waaronder de Russisch-Turkse oorlog en de Eerste Wereldoorlog.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Finland</div>
+        <div class="list-item-content">Gebruikt door Finse troepen tijdens hun onafhankelijkheidsstrijd. De Berdan Nr. 2 werd ook gebruikt door Finse troepen tijdens hun onafhankelijkheidsstrijd tegen Rusland. Het geweer was populair bij de Finnen vanwege zijn nauwkeurigheid en betrouwbaarheid.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Bulgarije</div>
+        <div class="list-item-content">Nam de Berdan Nr. 2 over als hun standaardgeweer. De Berdan Nr. 2 werd ook geëxporteerd naar andere landen, waaronder Bulgarije, dat het geweer overnam als zijn standaard infanteriegeweer.</div>
+      </li>
+    </ul>
+  `,
+  "details": {
+    "gewicht": "4,2 kg (Berdan Nr. 2 infanterie)",
+    "kaliber": "10.75×58mmR (Berdan)",
+    "vuursnelheid": "6-8 schoten per minuut",
+    "magazijncapaciteit": "Geen (enkel schot)",
+    "land": "Rusland",
+    "gebruik": "Militair",
+    "prijs": "Niet meer in productie"
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Berdan_II.jpg/1200px-Berdan_II.jpg"
+},
+{
+  "id": 32,
+  "naam": "Astra 400",
+  "type": "Semi-automatic pistol",
+  "periode": "Interbellum, Tweede Wereldoorlog",
+  "jaar": "1921-1950",
+  "beschrijving": `
+    <h3><strong>Introductie en Geschiedenis</strong></h3>
+    <p>De Astra 400, ontworpen door Isidro Gaztañaga, was een Spaanse semi-automatic pistol die in 1921 op de markt kwam. Het was een uniek ontwerp met een terugslagmechanisme dat zowel de veer als de loop omvatte. De Astra 400 werd bekend om zijn betrouwbaarheid en werd in verschillende conflicten gebruikt, waaronder de Spaanse Burgeroorlog en de Tweede Wereldoorlog. Het pistool werd geproduceerd door Astra, een Spaanse wapenfabrikant. De Astra 400 was een van de meest populaire pistolen van zijn tijd en werd in grote aantallen geëxporteerd naar andere landen.</p>
+    <br>
+    <h4><strong>Gebruik en Historische Context</strong></h4>
+    <p>De Astra 400 werd in Spanje geproduceerd tijdens een periode van politieke en sociale onrust. Het pistool werd gebruikt door zowel de Republikeinse als de Nationalistische troepen tijdens de Spaanse Burgeroorlog. Later werd het ook door Duitsland gebruikt tijdens de Tweede Wereldoorlog, nadat ze de controle over de Spaanse wapenfabrieken hadden overgenomen. De Astra 400 werd ook gebruikt door andere landen, waaronder Chili, Roemenië en Finland.</p>
+    <br>
+    <h3 class="content-subhead"><strong>Varianten van de Astra 400</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">Astra 400 (9mm Largo)</div>
+        <div class="list-item-content">De standaardversie van de Astra 400, chambered in 9mm Largo. De 9mm Largo-versie van de Astra 400 was de meest geproduceerde variant en werd op grote schaal gebruikt door het Spaanse leger. Het pistool had een capaciteit van 8 patronen en was een betrouwbaar en effectief wapen.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Astra_400_9mm_largo.jpg/800px-Astra_400_9mm_largo.jpg" alt="Astra 400 (9mm Largo)" width="600" height="400"/> <br>
+      </li> <br>
+      <li class="list-item">
+        <div class="list-item-title">Astra 400 (9mm Parabellum)</div>
+        <div class="list-item-content">Een latere variant die chambered was in het meer gebruikelijke 9mm Parabellum. De 9mm Parabellum-versie van de Astra 400 werd geïntroduceerd in de jaren 1930 en was bedoeld voor export naar landen waar de 9mm Parabellum-patroon populairder was. Het pistool had dezelfde eigenschappen als de 9mm Largo-versie, maar was chambered in een andere patroon.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Astra_400_9mm_parabellum.jpg/800px-Astra_400_9mm_parabellum.jpg" alt="Astra 400 (9mm Parabellum)" width="500" height="300"/> <br>
+      </li>
+    </ul>
+    <br>
+    <h3 class="content-subhead"><strong>Gebruikers & Historische Impact</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">Spanje</div>
+        <div class="list-item-content">Het standaard semi-automatic pistol van het Spaanse leger tijdens de Spaanse Burgeroorlog. De Astra 400 werd door beide zijden van het conflict gebruikt en speelde een belangrijke rol in de oorlog. Het pistool was populair bij soldaten vanwege zijn betrouwbaarheid en eenvoudige bediening.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Duitsland</div>
+        <div class="list-item-content">Gebruikte de Astra 400 tijdens de Tweede Wereldoorlog na de bezetting van Spanje. Na de Spaanse Burgeroorlog nam Duitsland de controle over de Spaanse wapenfabrieken over en begon de Astra 400 te produceren voor zijn eigen troepen. Het pistool werd door de Duitsers gewaardeerd vanwege zijn betrouwbaarheid en werd in verschillende conflicten gebruikt.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Andere landen</div>
+        <div class="list-item-content">
+        De Astra 400 werd geëxporteerd naar verschillende landen over de hele wereld. Chili en Roemenië waren twee van de landen die de Astra 400 in hun militaire arsenalen opnamen, wat getuigt van de internationale erkenning van de kwaliteit en betrouwbaarheid van dit pistool. Het pistool werd ook populair bij verzamelaars en schutters, wat bijdroeg aan zijn blijvende populariteit, zelfs lang nadat het niet meer in militaire dienst was. De Astra 400 is een herinnering aan een tijd van grote conflicten, maar ook van innovatie in wapenontwerp.
+        </div>
+      </li>
+    </ul>
+  `,
+  "details": {
+    "gewicht": "1.14 kg",
+    "kaliber": "9mm Largo / 9mm Parabellum",
+    "vuursnelheid": "Semi-automatisch",
+    "magazijncapaciteit": "8 patronen",
+    "land": "Spanje",
+    "gebruik": "Militair, Politie, Zelfverdediging",
+    "prijs": "€200 - €1000 (afhankelijk van conditie en zeldzaamheid)"
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Astra_400_9mm_largo.jpg/1200px-Astra_400_9mm_largo.jpg"
+},
 
 
 

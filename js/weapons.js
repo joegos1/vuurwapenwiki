@@ -1106,27 +1106,27 @@ const weaponsData = [
       <li class="list-item">
         <div class="list-item-title">Gewehr 98a (1904)</div>
         <div class="list-item-content">Een lichtgewicht versie met een kortere loop en verbeterde handgreep, bedoeld voor cavalerie en artillerie-eenheden.</div>
-        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Gewehr_98a.jpg" alt="Gewehr 98a" width="600" height="400"/> <br>
+        <img class="fotos" src="https://www.shootingillustrated.com/media/memh4jvc/kar.jpg?anchor=center&mode=crop&width=987&height=551&rnd=133331245132900000&quality=60" alt="Gewehr 98a" width="600" height="400"/> <br>
       </li> <br>
       <li class="list-item">
         <div class="list-item-title">Scharfschützengewehr 98 (1915)</div>
         <div class="list-item-content">Scherpschuttersversie met telescopisch vizier, gebruikt door Duitse scherpschutters in WOI.</div>
-        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Scharfschützengewehr_98.jpg" alt="Scharfschützengewehr 98" width="500" height="300"/> <br>
+        <img class="fotos" src="https://www.andreas-thies.de/bilder/fotos_gast/3005_77.jpg" alt="Scharfschützengewehr 98" width="700" height="300"/> <br>
       </li>
       <li class="list-item">
         <div class="list-item-title">Karabiner 98b (1923)</div>
         <div class="list-item-content">Een kortere en lichtere versie, ontwikkeld voor cavalerie en andere mobiele eenheden.</div>
-        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Karabiner_98b.jpg" alt="Karabiner 98b" width="700" height="400"/> <br>
+        <img class="fotos" src="https://i.redd.it/a-pair-of-kar-98b-rifles-v0-1wmsccwc6ayc1.jpg?width=3899&format=pjpg&auto=webp&s=8acf77add6521002e990126edf181c590705836d" alt="Karabiner 98b" width="700" height="400"/> <br>
       </li>
       <li class="list-item">
         <div class="list-item-title">Karabiner 98k (1935)</div>
         <div class="list-item-content">De meest bekende variant, gebruikt door het Duitse leger tijdens de Tweede Wereldoorlog. Het was korter en lichter dan de originele Gewehr 98.</div>
-        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Karabiner_98k.jpg" alt="Karabiner 98k" width="600" height="300"/> <br>
+        <img class="fotos" src="https://photo.weaponsystems.net/image/s-carousel/n-fa_rfl_kar98k_p01.jpg/--/img/ws/fa_rfl_kar98k_p01.jpg" alt="Karabiner 98k" width="600" height="300"/> <br>
       </li>
       <li class="list-item">
         <div class="list-item-title">Yugoslavian M48 (1948)</div>
         <div class="list-item-content">Een naoorlogse variant geproduceerd in Joegoslavië, gebaseerd op het Gewehr 98-ontwerp.</div>
-        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Yugoslavian_M48.jpg" alt="Yugoslavian M48" width="400" height="250"/> <br>
+        <img class="fotos" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAUlNm5HB18z2puctCyaaySo2ueXM4wmihPCVx3W5gFbOg9bnQlh7PPuR-UfsiEnWnD9m3Q-09P_4mOhMGWuF32v1sLTh70weCwpUFtqgUtxPPlyyjSTUDOA18HfSLdg_XF1ieB2HX3rwx/s1600/IMG_0608.JPG" alt="Yugoslavian M48" width="500" height="250"/> <br>
       </li>
     </ul>
     <br>
@@ -1424,6 +1424,133 @@ const weaponsData = [
   },
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Sturmgewehr44_noBG.jpg/300px-Sturmgewehr44_noBG.jpg"
 },
+{
+  "id": 29,
+  "naam": "RSC 1917/1918",
+  "type": "Semi-Automatisch Geweer",
+  "periode": "Eerste Wereldoorlog",
+  "jaar": "1917-1918",
+  "beschrijving": `
+    <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+    <p>Het RSC 1917/1918 (Rifle Semi-Automatic de Combat) werd ontwikkeld door Frankrijk tijdens de laatste jaren van de Eerste Wereldoorlog. Het was een poging om infanteristen te voorzien van een modern semi-automatisch geweer, wat een revolutie zou betekenen in vergelijking met de handmatige bolt-action geweren die destijds dominant waren...</p>
+    <br>
+    <h4><strong>Gebruik en Historische Context</strong></h4>
+    <p>Het RSC 1917/1918 werd ontworpen om gebruik te maken van het standaard 8mm Lebel-patroon, waardoor het gemakkelijk kon worden geïntegreerd in de Franse militaire logistiek. Hoewel het wapen technisch indrukwekkend was, kwam het te laat om een doorslaggevende rol te spelen in de oorlog. Slechts een beperkt aantal eenheden werden ingezet voordat de wapenstilstand in 1918 werd getekend...</p>
+    <br>
+    <h3 class="content-subhead"><strong>Varianten van de RSC 1917/1918</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">RSC Modèle 1917</div>
+        <div class="list-item-content">De eerste versie, ontworpen om snel geproduceerd te kunnen worden met bestaande onderdelen.</div>
+        <img class="fotos" src="https://external-preview.redd.it/ypuwNdOehVLo-hxdt0JghuigU33mjA3rqTztFk4ALmo.jpg?auto=webp&s=63afbdf8e4223018887a6590699ee61ad134317a" alt="RSC 1917" width="700" height="350"/> <br>
+      </li> <br>
+      <li class="list-item">
+        <div class="list-item-title">RSC Modèle 1918</div>
+        <div class="list-item-content">Verbeterde versie met een vereenvoudigd ontwerp om productiekosten te verlagen.</div>
+        <img class="fotos" src="https://pm1.aminoapps.com/7047/05824f3aed0b27d59f87bda0b990769b2e600725r1-1200-640v2_hq.jpg" alt="RSC 1918" width="500" height="300"/> <br>
+      </li>
+    </ul>
+    <br>
+    <h3 class="content-subhead"><strong>Gebruikers & Historische Impact</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">Frankrijk</div>
+        <div class="list-item-content">Hoofdgebruiker tijdens de laatste fase van de Eerste Wereldoorlog.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Verenigde Staten</div>
+        <div class="list-item-content">Enkele exemplaren werden getest door Amerikaanse troepen, maar niet in grote aantallen ingezet.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Nazi-Duitsland</div>
+        <div class="list-item-content">De RSC werd uitgegeven aan de Volksturm aan het eind van de oorlog.</div>
+      </li>
+    </ul>
+  `,
+  "details": {
+    "gewicht": "4,3 kg",
+    "kaliber": "8×50mmR Lebel",
+    "vuursnelheid": "Semi-automatisch",
+    "magazijncapaciteit": "5 patronen (clip-gevoerd)",
+    "land": "Frankrijk",
+    "gebruik": "Militair, Historische Collecties",
+    "prijs": "€2.000–€10.000 (afhankelijk van staat en zeldzaamheid)"
+  },
+  "image": "https://collectie.nmm.nl/media/adlib/000771.jpg.1200x630_q85.jpg"
+},
+{
+  "id": 30,
+  "naam": "Steyr Hahn",
+  "type": "Pistool",
+  "periode": "Eerste Wereldoorlog",
+  "jaar": "1912-1918",
+  "beschrijving": `
+    <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+<p>
+    De Steyr Hahn (Duits: "Hammer") werd ontwikkeld door de Oostenrijkse fabrikant Steyr Mannlicher aan het begin van de 20e eeuw. Het pistool was bedoeld als een betrouwbaar dienstpistool voor officieren en andere specialisten binnen het Oostenrijks-Hongaarse leger. Het ontwerp van het wapen was het resultaat van jarenlange innovatie in de wapenindustrie, waarbij gezocht werd naar een modern alternatief voor de traditionele revolvers die destijds overheersten. 
+</p>
+<p>
+    Het Steyr Hahn maakte gebruik van een geavanceerd <em>korte terugslagmechanisme</em>, ontworpen door de Tsjechische wapenontwerper Karel Krnka. Dit mechanisme zorgde ervoor dat het pistool automatisch herlaadde na elk schot, wat een aanzienlijke verbetering was ten opzichte van handmatig te laden revolvers. Het pistool was gekamerd voor de krachtige <strong>9×23mm Steyr-patroon</strong>, die speciaal voor dit wapen werd ontwikkeld. Deze munitie was iets krachtiger dan de beroemde 9×19mm Parabellum, waardoor het Steyr Hahn een formidabel wapen was in termen van vuurkracht en doordringingsvermogen.
+</p>
+<p>
+    De constructie van het Steyr Hahn was robuust en functioneel, met een ontwerp dat gericht was op duurzaamheid en betrouwbaarheid. Het pistool had een magazijncapaciteit van 8 patronen, wat een aanzienlijke verbetering was ten opzichte van de meeste revolvers uit die tijd, die vaak slechts 5 of 6 schoten konden bevatten. Deze combinatie van kracht, capaciteit en betrouwbaarheid maakte het Steyr Hahn tot een ideale keuze voor militair gebruik.
+</p>
+<br>
+<h4><strong>Gebruik en Historische Context</strong></h4>
+<p>
+    De Steyr Hahn werd in 1912 geïntroduceerd en vervulde zijn rol gedurende de Eerste Wereldoorlog. Hoewel het minder bekend is dan andere pistolen uit die tijd, zoals de Duitse Luger P08 of de Amerikaanse Colt M1911, was het een robuust en betrouwbaar wapen dat goed presteerde onder zware omstandigheden. Het pistool werd voornamelijk gebruikt door officieren, onderofficieren en specialisten zoals mitrailleurschutters en artilleristen binnen het Oostenrijks-Hongaarse leger.
+</p>
+<p>
+    Tijdens de Eerste Wereldoorlog bleek het Steyr Hahn zijn waarde waard. Het wapen kon goed functioneren in de modderige en smerige omstandigheden van de loopgravenoorlog, wat een belangrijke eigenschap was voor een militair pistool. Na de oorlog bleef het pistool in gebruik bij verschillende legers en politie-eenheden, waaronder die van Oostenrijk en andere opvolgerstaten van het voormalige Oostenrijks-Hongaarse Rijk.
+</p>
+<p>
+    Tijdens de Tweede Wereldoorlog kwam het Steyr Hahn opnieuw in beeld, ditmaal in handen van Duitse politie-eenheden en bezettingsmachten. Na de Anschluss (de annexatie van Oostenrijk door Nazi-Duitsland in 1938) werden grote hoeveelheden Steyr Hahn-pistolen overgenomen door de Duitse Wehrmacht en politie. Hoewel het niet langer het primaire militaire pistool was, bleef het Steyr Hahn een gewaardeerd wapen vanwege zijn robuuste constructie en betrouwbaarheid. Het werd vooral gebruikt door tweederangs troepen, garnizoenssoldaten en politie-eenheden.
+</p>
+<p>
+    Daarnaast werd het Steyr Hahn ook geëxporteerd naar verschillende landen, zoals Chili en Roemenië, waar het in dienst kwam van hun legers en politie-eenheden. Zelfs vandaag de dag wordt het Steyr Hahn beschouwd als een klassiek voorbeeld van vroeg-20e-eeuwse wapenontwikkeling en blijft het populair onder verzamelaars van historische vuurwapens.
+</p>
+    <br>
+    <h3 class="content-subhead"><strong>Varianten van de Steyr Hahn</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">Model 1911</div>
+        <div class="list-item-content">Oorspronkelijke versie met een kaliber van 9×23mm Steyr.</div>
+        <img class="fotos" src="https://collectorsfirearms.com/wp-content/uploads/2024/09/64148.jpg" alt="Steyr Hahn Model 1911" width="600" height="400"/> <br>
+      </li> <br>
+      <li class="list-item">
+        <div class="list-item-title">Model 1912</div>
+        <div class="list-item-content">Verbeterde versie met een aangepast vizier en betere afwerking.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Steyr-Hahn_M1912.JPG" alt="Steyr Hahn Model 1912" width="500" height="300"/> <br>
+      </li>
+    </ul>
+    <br>
+    <h3 class="content-subhead"><strong>Gebruikers & Historische Impact</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">Oostenrijk</div>
+        <div class="list-item-content">16.385 Steyr-Hahns Gebruikt door de Eerste Oostenrijkse Republiek</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Finland</div>
+        <div class="list-item-content">De Steyr Hahn M1912 werd door Finland ingezet als een standaard zijwapen tijdens de Winter- en Continuïteitsoorlog. Finse officieren en specialisten waardeerden het pistool om zijn betrouwbaarheid en nauwkeurigheid, eigenschappen die cruciaal waren in de vaak extreme omstandigheden van de Finse oorlogen</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Roemenië</div>
+        <div class="list-item-content">Het Roemeense leger kocht ook een aanzienlijk aantal Steyr Hahn-pistolen aan, die werden gebruikt door officieren. Deze pistolen zagen beperkt gebruik tijdens de Eerste Wereldoorlog en de tussenoorlogse periode.</div>
+      </li>
+    </ul>
+  `,
+  "details": {
+    "gewicht": "0,9 kg",
+    "kaliber": "9×23mm Steyr & 9mm Parabelum",
+    "vuursnelheid": "Handmatig herladen (single-action)",
+    "magazijncapaciteit": "8 patronen",
+    "land": "Oostenrijk-Hongarije",
+    "gebruik": "Militair, Politie",
+    "prijs": "€800–€5.000 (afhankelijk van staat en zeldzaamheid)"
+  },
+  "image": "https://www.highwoodclassicarms.co.uk/Firerms%20For%20Sale/0018/1.JPG"
+}
 
 
 

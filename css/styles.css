@@ -208,6 +208,42 @@ main {
     padding: 1rem;
 }
 
+/* Collapsible filter styles */
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.5rem 0;
+    transition: all 0.3s ease;
+}
+
+.filter-header h4 {
+    margin: 0;
+}
+
+.filter-header:hover {
+    color: #4b5320;
+}
+
+.filter-header i {
+    transition: transform 0.3s ease;
+}
+
+.filter-header.collapsed i {
+    transform: rotate(-90deg);
+}
+
+.checkbox-group {
+    overflow: hidden;
+    max-height: 500px; /* Arbitrary large height */
+    transition: max-height 0.3s ease-in-out;
+}
+
+.checkbox-group.collapsed {
+    max-height: 0;
+}
+
 /* Wapens grid */
 #weapons-grid {
     display: grid;

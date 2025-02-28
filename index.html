@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Historische Wapens Wiki</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <!-- Add Font Awesome for chevron icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <header>
@@ -24,7 +26,10 @@
         <section id="filters">
             <h3>Filters</h3>
             <div class="filter-group">
-                <h4>Tijdsperiode</h4>
+                <div class="filter-header">
+                    <h4>Tijdsperiode</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
                 <div class="checkbox-group" id="periodFilter">
                     <label><input type="checkbox" value="Pre 1900">Pre 1900</label>
                     <label><input type="checkbox" value="Eerste Wereldoorlog">WO I</label>
@@ -35,7 +40,10 @@
                 </div>
             </div>
             <div class="filter-group">
-                <h4>Type</h4>
+                <div class="filter-header">
+                    <h4>Type</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
                 <div class="checkbox-group" id="typeFilter">
                     <label><input type="checkbox" value="Revolver">Revolver</label>
                     <label><input type="checkbox" value="Pistool">Pistool</label>
@@ -48,7 +56,10 @@
                 </div>
             </div>
             <div class="filter-group">
-                <h4>Landen</h4>
+                <div class="filter-header">
+                    <h4>Landen</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
                 <div class="checkbox-group" id="countryFilter">
                     <label><input type="checkbox" value="Verenigde Staten">VS</label>
                     <label><input type="checkbox" value="Sovjet-Unie">USSR</label>
@@ -82,7 +93,6 @@
     <script src="../js/database.js"></script>
     <script src="../js/search.js"></script>
     <script src="../js/main.js"></script>
-
-
+    <script src="../js/filters.js"></script>
 </body>
 </html>

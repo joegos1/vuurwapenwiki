@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Historische Wapens Wiki</title>
+    
+    <!-- Resource hints for faster loading -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Preload critical CSS -->
+    <link rel="preload" href="../css/styles.css" as="style">
     <link rel="stylesheet" href="../css/styles.css">
-    <!-- Add preconnect for external resources -->
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-    <!-- Add Font Awesome for chevron icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Optimized Font Awesome loading -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
+    
     <!-- Add meta description for better SEO -->
     <meta name="description" content="Ontdek de geschiedenis van historische vuurwapens, van pre-1900 tot de moderne tijd.">
 </head>
@@ -93,12 +102,16 @@
         <p>© 2025 Wapenwiki Germen Liezenga en Jorg Zijlstra</p>
     </footer>
 
-    <!-- Add script for image optimization first -->
-    <script src="../js/imageOptimizer.js"></script>
-    <script src="../js/weapons.js"></script>
-    <script src="../js/database.js"></script>
-    <script src="../js/search.js"></script>
-    <script src="../js/main.js"></script>
-    <script src="../js/filters.js"></script>
+    <!-- Preload key scripts -->
+    <link rel="preload" href="../js/weapons.js" as="script">
+    <link rel="preload" href="../js/database.js" as="script">
+    
+    <!-- Load scripts with defer to not block rendering -->
+    <script defer src="../js/imageOptimizer.js"></script>
+    <script defer src="../js/weapons.js"></script>
+    <script defer src="../js/database.js"></script>
+    <script defer src="../js/search.js"></script>
+    <script defer src="../js/main.js"></script>
+    <script defer src="../js/filters.js"></script>
 </body>
 </html>

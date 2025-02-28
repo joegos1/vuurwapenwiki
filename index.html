@@ -3,23 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Historische Wapens Wiki</title>
+    <title>Historische Wapens Wiki | Vuurwapenwiki | Informatie over wapens door de geschiedenis</title>
+    
+    <!-- Enhanced SEO meta tags -->
+    <meta name="description" content="Vuurwapenwiki: De Nederlandse wiki over historische vuurwapens van pre-1900 tot heden. Ontdek pistolen, geweren, revolvers en meer uit verschillende tijdperken.">
+    <meta name="keywords" content="vuurwapenwiki, historische wapens, vuurwapens, pistolen, geweren, revolvers, wapen geschiedenis, militair materieel, WO1, WO2">
+    <meta name="author" content="Germen Liezenga en Jorg Zijlstra">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vuurwapenwiki-seven.vercel.app/">
+    <meta property="og:title" content="Vuurwapenwiki - Historische Wapens Encyclopedie">
+    <meta property="og:description" content="Ontdek de geschiedenis van historische vuurwapens uit verschillende tijdperken, van pre-1900 tot moderne tijd. Nederlandse vuurwapenwiki.">
+    <meta property="og:image" content="https://vuurwapenwiki-seven.vercel.app/images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://vuurwapenwiki-seven.vercel.app/">
+    <meta property="twitter:title" content="Vuurwapenwiki - Historische Wapens Encyclopedie">
+    <meta property="twitter:description" content="Ontdek de geschiedenis van historische vuurwapens uit verschillende tijdperken, van pre-1900 tot moderne tijd. Nederlandse vuurwapenwiki.">
+    <meta property="twitter:image" content="https://vuurwapenwiki-seven.vercel.app/images/og-image.jpg">
+    
+    <!-- Canonical URL to avoid duplicate content -->
+    <link rel="canonical" href="https://vuurwapenwiki-seven.vercel.app/">
     
     <!-- Resource hints for faster loading -->
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
     
-    <!-- Preload critical CSS -->
-    <link rel="preload" href="../css/styles.css" as="style">
-    <link rel="stylesheet" href="../css/styles.css">
+    <!-- Fix path issues for CSS -->
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
     
     <!-- Optimized Font Awesome loading -->
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
     
-    <!-- Add meta description for better SEO -->
-    <meta name="description" content="Ontdek de geschiedenis van historische vuurwapens, van pre-1900 tot de moderne tijd.">
+    <!-- CLS reduction styles -->
+    <style>
+        /* Pre-reserve space for elements to prevent layout shifts */
+        .search-container { min-height: 40px; }
+        #weapons-grid { min-height: 400px; }
+        #filters { min-height: 300px; }
+        .checkbox-group { min-height: 30px; }
+        
+        /* Pre-define icon width/height to prevent shifting */
+        .fa-solid { width: 1em; height: 1em; display: inline-block; vertical-align: middle; }
+        
+        /* Fix image aspect ratios */
+        img { max-width: 100%; height: auto; }
+        
+        /* Smooth transitions to reduce perceived CLS */
+        .checkbox-group { transition: max-height 0.3s ease; }
+    </style>
+    
+    <!-- Vercel Analytics -->
+    <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
     <header>
@@ -29,8 +70,8 @@
                 <input type="text" id="searchInput" placeholder="Zoek op periode of type...">
             </div>
             <ul class="nav-links">
-                <li><a href="..\html\index.html">Home</a></li>
-                <li><a href="../html\about.html">Over Ons</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="html/about.html">Over Ons</a></li>
             </ul>
         </nav>
     </header>
@@ -99,19 +140,44 @@
     </main>
 
     <footer>
-        <p>© 2025 Wapenwiki Germen Liezenga en Jorg Zijlstra</p>
+        <p>© 2025 Vuurwapenwiki | Germen Liezenga en Jorg Zijlstra</p>
+        <div class="footer-links">
+            <a href="index.html">Home</a> |
+            <a href="html/about.html">Over Ons</a> |
+            <a href="sitemap.xml">Sitemap</a>
+        </div>
     </footer>
 
-    <!-- Preload key scripts -->
-    <link rel="preload" href="../js/weapons.js" as="script">
-    <link rel="preload" href="../js/database.js" as="script">
+    <!-- Fix path issues for scripts -->
+    <link rel="preload" href="js/weapons.js" as="script">
+    <link rel="preload" href="js/database.js" as="script">
     
     <!-- Load scripts with defer to not block rendering -->
-    <script defer src="../js/imageOptimizer.js"></script>
-    <script defer src="../js/weapons.js"></script>
-    <script defer src="../js/database.js"></script>
-    <script defer src="../js/search.js"></script>
-    <script defer src="../js/main.js"></script>
-    <script defer src="../js/filters.js"></script>
+    <script defer src="js/imageOptimizer.js"></script>
+    <script defer src="js/weapons.js"></script>
+    <script defer src="js/database.js"></script>
+    <script defer src="js/search.js"></script>
+    <script defer src="js/main.js"></script>
+    <script defer src="js/filters.js"></script>
+    
+    <!-- Script to fix paths and reduce CLS -->
+    <script>
+        // Fix relative paths when deployed
+        document.addEventListener('DOMContentLoaded', function() {
+            // Fix any path issues in links and images
+            if (window.location.hostname.includes('vercel')) {
+                // Fix navigation links if needed
+                document.querySelectorAll('a[href^="../"]').forEach(link => {
+                    link.href = link.href.replace('../', '/');
+                });
+                
+                // Pre-allocate space for images to reduce CLS
+                const weaponsGrid = document.getElementById('weapons-grid');
+                if (weaponsGrid && !weaponsGrid.innerHTML.trim()) {
+                    weaponsGrid.innerHTML = '<div class="loading-placeholder">Wapens laden...</div>';
+                }
+            }
+        });
+    </script>
 </body>
 </html>

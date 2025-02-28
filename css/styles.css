@@ -521,6 +521,32 @@ footer {
     #content {
         grid-row: 2;
     }
+    
+    /* Increase text size for better readability on medium screens */
+    body {
+        font-size: 16px;
+    }
+    
+    .filter-header h4 {
+        font-size: 1.1rem;
+    }
+    
+    .checkbox-group label {
+        font-size: 1rem;
+        padding: 0.4rem;
+    }
+    
+    .weapon-card-content h3 {
+        font-size: 1.3rem;
+    }
+    
+    .weapon-card-content p {
+        font-size: 1rem;
+    }
+    
+    #weapon-detail {
+        font-size: 1.1rem;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -547,5 +573,70 @@ footer {
     
     #backButton {
         padding: 0.6rem 1rem;
+    }
+    
+    /* Increase text size further for better readability on small screens */
+    body {
+        font-size: 18px;
+    }
+    
+    .search-container input {
+        font-size: 1rem;
+        padding: 0.7rem;
+    }
+    
+    .nav-links a {
+        font-size: 1.1rem;
+        padding: 10px 18px;
+    }
+    
+    .filter-header h4 {
+        font-size: 1.2rem;
+    }
+    
+    .checkbox-group label {
+        font-size: 1.1rem;
+        padding: 0.5rem;
+    }
+    
+    .weapon-card-content h3 {
+        font-size: 1.4rem;
+    }
+    
+    .weapon-card-content p {
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+    
+    #backButton {
+        font-size: 1.1rem;
+        padding: 0.8rem 1.2rem;
+    }
+    
+    /* Increase spacing for touch targets */
+    .checkbox-group input[type="checkbox"] {
+        width: 18px;
+        height: 18px;
+        margin-right: 0.5rem;
+    }
+    
+    .checkbox-group {
+        gap: 0.5rem;
+    }
+}
+
+/* Add an extra breakpoint for very small devices */
+@media screen and (max-width: 360px) {
+    body {
+        font-size: 20px;
+    }
+    
+    .filter-header h4 {
+        font-size: 1.3rem;
+    }
+    
+    .checkbox-group label {
+        font-size: 1.2rem;
+        padding: 0.6rem;
     }
 }

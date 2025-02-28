@@ -2,7 +2,7 @@
 const TEMPLATES = {
     weaponCard: (weapon) => `
         <div class="weapon-card" onclick="showWeaponDetail(${weapon.id})">
-            <img src="${weapon.image}" alt="${weapon.naam}">
+            <img class="lazy-image" data-src="${weapon.image}" alt="${weapon.naam}" width="250" height="200">
             <div class="weapon-card-content">
                 <h3>${weapon.naam}</h3>
                 <p>${weapon.periode} - ${weapon.jaar}</p>
@@ -11,7 +11,7 @@ const TEMPLATES = {
     `,
     weaponDetail: (weapon) => `
         <h2>${weapon.naam}</h2>
-        <img src="${weapon.image}" alt="${weapon.naam}">
+        <img src="${weapon.image}" alt="${weapon.naam}" width="500" height="350" style="max-width: 100%; height: auto;">
         <div class="weapon-info">
             <p><strong>Periode:</strong> ${weapon.periode}</p>
             <p><strong>Jaar:</strong> ${weapon.jaar}</p>
@@ -80,6 +80,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (urlFilters.periodes.length || urlFilters.types.length || urlFilters.landen.length) {
             handleFilters();
         }
+        
+        // Initialize lazy loading
+        initLazyLoading('.lazy-image');
     } catch (error) {
         console.error('Initialization failed:', error);
     }
@@ -146,6 +149,9 @@ async function handleFilters() {
 function renderWeapons(weapons) {
     const grid = document.getElementById('weapons-grid');
     grid.innerHTML = weapons.map(weapon => TEMPLATES.weaponCard(weapon)).join('');
+    
+    // Initialize lazy loading for new images
+    initLazyLoading('.lazy-image');
 }
 
 async function showWeaponDetail(id) {
@@ -159,6 +165,9 @@ async function showWeaponDetail(id) {
         document.getElementById('weapons-grid').style.display = 'none';
         detail.classList.remove('hidden');
         filters.style.display = 'none';
+        
+        // Optimize images in the detail view
+        optimizeDetailImage(content);
         
         // Adjust main grid to single column when showing detail
         document.querySelector('main').style.gridTemplateColumns = '1fr';

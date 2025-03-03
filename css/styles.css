@@ -268,26 +268,47 @@ main {
 .weapon-card img {
     width: 100%;
     height: 200px;
+    aspect-ratio: 16/9;
     object-fit: cover;
     transition: transform 0.3s ease;
     background-color: #f0f0f0;  /* Placeholder color before image loads */
+    /* Force the browser to reserve space */
+    contain: strict;
+    content-visibility: auto;
 }
 
+/* Improved Image Handling to Reduce CLS */
+.weapon-card img {
+    width: 100%;
+    height: 200px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    background-color: #f0f0f0;  /* Placeholder color before image loads */
+    /* Force the browser to reserve space */
+    contain: strict;
+    content-visibility: auto;
+}
+
+/* Enhanced lazy loading with reduced CLS */
 .lazy-image {
     opacity: 0;
     transition: opacity 0.3s ease;
     background-color: #f0f0f0;
+    position: relative;
 }
 
 .lazy-image.loaded {
     opacity: 1;
 }
 
-/* Image placeholders */
+/* Better image placeholders */
 .image-placeholder {
     background-color: #f0f0f0;
     position: relative;
     overflow: hidden;
+    aspect-ratio: 16/9;
+    width: 100%;
 }
 
 .image-placeholder::before {
@@ -300,15 +321,6 @@ main {
     width: 150px;
     background: linear-gradient(to right, transparent 0%, #e0e0e0 50%, transparent 100%);
     animation: shimmer 2s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
-}
-
-@keyframes shimmer {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(450px);
-    }
 }
 
 /* Optimize images in description */
@@ -341,6 +353,17 @@ main {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
+}
+
+#weapon-detail .weapon-info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    aspect-ratio: 4/3;
+    display: block;
+    background-color: #f5f5f5;
 }
 
 #backButton {
@@ -492,6 +515,8 @@ footer {
     max-width: 90%;
     max-height: 90vh;
     margin-top: 2%;
+    object-fit: contain;
+    background-color: #1a1a1a;
 }
 
 .modal-close {
@@ -506,6 +531,11 @@ footer {
 .weapon-image {
     cursor: pointer;
     transition: transform 0.2s;
+    aspect-ratio: 16/9;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    background-color: #f5f5f5;
 }
 
 .weapon-image:hover {
@@ -516,10 +546,37 @@ footer {
     border: black 1px solid;
     border-radius: 20px;
     transition: transform 0.3s ease;
+    aspect-ratio: 1/1;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    background-color: #f5f5f5;
 }
 
-.fotos:hover {
-    transform: scale(1.05);
+/* Add styles for loading state */
+.loading {
+    position: relative;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+
+.loading::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, 
+                                transparent, 
+                                rgba(255, 255, 255, 0.2), 
+                                transparent);
+    animation: loading-shimmer 1.5s infinite;
+}
+
+@keyframes loading-shimmer {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
 }
 
 /* Add media queries for responsiveness */
@@ -595,6 +652,8 @@ footer {
     /* Adjust image sizes on smaller screens */
     .weapon-card img {
         height: 180px;
+        /* Maintain aspect ratio */
+        aspect-ratio: 16/9;
     }
     
     #weapon-detail img {
@@ -602,6 +661,11 @@ footer {
         width: auto;
         margin: 0 auto;
         display: block;
+        /* Set max-width to prevent horizontal overflow */
+        max-width: 100%;
+        /* Keep aspect-ratio */
+        aspect-ratio: 4/3;
+        object-fit: contain;
     }
 }
 
@@ -683,6 +747,8 @@ footer {
     /* Further adjust image sizes on smallest screens */
     .weapon-card img {
         height: 160px;
+        /* Maintain aspect ratio */
+        aspect-ratio: 16/9;
     }
 }
 

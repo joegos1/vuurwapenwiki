@@ -1192,8 +1192,8 @@ const weaponsData = [
       </li> <br>
       <li class="list-item">
         <div class="list-item-title">Type 49</div>
-       <div class="list-item-content">In 1949 ontwikkelde Noord-Korea een eigen versie van de PPSH, bekend als de Type 49. </div>
-       <div class="list-item-content">Deze variant behield het trommelmagazijn en de hoge vuursnelheid, maar werd lokaal geproduceerd met kleine aanpassingen. </div>
+        <div class="list-item-content">In 1949 ontwikkelde Noord-Korea een eigen versie van de PPSH, bekend als de Type 49. </div>
+        <div class="list-item-content">Deze variant behield het trommelmagazijn en de hoge vuursnelheid, maar werd lokaal geproduceerd met kleine aanpassingen. </div>
         <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/8/8a/PPSh-41_short_barrel.jpg" alt="PPSh-41 met kortere loop" width="500" height="300"/> <br>
       </li>
       <li class="list-item">
@@ -1667,24 +1667,434 @@ const weaponsData = [
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Astra_400_9mm_largo.jpg/1200px-Astra_400_9mm_largo.jpg"
 },
 
-
-
-
-
-
-
-    
-    
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-    
-];
+{
+  "id": 33,
+  "naam": "Suomi KP/-31",
+  "type": "Machinepistool",
+  "periode": "Interbellum, Tweede Wereldoorlog",
+  "jaar": "1931-1980",
+  "beschrijving": `
+    <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+    <p>De Suomi KP/-31 (Konepistooli = "machinepistool") was een Fins machinepistool dat in 1931 werd geïntroduceerd na jarenlange ontwikkeling door Aimo Lahti. Het wapen was een verbetering van eerdere prototypes en werd in de jaren '20 ontwikkeld als onderdeel van de Finse militaire modernisering na de onafhankelijkheid. De KP/-31 werd bekend om zijn uitzonderlijke nauwkeurigheid, betrouwbaarheid en robuuste bouw, zelfs onder de extreme arctische omstandigheden van Finland.</p>
+    <br>
+    <h4><strong>Gebruik en Historische Context</strong></h4>
+    <p>De Suomi KP/-31 werd beroemd door zijn gebruik tijdens de Winteroorlog (1939-1940) en de Vervolgoorlog (1941-1944) tussen Finland en de Sovjet-Unie. Finse soldaten, vaak op ski's en in witte camouflagepakken, gebruikten het wapen uiterst effectief tegen de numeriek superieure Sovjettroepen. Het machinepistool gaf de Finse strijdkrachten de mobiliteit en vuurkracht die ze nodig hadden voor hun tactiek van 'hit-and-run', waarbij ze Sovjettroepen aanvielen en zich snel terugtrokken in de bossen.</p>
+    <p>Het ontwerp van de Suomi had wereldwijd invloed, onder meer op de Sovjets die elementen ervan gebruikten bij de ontwikkeling van de PPSh-41. Na de oorlog bleef de Suomi in gebruik bij de Finse strijdkrachten tot de jaren '70, waarbij het geleidelijk werd vervangen door modernere wapens.</p>
+    <br>
+    <h3 class="content-subhead"><strong>Varianten van de Suomi KP/-31</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">KP/-31 SJR (Standaard)</div>
+        <div class="list-item-content">De standaardversie met het iconische trommelmagazijn van 71 patronen, dat de hoofdversie werd voor Finse troepen.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Suomi_M31_1.jpg/1200px-Suomi_M31_1.jpg" alt="Suomi KP/-31 Standaard" width="600" height="250"/> <br>
+      </li> <br>
+      <li class="list-item">
+        <div class="list-item-title">KP/-31 met doosmagazijn</div>
+        <div class="list-item-content">Late oorlogsversie uitgerust met een 20-, 36- of 50-patroons standaard doosmagazijn, ontwikkeld vanwege de eenvoudigere productie en het lagere gewicht vergeleken met het trommelmagazijn.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Suomi_KP-31_with_stick_magazine.jpg" alt="Suomi KP/-31 met doosmagazijn" width="600" height="250"/> <br>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">KP/-31 korte loop</div>
+        <div class="list-item-content">Een speciale versie met een verkorte loop voor gebruik door tanktroepen, parachutisten en speciale eenheden die een compacter wapen nodig hadden.</div>
+        <img class="fotos" src="https://topwar.ru/uploads/posts/2017-12/thumbs/1514029292_7.jpg" alt="Suomi KP/-31 Korte loop" width="500" height="250"/> <br>
+      </li>
+    </ul>
+    <br>
+    <h3 class="content-subhead"><strong>Gebruikers & Historische Impact</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">Finland</div>
+        <div class="list-item-content">Standaard machinepistool van de Finse strijdkrachten tijdens de Winteroorlog en Vervolgoorlog. De Suomi was cruciaal in het bieden van weerstand tegen de Sovjetinvasie en werd een nationaal symbool van Finse militaire innovatie.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Zweden</div>
+        <div class="list-item-content">Geproduceerd onder licentie als m/37-39 en gebruikt door het Zweedse leger. De Zweedse versie had enkele kleine aanpassingen maar behield de kern van het Finse ontwerp.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Zwitserland</div>
+        <div class="list-item-content">Beperkt gebruik door Zwitserse troepen die de betrouwbaarheid en nauwkeurigheid van het wapen waardeerden.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Denemarken</div>
+        <div class="list-item-content">Gebruikte het wapen in kleine aantallen; later overgenomen door verzetsgroepen tijdens de Duitse bezetting.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Polen</div>
+        <div class="list-item-content">Een klein aantal werd gekocht voor evaluatie door speciale eenheden. Sommige exemplaren werden tijdens de Poolse Septembercampagne van 1939 gebruikt tegen Duitse troepen.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Sovjet-Unie</div>
+        <div class="list-item-content">Buitgemaakte exemplaren werden bestudeerd en beïnvloedden het ontwerp van de PPSh-41. Sovjetingenieurs erkenden de superieure kwaliteiten van de Suomi en namen verschillende ontwerpelementen over.</div>
+      </li>
+    </ul>
+  `,
+  "details": {
+    "gewicht": "4,6 kg (geladen met trommelmagazijn)",
+    "kaliber": "9×19mm Parabellum",
+    "vuursnelheid": "750-900 schoten per minuut",
+    "magazijncapaciteit": "71 (trommel), 20/36/50 (doosmagazijn)",
+    "land": "Finland",
+    "gebruik": "Militair",
+    "prijs": "€5.000 - €25.000 (afhankelijk van conditie en zeldzaamheid)"
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Suomi_M31_1.jpg/1200px-Suomi_M31_1.jpg"
+},
+{
+  "id": 34,
+  "naam": "Tokarev TT-33",
+  "type": "Semi-automatisch pistool",
+  "periode": "Interbellum, Tweede Wereldoorlog, Koude Oorlog",
+  "jaar": "1933-heden",
+  "beschrijving": `
+    <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+    <p>De Tokarev TT-33 werd ontwikkeld door Fjodor Tokarev als vervanging voor de verouderde Nagant M1895-revolver. Het pistool werd in 1933 officieel ingevoerd bij het Rode Leger. Geïnspireerd door het ontwerp van John Browning's M1911, combineerde de TT-33 elementen van Westerse wapentechnologie met Sovjetvereisten voor eenvoud en betrouwbaarheid. Het pistool was ontworpen om eenvoudig en goedkoop te produceren met minimaal onderhoud, wat cruciaal was voor de massale productie in de Sovjet-Unie.</p>
+    <br>
+    <h4><strong>Gebruik en Historische Context</strong></h4>
+    <p>De TT-33 werd het standaardzijwapen van Sovjetofficieren tijdens de Tweede Wereldoorlog en was een vast onderdeel van de Sovjetmilitaire uitrusting. Het pistool was befaamd om zijn betrouwbaarheid onder extreme omstandigheden en eenvoudige, robuuste constructie. De 7.62×25mm Tokarev-munitie had een hoge mondingssnelheid die zelfs basis-lichaamspantser kon doordringen, waardoor het wapen effectief was in gevechtssituaties.</p>
+    <p>Na de Tweede Wereldoorlog werd de TT-33 geëxporteerd naar verschillende landen in de Sovjetsfeer, waaronder China, Noord-Korea, Vietnam en verschillende Oostbloklanden. Het ontwerp werd ook gelicenseerd en gekopieerd door verschillende landen, wat bijdroeg aan zijn wereldwijde verspreiding. Het pistool bleef in dienst bij het Sovjetleger tot het eind van de jaren '50, toen het werd vervangen door de Makarov PM.</p>
+    <br>
+    <h3 class="content-subhead"><strong>Varianten van de Tokarev TT-33</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">TT-30</div>
+        <div class="list-item-content">De eerste productieversie met een complexer ontwerp. Deze vroege versie had enkele fabricagecomplicaties die later werden vereenvoudigd in de TT-33.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Pistolet_TT_Tula_1933.jpg" alt="Tokarev TT-30" width="600" height="300"/> <br>
+      </li> <br>
+      <li class="list-item">
+        <div class="list-item-title">Type 54</div>
+        <div class="list-item-content">Chinese kopie van de TT-33, geproduceerd vanaf 1954. De Chinese versie was vrijwel identiek aan het Sovjetorigineel, maar had vaak kleine productieverschillen.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Type_54_pistol_noBG.jpg/1200px-Type_54_pistol_noBG.jpg" alt="Chinese Type 54" width="550" height="280"/> <br>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">M57</div>
+        <div class="list-item-content">Joegoslavische versie met een verhoogde magazijncapaciteit van 9 patronen in plaats van 8.</div>
+        <img class="fotos" src="https://www.thespecialistsltd.com/sites/default/files/Zastava_M57_Tokarev.jpg" alt="Joegoslavische M57" width="600" height="300"/> <br>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">TTC (Radom)</div>
+        <div class="list-item-content">Poolse versie met verbeterde afwerking, geproduceerd in de Radom-fabriek vanaf 1947 tot 1960.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Pistolet_TT_wz._33.jpg" alt="Poolse TTC Radom" width="600" height="300"/> <br>
+      </li>
+    </ul>
+    <br>
+    <h3 class="content-subhead"><strong>Gebruikers & Historische Impact</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">Sovjet-Unie</div>
+        <div class="list-item-content">Standaarddienstwapen voor officieren van het Rode Leger tijdens de Tweede Wereldoorlog en vroege Koude Oorlog. De TT-33 werd een symbool van het Sovjetleger en werd in miljoenen exemplaren geproduceerd.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Volksrepubliek China</div>
+        <div class="list-item-content">Geproduceerd als Type 54 en gebruikt door het Volksbevrijdingsleger. De Chinese versie bleef langer in dienst dan in de Sovjet-Unie zelf.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Noord-Korea</div>
+        <div class="list-item-content">Geproduceerd als Type 68 en gebruikt door het Noord-Koreaanse leger tijdens de Koreaanse Oorlog en daarna.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Vietnam</div>
+        <div class="list-item-content">Gebruikt door Noord-Vietnamese troepen tijdens de Vietnamoorlog. Veel exemplaren werden buitgemaakt door Amerikaanse troepen als souvenirs.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Oostbloklanden</div>
+        <div class="list-item-content">Verschillende landen zoals Polen, Hongarije en Roemenië produceerden hun eigen versies of gebruikten Sovjetmodellen.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Moderne conflictgebieden</div>
+        <div class="list-item-content">De TT-33 en zijn varianten blijven opduiken in verschillende conflictgebieden wereldwijd, waaronder Afghanistan, Syrië en delen van Afrika, wat de duurzaamheid en de betrouwbaarheid van het ontwerp bewijst.</div>
+      </li>
+    </ul>
+  `,
+  "details": {
+    "gewicht": "0,85 kg (ongeladen)",
+    "kaliber": "7,62×25mm Tokarev",
+    "vuursnelheid": "Semi-automatisch",
+    "magazijncapaciteit": "8 patronen (standaard)",
+    "land": "Sovjet-Unie",
+    "gebruik": "Militair, Politie, Verzamelaars",
+    "prijs": "€300 - €1.500 (afhankelijk van conditie en herkomst)"
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Pistolet_TT_Tula_1933.jpg"
+},
+{
+  "id": 35,
+  "naam": "ZB vz. 26",
+  "type": "Licht machinegeweer",
+  "periode": "Interbellum, Tweede Wereldoorlog",
+  "jaar": "1926-1980",
+  "beschrijving": `
+    <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
+    <p>De ZB vz. 26 werd ontwikkeld door de Tsjechoslowaakse wapenfabrikant Zbrojovka Brno (ZB) in het midden van de jaren '20. Het was ontworpen als een modern, licht machinegeweer dat de militaire behoeften van het nieuw gevormde Tsjechoslowakije na de Eerste Wereldoorlog kon vervullen. Hoofdontwerper Václav Holek creëerde een wapen dat de problemen van eerdere lichte machinegeweren oploste door een ingenieus gasstelsel met een verstelbare gasregelaar te combineren met een snelwisselbare loop en duurzame constructie.</p>
+    <br>
+    <h4><strong>Gebruik en Historische Context</strong></h4>
+    <p>De ZB vz. 26 werd internationaal een groot succes en werd geëxporteerd naar meer dan 20 landen, waaronder China, Roemenië, Joegoslavië, Turkije en Bolivia. Het wapen had een enorme invloed op toekomstige ontwerpen, inclusief de beroemde Britse Bren Gun, die een directe afgeleide was. Na de Duitse bezetting van Tsjecho-Slowakije in 1939 werden de bestaande voorraden ZB vz. 26 machinegeweren overgenomen door de Wehrmacht en geclassificeerd als MG 26(t).</p>
+    <p>Tijdens de Tweede Wereldoorlog werd het wapen gebruikt door zowel de Asmogendheden als de Geallieerden. De ZB vz. 26 speelde een belangrijke rol in verschillende conflicten, waaronder de Spaanse Burgeroorlog, de Chinees-Japanse Oorlog en de vroege stadia van de Tweede Wereldoorlog. De eenvoudige bediening, betrouwbaarheid en nauwkeurigheid maakten het een favoriet wapen onder soldaten, en het bleef in sommige landen tot ver in de jaren '70 in gebruik.</p>
+    <br>
+    <h3 class="content-subhead"><strong>Varianten van de ZB vz. 26</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">ZB vz. 26 standaard</div>
+        <div class="list-item-content">Het oorspronkelijke model dat door het Tsjechoslowaakse leger werd gebruikt, gekamerd in 7,92×57mm Mauser.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/ZB26_NTW_0581_noBG.png/1200px-ZB26_NTW_0581_noBG.png" alt="ZB vz. 26" width="700" height="350"/> <br>
+      </li> <br>
+      <li class="list-item">
+        <div class="list-item-title">ZB vz. 30</div>
+        <div class="list-item-content">Een verbeterde versie met een stevigere tweepoot en enkele interne verbeteringen.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/ZB_vz._30.jpg/1200px-ZB_vz._30.jpg" alt="ZB vz. 30" width="700" height="350"/> <br>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Type 26</div>
+        <div class="list-item-content">Chinese versie, geproduceerd in het Arsenaal van Gongxian, gebruikt door nationalistische Chinese troepen tegen Japan.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/2/29/Chinese_Type_26_machine_gun.jpg" alt="Chinese Type 26" width="650" height="300"/> <br>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">ZGB 33</div>
+        <div class="list-item-content">Versie geproduceerd voor de export naar Joegoslavië, met kleine aanpassingen aan de behoeften van het Joegoslavische leger.</div>
+        <img class="fotos" src="https://topwar.ru/uploads/posts/2021-02/1613587049_1.jpg" alt="ZGB 33" width="600" height="300"/> <br>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Bren Gun</div>
+        <div class="list-item-content">Britse afgeleide van de ZB vz. 26, aangepast om het Britse .303 kaliber te gebruiken. De Bren werd een van de meest iconische Britse wapens van de Tweede Wereldoorlog.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Bren_Mk_I_8-8-2010.jpg/1200px-Bren_Mk_I_8-8-2010.jpg" alt="Bren Gun" width="600" height="300"/> <br>
+      </li>
+    </ul>
+    <br>
+    <h3 class="content-subhead"><strong>Gebruikers & Historische Impact</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">Tsjechoslowakije</div>
+        <div class="list-item-content">Standaard licht machinegeweer van het leger tot de Duitse bezetting. Het vormde de ruggengraat van de Tsjechoslowaakse infanterie-vuurkracht.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Nazi-Duitsland</div>
+        <div class="list-item-content">Na de bezetting van Tsjechoslowakije gebruikt als MG 26(t) door de Wehrmacht en Waffen-SS tijdens de vroege stadia van WOII.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">China</div>
+        <div class="list-item-content">Nationalistisch China produceerde de ZB vz. 26 als Type 26 en gebruikte het tijdens de Chinees-Japanse Oorlog en de Chinese Burgeroorlog.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Joegoslavië</div>
+        <div class="list-item-content">Gebruikte de ZGB 33-variant voor en tijdens WOII. Later gebruikt door partisanen in hun strijd tegen de Asmogendheden.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Roemenië</div>
+        <div class="list-item-content">Gebruikte het wapen in grote aantallen tijdens de oorlog tegen de Sovjet-Unie als onderdeel van de Asmogendheden.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Spaanse Republikeinen en Nationalisten</div>
+        <div class="list-item-content">Beide zijden in de Spaanse Burgeroorlog gebruikten geïmporteerde ZB vz. 26-machinegeweren.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Groot-Brittannië</div>
+        <div class="list-item-content">Hoewel niet direct gebruikt, was het ontwerp de basis voor de beroemde Bren Gun, die tijdens en na WOII een cruciaal Brits infanteriewapen was.</div>
+      </li>
+    </ul>
+  `,
+  "details": {
+    "gewicht": "9,65 kg (met tweepoot)",
+    "kaliber": "7,92×57mm Mauser",
+    "vuursnelheid": "500-650 schoten per minuut",
+    "magazijncapaciteit": "20 of 30 patronen",
+    "land": "Tsjechoslowakije",
+    "gebruik": "Militair",
+    "prijs": "€3.500 - €15.000 (afhankelijk van conditie en zeldzaamheid)"
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/ZB26_NTW_0581_noBG.png/1200px-ZB26_NTW_0581_noBG.png"
+},
+{
+  "id": 36,
+  "naam": "Wz. 35 Vis",
+  "type": "Semi-automatisch pistool",
+  "periode": "Interbellum, Tweede Wereldoorlog",
+  "jaar": "1935-1945",
+  "beschrijving": `
+    <h3><strong>Introductie en Geschiedenis</strong></h3>
+    <p>Het Vis wz. 35 pistool, vaak kortweg "Radom" genoemd naar de Poolse wapenfabriek waar het werd geproduceerd, was een semi-automatisch pistool ontworpen door Piotr Wilniewczyc en Jan Skrzypiński. Het werd in 1935 aangenomen door het Poolse leger als standaard dienstwapen. Het ontwerp combineerde elementen van de Colt M1911 en de Browning Hi-Power, wat resulteerde in een uitzonderlijk betrouwbaar en nauwkeurig wapen. De productie startte in 1936 bij de Państwowa Fabryka Broni in Radom, Polen.</p>
+    <br>
+    <h4><strong>Gebruik en Historische Context</strong></h4>
+    <p>Het Vis wz. 35 werd tijdens de Duitse bezetting van Polen in de Tweede Wereldoorlog een gewild wapen. Na de inval in Polen namen de Duitsers de fabriek over en continueerden ze de productie onder de naam 9 mm Pistole 645(p). Duitse officieren waardeerden het pistool zo zeer dat het vaak werd aangeduid als het "beste dienstpistool in Europa". Het werd voornamelijk toegewezen aan Waffen-SS en parachutisten-eenheden vanwege de superieure kwaliteit.</p>
+    <p>Na de oorlog werd de productie niet hervat, omdat de Poolse Communistische regering koos voor Sovjetwapens. De originele Vis pistolen zijn zeldzaam geworden en zeer gewaardeerde verzamelobjecten.</p>
+    <br>
+    <h3 class="content-subhead"><strong>Varianten van de Vis wz. 35</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">Vooroorlogse Poolse Productie</div>
+        <div class="list-item-content">Hoogwaardige pistolen met zorgvuldige afwerking en Poolse militaire markeringen, geproduceerd tussen 1936 en 1939.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/6/65/Pistolet_wz._35_Vis.jpg" alt="Vooroorlogse Vis wz. 35" width="600" height="400"/> <br>
+      </li> <br>
+      <li class="list-item">
+        <div class="list-item-title">Duitse Bezettingsproductie (Vroeg)</div>
+        <div class="list-item-content">Vroege Duitse productiepistolen met zowel Poolse als Duitse markeringen, nog steeds met degelijke afwerking.</div>
+        <img class="fotos" src="https://modernfirearms.net/wp-content/uploads/2010/12/vis35-5.jpg" alt="Duitse Vroege Productie" width="500" height="300"/> <br>
+      </li> <br>
+      <li class="list-item">
+        <div class="list-item-title">Duitse Bezettingsproductie (Laat)</div>
+        <div class="list-item-content">Late oorlogsproductie met vereenvoudigde afwerking, minder polijstwerk en haastigere productie. Herkenbaar aan "P.35(p)" markeringen.</div>
+        <img class="fotos" src="https://www.warrelics.eu/forum/attachments/pistols/1212569d1543363537-radom-vis-35-p-a-img_4383.jpg" alt="Late Duitse Productie" width="500" height="300"/> <br>
+      </li>
+    </ul>
+    <br>
+    <h3 class="content-subhead"><strong>Gebruikers & Historische Impact</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">Polen</div>
+        <div class="list-item-content">Het standaardzijwapen van het Poolse leger voor de Tweede Wereldoorlog. Ook gebruikt door de Poolse ondergrondse tijdens de bezetting en door Poolse troepen in ballingschap.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Nazi-Duitsland</div>
+        <div class="list-item-content">Gebruikt door de Wehrmacht en Waffen-SS na de overname van de productiefaciliteiten. Bijzonder populair onder Duitse officieren en elite-eenheden vanwege de superieure kwaliteit.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Pools Thuisleger (AK)</div>
+        <div class="list-item-content">Buitgemaakte exemplaren werden zeer gewaardeerd door het Poolse verzet tijdens de bezetting, en gebruikt tijdens de Warschau-opstand in 1944.</div>
+      </li>
+    </ul>
+  `,
+  "details": {
+    "gewicht": "1,12 kg",
+    "kaliber": "9×19mm Parabellum",
+    "vuursnelheid": "Semi-automatisch",
+    "magazijncapaciteit": "8 patronen",
+    "land": "Polen",
+    "gebruik": "Militair, Verzamelaars",
+    "prijs": "€2.500 - €7.000 (afhankelijk van conditie en variant)"
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/65/Pistolet_wz._35_Vis.jpg"
+},
+{
+  "id": 37,
+  "naam": "Walther PP",
+  "type": "Semi-automatisch pistool",
+  "periode": "Interbellum, Tweede Wereldoorlog, Koude Oorlog",
+  "jaar": "1929-heden",
+  "beschrijving": `
+    <h3><strong>Introductie en Geschiedenis</strong></h3>
+    <p>De Walther PP (Polizei Pistole) werd in 1929 geïntroduceerd door de Duitse wapenfabrikant Carl Walther GmbH en vertegenwoordigde een revolutie in het pistoolontwerp. Het was het eerste commercieel succesvolle dubbelactie semi-automatische pistool, waardoor het veiliger en sneller kon worden gebruikt dan eerdere enkelwerkende ontwerpen. Het pistool werd oorspronkelijk ontwikkeld voor politie- en civiel gebruik, maar werd later ook door militairen gedragen, vooral door officieren die een compact secondair wapen zochten.</p>
+    <br>
+    <h4><strong>Gebruik en Historische Context</strong></h4>
+    <p>De Walther PP en zijn compactere variant, de PPK (Polizei Pistole Kriminal), werden wijd verspreid gebruikt door Duitse politie- en militaire eenheden tijdens het interbellum en de Tweede Wereldoorlog. Na de oorlog werden ze geadopteerd door politiediensten en militairen wereldwijd vanwege hun betrouwbaarheid, nauwkeurigheid en compacte afmetingen.</p>
+    <p>De PPK-variant werd vooral beroemd als het favoriete wapen van de fictieve spion James Bond, wat de populariteit ervan onder burgers verder vergrootte. Ze bleven tot ver in de 21e eeuw in productie, wat hun duurzame ontwerp en aanhoudende populariteit bewijst.</p>
+    <br>
+    <h3 class="content-subhead"><strong>Varianten van de Walther PP</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">Walther PP (Standaard)</div>
+        <div class="list-item-content">Het originele model met een langere loop en greep, meestal gekamerd in 7,65mm (.32 ACP) of 9mm kort (.380 ACP).</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/1/19/Walther_PP_1166.jpg" alt="Walther PP" width="600" height="400"/> <br>
+      </li> <br>
+      <li class="list-item">
+        <div class="list-item-title">Walther PPK</div>
+        <div class="list-item-content">Een compactere variant met kortere loop en greep, vooral populair als verborgen draagwapen voor politiedetectives en geheime diensten.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Walther_PPK.jpg" alt="Walther PPK" width="600" height="400"/> <br>
+      </li> <br>
+      <li class="list-item">
+        <div class="list-item-title">Walther PPK/S</div>
+        <div class="list-item-content">Een naoorlogse variant die de langere greep van de PP combineerde met de kortere loop van de PPK, ontwikkeld om te voldoen aan de Amerikaanse importwetten van 1968.</div>
+        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Walther_PPK-S_.380ACP_Pistol.jpg" alt="Walther PPK/S" width="600" height="400"/> <br>
+      </li>
+    </ul>
+    <br>
+    <h3 class="content-subhead"><strong>Gebruikers & Historische Impact</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">Duitsland</div>
+        <div class="list-item-content">Standaard politiepistool in vooroorlogs en oorlogs-Duitsland. Ook gedragen door hoge Nazi-functionarissen; Adolf Hitler pleegde zelfmoord met een Walther PPK. Na de oorlog bleef het in gebruik bij West-Duitse politiekrachten.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Europese politiediensten</div>
+        <div class="list-item-content">Na WWII werd de PP/PPK aangenomen door talrijke Europese politiediensten, waaronder die in Frankrijk, Nederland, Noorwegen, en Zweden.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">MI6 en andere inlichtingendiensten</div>
+        <div class="list-item-content">De compacte PPK was een favoriet bij verschillende inlichtingendiensten tijdens de Koude Oorlog, waaronder de Britse MI6, wat later de associatie met James Bond inspireerde.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Verenigde Staten</div>
+        <div class="list-item-content">Door de US Air Force gebruikt als overlevingswapen voor piloten en later populair geworden als privé-verdedigingswapen voor burgers.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Wereldwijd cultureel icoon</div>
+        <div class="list-item-content">Door de associatie met James Bond werd de PPK een van de bekendste handvuurwapens ter wereld, wat bijdroeg aan de langdurige commerciële vraag.</div>
+      </li>
+    </ul>
+  `,
+  "details": {
+    "gewicht": "0,665 kg (Walther PP), 0,590 kg (PPK)",
+    "kaliber": "7,65mm Browning (.32 ACP), 9mm kort (.380 ACP), .22 LR",
+    "vuursnelheid": "Semi-automatisch",
+    "magazijncapaciteit": "7-8 patronen (PP), 6-7 patronen (PPK)",
+    "land": "Duitsland",
+    "gebruik": "Politie, Militair, Civiel, Verzamelaars",
+    "prijs": "€600 - €3.000 (afhankelijk van model, conditie en historisch belang)"
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Walther_PP_1166.jpg"
+},
+{
+  "id": 38,
+  "naam": "ZH-29",
+  "type": "Semi-automatisch geweer",
+  "periode": "Interbellum, Tweede Wereldoorlog",
+  "jaar": "1929-1939",
+  "beschrijving": `
+    <h3><strong>Introductie en Geschiedenis</strong></h3>
+    <p>De ZH-29 (Zbrojovka Holek 1929) was een innovatief semi-automatisch geweer, ontwikkeld door Emanuel Holek bij de Tsjechoslowaakse wapenfabrikant Zbrojovka Brno. Het was een van de eerste praktische semi-automatische geweren die voor militair gebruik werden ontwikkeld in Europa, voorafgaand aan de grootschalige adoptie van dit type wapens tijdens de Tweede Wereldoorlog. Het geweer gebruikte een geavanceerd gasdruksysteem en was beschikbaar in verschillende kalibers om te voldoen aan de behoeften van verschillende landen.</p>
+    <br>
+    <h4><strong>Gebruik en Historische Context</strong></h4>
+    <p>De ZH-29 werd ontworpen in een tijdperk waarin de meeste legers nog steeds bolt-action repeteergeweren gebruikten als standaard infanteriewapen. Het bood een significante toename in vuursnelheid ten opzichte van traditionele repeteergeweren en was daarmee zijn tijd ver vooruit. Ondanks zijn innovatieve ontwerp werd het slechts in beperkte aantallen geproduceerd en geëxporteerd naar landen als China, Ethiopië en Litouwen.</p>
+    <p>Het geweer zag actie tijdens diverse conflicten in de jaren '30, waaronder de Tweede Italiaans-Ethiopische Oorlog en de Tweede Chinees-Japanse Oorlog. De prestaties van het wapen in deze conflicten hielpen bij het vormgeven van toekomstige ontwerpen van semi-automatische geweren wereldwijd.</p>
+    <br>
+    <h3 class="content-subhead"><strong>Varianten van de ZH-29</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">ZH-29 in 7,92×57mm Mauser</div>
+        <div class="list-item-content">De meest voorkomende versie, gekamerd voor de standaard Duitse/Tsjechische 7,92mm patroon.</div>
+        <img class="fotos" src="https://modernfirearms.net/wp-content/uploads/2018/01/zh29-2.jpg" alt="ZH-29 in 7,92mm Mauser" width="650" height="250"/> <br>
+      </li> <br>
+      <li class="list-item">
+        <div class="list-item-title">ZH-29 in 7×57mm Mauser</div>
+        <div class="list-item-content">Variant gekamerd voor de Spaanse 7mm Mauser patroon, voornamelijk voor export naar Latijns-Amerikaanse markten.</div>
+        <img class="fotos" src="https://www.thefirearmblog.com/blog/wp-content/uploads/2016/04/P1920016-660x495.jpg" alt="ZH-29 Variant" width="600" height="450"/> <br>
+      </li> <br>
+      <li class="list-item">
+        <div class="list-item-title">ZH-29 in .30-06 Springfield</div>
+        <div class="list-item-content">Variant gekamerd voor de Amerikaanse .30-06 Springfield patroon, ontwikkeld voor de Amerikaanse markt en beperkte militaire proeven.</div>
+        <img class="fotos" src="https://www.thefirearmblog.com/blog/wp-content/uploads/2019/06/Czech-ZH29-Rifle.jpg" alt="ZH-29 in .30-06" width="650" height="300"/> <br>
+      </li>
+    </ul>
+    <br>
+    <h3 class="content-subhead"><strong>Gebruikers & Historische Impact</strong></h3>
+    <ul class="content-list">
+      <li class="list-item">
+        <div class="list-item-title">China</div>
+        <div class="list-item-content">De grootste afnemer van de ZH-29, gebruikt door Nationalistische Chinese troepen tijdens de burgeroorlog en tegen Japanse invasietroepen in de jaren '30. De beperkte aantallen werden voornamelijk toegewezen aan elite-eenheden.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Ethiopië</div>
+        <div class="list-item-content">Kocht een klein aantal voor gebruik tegen Italiaanse troepen tijdens de Tweede Italiaans-Ethiopische Oorlog (1935-1937). De modernere vuurkracht hielp bij de verdediging tegen de technologisch superieure Italiaanse troepen.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Litouwen</div>
+        <div class="list-item-content">Een van de weinige Europese landen die de ZH-29 in beperkte aantallen aankocht voor evaluatie en gebruik door speciale eenheden.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Tsjechoslowakije</div>
+        <div class="list-item-content">Hoewel niet officieel ingevoerd door het Tsjechoslowaakse leger, werden er beperkte aantallen gebruikt voor proeven en door grenswachten.</div>
+      </li>
+      <li class="list-item">
+        <div class="list-item-title">Nazi-Duitsland</div>
+        <div class="list-item-content">Na de bezetting van Tsjechoslowakije werden overgebleven ZH-29 geweren in beslag genomen en toegewezen aan reserve- en bezettingseenheden.</div>
+      </li>
+    </ul>
+  `,
+  "details": {
+    "gewicht": "4,2 kg",
+    "kaliber": "7,92×57mm Mauser (standaard), 7×57mm Mauser, .30-06 Springfield",
+    "vuursnelheid": "Semi-automatisch",
+    "magazijncapaciteit": "10 patronen",
+    "land": "Tsjechoslowakije",
+    "gebruik": "Militair, Verzamelaars",
+    "prijs": "€4.000 - €15.000 (zeldzaam verzamelobject)"
+  },
+  "image": "https://modernfirearms.net/wp-content/uploads/2018/01/zh29-2.jpg"
+},

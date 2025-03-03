@@ -43,29 +43,19 @@
     
     <!-- CLS reduction styles -->
     <style>
-        /* Pre-reserve space for elements to prevent layout shifts */
-        .search-container { min-height: 40px; }
-        #weapons-grid { min-height: 400px; }
-        #filters { min-height: 300px; }
-        .checkbox-group { min-height: 30px; }
-        
-        /* Pre-define icon width/height to prevent shifting */
-        .fa-solid { width: 1em; height: 1em; display: inline-block; vertical-align: middle; }
-        
-        /* Fix image aspect ratios */
-        img { max-width: 100%; height: auto; }
-        
-        /* Smooth transitions to reduce perceived CLS */
-        .checkbox-group { transition: max-height 0.3s ease; }
+        .search-container{min-height:40px}#weapons-grid{min-height:400px}#filters{min-height:300px}
+        .checkbox-group{min-height:30px;transition:max-height .3s ease}
+        .fa-solid{width:1em;height:1em;display:inline-block;vertical-align:middle}
+        img{max-width:100%;height:auto}
     </style>
     
-        <!-- Vercel Analytics and Speed Insights -->
-        <script>
-            window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-          </script>
-          <script defer src="/_vercel/insights/script.js"></script>
-        <script>window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };</script>
-        <script defer src="/_vercel/speed-insights/script.js"></script>
+    <!-- Vercel Analytics and Speed Insights -->
+    <script>
+    window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};
+    window.si=window.si||function(){(window.siq=window.siq||[]).push(arguments)};
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+    <script defer src="/_vercel/speed-insights/script.js"></script>
 </head>
 <body>
     <header>
@@ -153,11 +143,9 @@
         </div>
     </footer>
 
-    <!-- Fix path issues for scripts -->
+    <!-- Preload and scripts -->
     <link rel="preload" href="js/weapons.js" as="script">
     <link rel="preload" href="js/database.js" as="script">
-    
-    <!-- Load scripts with defer to not block rendering -->
     <script defer src="js/imageOptimizer.js"></script>
     <script defer src="js/weapons.js"></script>
     <script defer src="js/database.js"></script>
@@ -165,24 +153,15 @@
     <script defer src="js/main.js"></script>
     <script defer src="js/filters.js"></script>
     
-    <!-- Script to fix paths and reduce CLS -->
+    <!-- Fix paths and reduce CLS -->
     <script>
-        // Fix relative paths when deployed
-        document.addEventListener('DOMContentLoaded', function() {
-            // Fix any path issues in links and images
-            if (window.location.hostname.includes('vercel')) {
-                // Fix navigation links if needed
-                document.querySelectorAll('a[href^="../"]').forEach(link => {
-                    link.href = link.href.replace('../', '/');
-                });
-                
-                // Pre-allocate space for images to reduce CLS
-                const weaponsGrid = document.getElementById('weapons-grid');
-                if (weaponsGrid && !weaponsGrid.innerHTML.trim()) {
-                    weaponsGrid.innerHTML = '<div class="loading-placeholder">Wapens laden...</div>';
-                }
-            }
-        });
+    document.addEventListener('DOMContentLoaded',function(){
+        if(window.location.hostname.includes('vercel')){
+            document.querySelectorAll('a[href^="../"]').forEach(link=>{link.href=link.href.replace('../','/')});
+            const g=document.getElementById('weapons-grid');
+            if(g&&!g.innerHTML.trim())g.innerHTML='<div class="loading-placeholder">Wapens laden...</div>';
+        }
+    });
     </script>
 </body>
 </html>

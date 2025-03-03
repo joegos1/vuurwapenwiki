@@ -49,7 +49,23 @@ function onIntersection(entries) {
       // Load the actual image
       if (img.dataset.src) {
         img.src = img.dataset.src;
-        img.classList.add('loaded');
+        
+        // Add error handling
+        img.onerror = () => {
+          console.warn(`Failed to load image: ${img.src}`);
+          img.src = 'images/placeholder.jpg'; // Fallback image
+          img.classList.add('image-error');
+        };
+        
+        img.onload = () => {
+          img.classList.add('loaded');
+        };
+      }
+      
+      // Load srcset if available
+      if (img.dataset.srcset) {
+        img.srcset = img.dataset.srcset;
+        img.sizes = img.dataset.sizes || '';
       }
       
       // Stop observing this element
@@ -78,7 +94,19 @@ function optimizeCardImages(container) {
     if (!img.classList.contains('lazy-image')) {
       const src = img.src;
       img.classList.add('lazy-image');
-      img.dataset.src = src;
+      
+      // Check if WebP version exists
+      if (src.match(/\.(jpeg|jpg|png)$/i)) {
+        const webpSrc = src.replace(/\.(jpeg|jpg|png)$/i, '.webp');
+        img.dataset.src = `<picture>
+          <source srcset="${webpSrc}" type="image/webp">
+          <source srcset="${src}" type="image/${src.split('.').pop()}">
+          <img src="${src}" width="250" height="200">
+        </picture>`;
+      } else {
+        img.dataset.src = src;
+      }
+      
       img.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 200"%3E%3C/svg%3E';
     }
   });
@@ -106,4 +134,27 @@ function optimizeDetailImage(detailContainer) {
     img.style.maxWidth = '100%';
     img.style.height = 'auto';
   }
+}
+
+/**
+ * Generate responsive images with srcset
+ * @param {HTMLImageElement} img - Image element to make responsive
+ */
+function makeImageResponsive(img) {
+  if (!img.dataset.src || img.dataset.responsive) return;
+  
+  const src = img.dataset.src;
+  const ext = src.split('.').pop();
+  const basePath = src.substring(0, src.lastIndexOf('.'));
+  
+  // Create srcset for different sizes
+  const srcset = `
+    ${basePath}-small.${ext} 400w,
+    ${basePath}-medium.${ext} 800w,
+    ${src} 1200w
+  `;
+  
+  img.dataset.srcset = srcset;
+  img.dataset.sizes = '(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px';
+  img.dataset.responsive = 'true';
 }

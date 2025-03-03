@@ -2098,3 +2098,4 @@ const weaponsData = [
   },
   "image": "https://modernfirearms.net/wp-content/uploads/2018/01/zh29-2.jpg"
 },
+];

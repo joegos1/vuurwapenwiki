@@ -155,12 +155,26 @@
     
     <!-- Fix paths and reduce CLS -->
     <script>
-    document.addEventListener('DOMContentLoaded',function(){
+    document.addEventListener('DOMContentLoaded', function(){
+        // Fix paths on Vercel
         if(window.location.hostname.includes('vercel')){
-            document.querySelectorAll('a[href^="../"]').forEach(link=>{link.href=link.href.replace('../','/')});
-            const g=document.getElementById('weapons-grid');
-            if(g&&!g.innerHTML.trim())g.innerHTML='<div class="loading-placeholder">Wapens laden...</div>';
+            document.querySelectorAll('a[href^="../"]').forEach(link => {
+                link.href = link.href.replace('../','/');
+            });
         }
+        
+        // Add loading placeholder for better UX
+        const grid = document.getElementById('weapons-grid');
+        if(grid && !grid.innerHTML.trim()) {
+            grid.innerHTML = '<div class="loading-placeholder">Wapens laden...</div>';
+        }
+        
+        // Preconnect to any third-party domains
+        const preconnect = document.createElement('link');
+        preconnect.rel = 'preconnect';
+        preconnect.href = 'https://cdnjs.cloudflare.com';
+        preconnect.crossOrigin = 'anonymous';
+        document.head.appendChild(preconnect);
     });
     </script>
 </body>

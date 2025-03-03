@@ -154,12 +154,18 @@ function renderWeapons(weapons) {
     initLazyLoading('.lazy-image');
 }
 
+// Enhance the showWeaponDetail function to prevent layout shifts
+
 async function showWeaponDetail(id) {
     try {
         const weapon = await db.getById(id);
         const detail = document.getElementById('weapon-detail');
         const content = document.getElementById('weapon-content');
         const filters = document.getElementById('filters');
+        
+        // Pre-allocate height before content change to reduce CLS
+        const currentHeight = content.offsetHeight;
+        content.style.minHeight = `${currentHeight}px`;
         
         content.innerHTML = TEMPLATES.weaponDetail(weapon);
         document.getElementById('weapons-grid').style.display = 'none';
@@ -171,6 +177,11 @@ async function showWeaponDetail(id) {
         
         // Adjust main grid to single column when showing detail
         document.querySelector('main').style.gridTemplateColumns = '1fr';
+        
+        // Reset min-height after content is loaded
+        setTimeout(() => {
+            content.style.minHeight = '';
+        }, 300);
     } catch (error) {
         console.error('Failed to show weapon detail:', error);
     }
@@ -183,4 +194,58 @@ function showOverview() {
     
     // Restore main grid to original layout
     document.querySelector('main').style.gridTemplateColumns = '250px 1fr';
+}
+
+// Add this function to handle layout shifts during image loading
+
+function initLazyLoading(selector) {
+    const images = document.querySelectorAll(selector);
+    
+    if ('loading' in HTMLImageElement.prototype) {
+        // Browser supports native lazy loading
+        images.forEach(img => {
+            img.loading = 'lazy';
+            // Set width and height if not already set
+            if (!img.width && !img.height && img.dataset.width && img.dataset.height) {
+                img.width = img.dataset.width;
+                img.height = img.dataset.height;
+            }
+        });
+    } else {
+        // Fallback for browsers that don't support native lazy loading
+        const lazyLoadObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    img.src = img.dataset.src;
+                    img.classList.remove('lazy-image');
+                    observer.unobserve(img);
+                }
+            });
+        });
+        
+        images.forEach(img => {
+            lazyLoadObserver.observe(img);
+        });
+    }
+}
+
+// Enhance the existing optimizeDetailImage function
+function optimizeDetailImage(container) {
+    const images = container.querySelectorAll('img');
+    
+    images.forEach(img => {
+        // Add width and height attributes for proper aspect ratio
+        if (img.naturalWidth && img.naturalHeight) {
+            img.setAttribute('width', img.naturalWidth);
+            img.setAttribute('height', img.naturalHeight);
+        } else {
+            // Default dimensions if natural dimensions aren't available
+            img.setAttribute('width', '640');
+            img.setAttribute('height', '480');
+        }
+        
+        // Add loading="lazy" for images not in viewport
+        img.loading = 'lazy';
+    });
 }

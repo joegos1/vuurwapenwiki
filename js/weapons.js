@@ -1743,7 +1743,7 @@ const weaponsData = [
   "id": 34,
   "naam": "Tokarev TT-33",
   "type": "Semi-automatisch pistool",
-  "periode": "Interbellum, Tweede Wereldoorlog, Koude Oorlog",
+  "periode": "Tweede Wereldoorlog",
   "jaar": "1933-heden",
   "beschrijving": `
     <h3><strong>Ontstaan en Ontwikkeling</strong></h3>
@@ -1758,22 +1758,22 @@ const weaponsData = [
       <li class="list-item">
         <div class="list-item-title">TT-30</div>
         <div class="list-item-content">De eerste productieversie met een complexer ontwerp. Deze vroege versie had enkele fabricagecomplicaties die later werden vereenvoudigd in de TT-33.</div>
-        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Pistolet_TT_Tula_1933.jpg" alt="Tokarev TT-30" width="600" height="300"/> <br>
+        <img class="fotos" src="https://static.wikia.nocookie.net/firearmcentral/images/9/97/TT-30.jpg/revision/latest?cb=20190501151136" alt="Tokarev TT-30" width="600" height="300"/> <br>
       </li> <br>
       <li class="list-item">
         <div class="list-item-title">Type 54</div>
         <div class="list-item-content">Chinese kopie van de TT-33, geproduceerd vanaf 1954. De Chinese versie was vrijwel identiek aan het Sovjetorigineel, maar had vaak kleine productieverschillen.</div>
-        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Type_54_pistol_noBG.jpg/1200px-Type_54_pistol_noBG.jpg" alt="Chinese Type 54" width="550" height="280"/> <br>
+        <img class="fotos" src="https://www.americanrifleman.org/media/m00hz402/horman-norincotype54-1.jpg" alt="Chinese Type 54" width="550" height="280"/> <br>
       </li>
       <li class="list-item">
         <div class="list-item-title">M57</div>
         <div class="list-item-content">Joegoslavische versie met een verhoogde magazijncapaciteit van 9 patronen in plaats van 8.</div>
-        <img class="fotos" src="https://www.thespecialistsltd.com/sites/default/files/Zastava_M57_Tokarev.jpg" alt="Joegoslavische M57" width="600" height="300"/> <br>
+        <img class="fotos" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3N2xCl_Uw707no4DX8zNKWfHzplcoHS7ezA&s" alt="Joegoslavische M57" width="600" height="300"/> <br>
       </li>
       <li class="list-item">
         <div class="list-item-title">TTC (Radom)</div>
         <div class="list-item-content">Poolse versie met verbeterde afwerking, geproduceerd in de Radom-fabriek vanaf 1947 tot 1960.</div>
-        <img class="fotos" src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Pistolet_TT_wz._33.jpg" alt="Poolse TTC Radom" width="600" height="300"/> <br>
+        <img class="fotos" src="https://gun.deals/cdn-cgi/image/w=1200,h=630,f=auto/sites/default/files/07b17c7437d3e62d993e2dc39984ff2c.jpg" alt="Poolse TTC Radom" width="600" height="300"/> <br>
       </li>
     </ul>
     <br>
@@ -1814,7 +1814,7 @@ const weaponsData = [
     "gebruik": "Militair, Politie, Verzamelaars",
     "prijs": "€300 - €1.500 (afhankelijk van conditie en herkomst)"
   },
-  "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Pistolet_TT_Tula_1933.jpg"
+  "image": "https://images.auctionet.com/thumbs/medium_item_2434629_a15304a5c2.jpg"
 },
 {
   "id": 35,
